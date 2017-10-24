@@ -1,10 +1,22 @@
 \documentclass [12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+
 
 % Text Indentation
 \usepackage{indentfirst}
-\setlength{\parindent}{1.3cm}
+\setlength{\parindent}{1cm}
+\newcommand{\mysection}[1]{
+	\setlength{\leftskip}{0cm}
+	\section{#1}}
+\newcommand{\mysubsection}[1]{
+	\setlength{\leftskip}{0.5cm}
+	\subsection{#1}}
+\newcommand{\mysubsubsection}[1]{
+	\setlength{\leftskip}{1cm}
+	\subsubsection{#1}}
 
 % define header and footer style
 \usepackage{fancyhdr}
@@ -44,3 +56,16 @@
 %graphics
 \usepackage{graphicx}
 \usepackage[dvipsnames, table]{xcolor}
+
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage[pdftex, colorlinks]{hyperref}
+\hypersetup{%
+	colorlinks = true,
+	linkcolor  = black,
+	pdfauthor  = {Kostandin Caushi, Marcello Bertolini, Raffaele Bongo},
+	pdftitle   = {Travlendar+}
+}
+\newcommand{\comment}[1]{{\color{Blue}$\blacktriangleright$ Comment: #1 $\blacktriangleleft$}}
