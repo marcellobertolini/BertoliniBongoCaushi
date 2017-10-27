@@ -1,13 +1,18 @@
 \documentclass [12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[english]{babel}
 \usepackage{textcomp}
 \usepackage{lmodern}
 
+% Edit Name of Table of Contents
+%\renewcommand{\contentsname}{Contents}
 
 % Text Indentation
 \usepackage{indentfirst}
 \setlength{\parindent}{1cm}
+
+% Section, Subsection & Subsubsection Indentation
 \newcommand{\mysection}[1]{
 	\setlength{\leftskip}{0cm}
 	\section{#1}}
@@ -18,7 +23,7 @@
 	\setlength{\leftskip}{1cm}
 	\subsubsection{#1}}
 
-% define header and footer style
+% Defined header and footer style
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{%
@@ -33,7 +38,7 @@
 \renewcommand{\headrulewidth}{1pt}
 \fancyhfoffset[lf]{0mm}
 
-%Page margins, header and footer positions
+% Page margins, header and footer positions
 \usepackage{geometry}
 \geometry{
 	a4paper,
@@ -42,18 +47,19 @@
 	right=25mm,
 	top=40mm,
 	bottom=25mm,
-	headsep=10mm}
+	headsep=10mm
+	}
 
 \interfootnotelinepenalty=10000
 
-%tables
+% Tables
 \usepackage{tabu}
 \usepackage{tabularx}
 \usepackage{ltablex}
 \usepackage{longtable}
 \usepackage{float} % To allow the use of H modifier in long tables
 
-%graphics
+% Graphics
 \usepackage{graphicx}
 \usepackage[dvipsnames, table]{xcolor}
 
