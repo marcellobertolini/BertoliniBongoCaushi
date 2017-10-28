@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  28 OCT 2017 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  28 OCT 2017 18:01
 entering extended mode
 **"./Travlendar +.tex"
 ("Travlendar +.tex"
@@ -1908,174 +1908,395 @@ from the
  []
 
 ) [12] (Files/3_Specific_Requirements.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
  []\T1/lmtt/m/n/10.95 The following mockups represent an idea of the interfaces
  that will
  []
 
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 12.
+<Images/Sketch/Login.png, id=279, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Login.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+<use Images/Sketch/Login.png>
+Package pdftex.def Info: Images/Sketch/Login.png used on input line 15.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/User_Profile.png, id=280, 376.2858pt x 669.2202pt>
+File: Images/Sketch/User_Profile.png Graphic file (type png)
+
+<use Images/Sketch/User_Profile.png>
+Package pdftex.def Info: Images/Sketch/User_Profile.png used on input line 24.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 The user will have a personal page in which he can customiz
+e his
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 preferences to fit the application to his needs. He will be
+ able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 to add tags (see tag creation), to edit the lunch section
+, to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 select the means of transport he would like the system to u
+se in its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 computations and he will also be able to insert his persona
+l season
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+ \T1/lmtt/m/n/10.95 ticket in the homonym field. The system will warn the user 
+with a
+ []
+
+[13 <./Images/Sketch/Login.png>]
+<Images/Sketch/Event_Creation_1.png, id=290, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Event_Creation_1.png Graphic file (type png)
+
+<use Images/Sketch/Event_Creation_1.png>
+Package pdftex.def Info: Images/Sketch/Event_Creation_1.png used on input line 
+32.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Event_Creation_2.png, id=291, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Event_Creation_2.png Graphic file (type png)
+
+<use Images/Sketch/Event_Creation_2.png>
+Package pdftex.def Info: Images/Sketch/Event_Creation_2.png used on input line 
+34.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Event_Creation_3.png, id=292, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Event_Creation_3.png Graphic file (type png)
+
+<use Images/Sketch/Event_Creation_3.png>
+Package pdftex.def Info: Images/Sketch/Event_Creation_3.png used on input line 
+36.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--38
+ \T1/lmtt/m/n/10.95 The user will be able to add an event characterized by a ta
+g
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--38
+ \T1/lmtt/m/n/10.95 icon which contains the user's preferences regarding the me
+ans of
+ []
+
+<Images/Sketch/Trip_1.png, id=293, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_1.png Graphic file (type png)
+
+<use Images/Sketch/Trip_1.png>
+Package pdftex.def Info: Images/Sketch/Trip_1.png used on input line 43.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Trip_2.png, id=294, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_2.png Graphic file (type png)
+
+<use Images/Sketch/Trip_2.png>
+Package pdftex.def Info: Images/Sketch/Trip_2.png used on input line 45.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Trip_3.png, id=295, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_3.png Graphic file (type png)
+
+<use Images/Sketch/Trip_3.png>
+Package pdftex.def Info: Images/Sketch/Trip_3.png used on input line 47.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+ []\T1/lmtt/m/n/10.95 As shown above the system will suggest the best options t
+o reach the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+ \T1/lmtt/m/n/10.95 Otherwise, if it is not located in the user's location, the
+ system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+ \T1/lmtt/m/n/10.95 will suggest the creation of a trip helping the user to boo
+k the
+ []
+
+[14 <./Images/Sketch/User_Profile.png> <./Images/Sketch/Event_Creation_1.png> <
+./Images/Sketch/Event_Creation_2.png> <./Images/Sketch/Event_Creation_3.png>]
+<Images/Sketch/Plan_Trip_1.png, id=307, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Plan_Trip_1.png Graphic file (type png)
+
+<use Images/Sketch/Plan_Trip_1.png>
+Package pdftex.def Info: Images/Sketch/Plan_Trip_1.png used on input line 53.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Plan_Trip_2.png, id=308, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Plan_Trip_2.png Graphic file (type png)
+
+<use Images/Sketch/Plan_Trip_2.png>
+Package pdftex.def Info: Images/Sketch/Plan_Trip_2.png used on input line 55.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
+ []\T1/lmtt/m/n/10.95 If the user wants to plan a trip in advance or in the cas
+e he has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
+ \T1/lmtt/m/n/10.95 already planned one, he will be able to add it in the same 
+way he
+ []
+
+<Images/Sketch/Tag.png, id=309, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Tag.png Graphic file (type png)
+
+<use Images/Sketch/Tag.png>
+Package pdftex.def Info: Images/Sketch/Tag.png used on input line 63.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
+ \T1/lmtt/m/n/10.95 In this section the user will be able to create a tag that 
+contains a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
+ \T1/lmtt/m/n/10.95 list of the means of transport that can be enabled. It'll b
+e present
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
+ \T1/lmtt/m/n/10.95 another field called anticipation time that will be used 
+by the
+ []
+
+[15 <./Images/Sketch/Trip_1.png> <./Images/Sketch/Trip_2.png> <./Images/Sketch/
+Trip_3.png> <./Images/Sketch/Plan_Trip_1.png> <./Images/Sketch/Plan_Trip_2.png>
+] <Images/Sketch/Event_View_1.png, id=322, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Event_View_1.png Graphic file (type png)
+
+<use Images/Sketch/Event_View_1.png>
+Package pdftex.def Info: Images/Sketch/Event_View_1.png used on input line 71.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+<Images/Sketch/Event_View_2.png, id=323, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Event_View_2.png Graphic file (type png)
+
+<use Images/Sketch/Event_View_2.png>
+Package pdftex.def Info: Images/Sketch/Event_View_2.png used on input line 73.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--75
+ \T1/lmtt/m/n/10.95 The user will be able to review his appointments in the cal
+endar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--75
+ \T1/lmtt/m/n/10.95 section. An arrow will connect each meeting, colored of yel
+low in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+ []\T1/lmtt/m/n/10.95 By tapping on the appointment the user will be able to ch
+eck the
+ []
+
+<Images/Sketch/Directions.png, id=324, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Directions.png Graphic file (type png)
+
+<use Images/Sketch/Directions.png>
+Package pdftex.def Info: Images/Sketch/Directions.png used on input line 81.
+(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+ 
+ []
+
+[16 <./Images/Sketch/Tag.png> <./Images/Sketch/Event_View_1.png> <./Images/Sket
+ch/Event_View_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to give the possibility to the u
 ser of arriving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system sends data about the starting and en
 ding location to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system receives the path and the available 
 transport from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to use the information given in 
 the event's TAG
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to obey the constraints set by t
 he user about the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check if the Carbon footprint
  preference has
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[17 <./Images/Sketch/Directions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check the possibility of reac
 hing on time the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
  \T1/lmtt/m/n/10.95 next event with the slowest mean of transport in the list o
 f suggested
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
  \T1/lmtt/b/sl/10.95 [G$[]$] : Allow the user to have advices about the means o
 f transport that can
  []
 
 
-Overfull \hbox (5.01613pt too wide) in paragraph at lines 67--68
+Overfull \hbox (5.01613pt too wide) in paragraph at lines 142--143
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to check the carbon foo
 tprint preference. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must know how to filter the means of
  transport to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to create every day a l
 unch based on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to avoid the creation o
 f those events
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check that all the necessary 
 travel info have
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to address the user to the web s
 ite/application
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to get information ab
 out tickets from
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to interpret and elab
 orate the
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
  \T1/lmtt/b/sl/10.95 [G$[]$] : Remember the user about the expiry date of his s
 eason ticket, if he
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to notify the user th
 at his season
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must check the data inserted by the 
 user to buy the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to send the data to the
  external
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to interpret and elab
 orate the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to show the sharing m
 ean position to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to redirect the user 
 to the external
  []
 
 
-Overfull \hbox (10.76486pt too wide) in paragraph at lines 137--138
+Overfull \hbox (10.76486pt too wide) in paragraph at lines 212--213
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to show the user the po
 ssible preferences. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to have access to these preferen
 ces each time is
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
  []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to let the user modif
 y the trips when
  []
 
-[15]) [16] (Files/4_Scenarios.tex
+) [20] (Files/4_Scenarios.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []\T1/lmtt/m/n/10.95 Giuseppe is an employee of a society. One night, before g
 oing to
@@ -2303,7 +2524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 urchase it, two
  []
 
-[17]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []\T1/lmtt/m/n/10.95 Luca is addressed on the travel service website to comple
 te the
@@ -2567,7 +2788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--45
 avlendar+ will
  []
 
-[18] [19] (Files/5_Alloy.tex)
+[22] [23] (Files/5_Alloy.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
  ("Travlendar +.aux")
@@ -2578,27 +2799,27 @@ Package rerunfilecheck Info: File `"Travlendar +".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 9591 strings out of 493323
- 136700 string characters out of 3139053
+ 9683 strings out of 493323
+ 138937 string characters out of 3139053
  242200 words of memory out of 3000000
- 12830 multiletter control sequences out of 15000+200000
- 54083 words of font info for 48 fonts, out of 3000000 for 9000
+ 12888 multiletter control sequences out of 15000+200000
+ 54401 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,43p,1172b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,43p,1172b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.en
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.en
 c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10
-.pfb>
-Output written on "Travlendar +.pdf" (20 pages, 867384 bytes).
+2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on "Travlendar +.pdf" (24 pages, 4474646 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
