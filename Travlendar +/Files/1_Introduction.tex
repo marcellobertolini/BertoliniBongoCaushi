@@ -1,23 +1,27 @@
 \vspace*{-5mm}
 \mysection{Introduction}
-\mysubsection{Purpose} 
+
+\mysubsection{Purpose}
 This document represents the Requirement Analysis and Specification Document (RASD).
-All the goals of the application, the functional and non-functional requirements for achieving them are here reported.\\
-\indent There are also the use cases of the system and various scenarios that represent the examples of a real life system’s utilization.
+All the goals of the application, the functional and non-functional requirements for achieving them are here reported.\par
+There are also the use cases of the system and various scenarios that represent the examples of a real life system’s utilization.
 This document is addressed to the developers who have to implement the application’s requirements and it also could be used as a contractual basis.
+
 \mysubsection{Scope}
 The system that we will expose in this paper is called Travlendar+. 
-Travlendar+ is a calendar-based application that has the aim of managing the many meetings, events and appointments that a user has to deal with every day.\\
-\indent After the registration and the login, the system will let the user create events in his personal calendar, checking if he is able to reach them on time and supporting his choices about the way of reaching the location. In fact, the user will be able to insert customizable settings which will allow the system to give him back precise advices about the means of transport, including taxis and sharing services means, to use.\\
-\indent Travlendar+ will also give the user the possibility to buy tickets of a town’s public means of transport and it will also allow him to manage his travels to reach other cities, creating specific travel events in the calendar section.
+Travlendar+ is a calendar-based application that has the aim of managing the many meetings, events and appointments that a user has to deal with every day.\par
+After the registration and the login, the system will let the user create events in his personal calendar, checking if he is able to reach them on time and supporting his choices about the way of reaching the location. In fact, the user will be able to insert customizable settings which will allow the system to give him back precise advices about the means of transport, including taxis and sharing services means, to use.\par
+Travlendar+ will also give the user the possibility to buy tickets of a town’s public means of transport and it will also allow him to manage his travels to reach other cities, creating specific travel events in the calendar section.
 The system will offer other additional features :
 \begin{itemize}
-\setlength{\leftskip}{0.5cm}
-\item The possibility to register the season ticket for the public transport. Travlendar+ will notify the user when the expiration date is near.
-\item The possibility to set the starting time, ending time and the preferred duration of every day lunch. The system will guarantee to preserve at least 30 minutes for this purpose.
-\item In case of outdoor trips, the user will be able to insert the period he will spend out of town and the system will suggest him the most convenient public transport tickets available keeping in mind the information given.
-\item The possibility of setting the anticipation time for reaching the various events. The system will warn the user when he needs to leave in order to arrive on time.
+	\setlength{\leftskip}{0.5cm}
+	\item The possibility to register the season ticket for the public transport. Travlendar+ will notify the user when the expiration date is near.
+	\item The possibility to set the starting time, ending time and the preferred duration of every day lunch. The system will guarantee to preserve at least 30 minutes for this purpose.
+	\item In case of outdoor trips, the user will be able to insert the period he will spend out of town and the system will suggest him the most convenient public transport tickets available keeping in mind the information given.
+	\item The possibility of setting the anticipation time for reaching the various events. The system will warn the user when he needs to leave in order to arrive on time.
 \end{itemize}
+
+\newpage
 \mysubsection{Definitions}
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
@@ -26,6 +30,8 @@ The system will offer other additional features :
 	\item \emph{\textbf{Outdoor Transport Service : }}the services dedicated to the transport between different towns.
 	\item \emph{\textbf{Local Public Transport Service : }}the services dedicated to the transport within a town.
 	\item \emph{\textbf{Event : }}a generic word used for speaking about appointments, meetings, etc. added to the calendar.
+	\item \emph{\textbf{Event Path : }}a part of an event solution that the user can perform with a specific mean of transport.
+	\item \emph{\textbf{Event Solution : }}a set of event path that allow the user to reach the event location.
 	\item \emph{\textbf{Warning : }}the method used by system to warn the user about something.
 	\item \emph{\textbf{Best means of transport options : }}the best transport found by the system according to the user’s preferences.
 	\item \emph{\textbf{Preferences : }}a set of options that modify the behaviour of the system when computing the routes.
@@ -38,19 +44,22 @@ The system will offer other additional features :
 	\item \emph{\textbf{Trip : }}a set of information about the journey that the user has organized.
 	\item \emph{\textbf{Travel event : }}an event that contains all the information about the travel between two different towns such as start time, end time and the mean of transport involved.
 \end{itemize}
+
 \mysubsection{Acronyms}
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
 	\item \emph{RASD : }Requirement Analysis and Specification Document
 	\item \emph{API : }Application Programming Interface
 \end{itemize}
+
 \mysubsection{Abbreviations}
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
-	\item \emph{[Gn] : }Goal n
-	\item \emph{[Rn] : }Requirement n
-	\item \emph{[Dn] : }Domain n
+	\item \lbrack Gn] : Goal n
+	\item \lbrack Rn] : Requirement n
+	\item \lbrack Dn] : Domain n
 \end{itemize}
+
 \mysubsection{Goals}
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
@@ -68,6 +77,7 @@ The system will offer other additional features :
 	\item \lbrack G$_{12}$] Allow the user to set the preferences in the settings section.
 	\item \lbrack G$_{13}$] Allow the user to handle his trips.
 \end{itemize}
+
 \mysubsection{Reference Documents}
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
@@ -78,6 +88,7 @@ The system will offer other additional features :
 	\item Software Abstractions -Logic Language and Analysis.\\
 	Author: Daniel Jackson
 \end{itemize}
+
 \mysubsection{Document Structure}
 This paper is composed by 5 chapters :
 \begin{enumerate}

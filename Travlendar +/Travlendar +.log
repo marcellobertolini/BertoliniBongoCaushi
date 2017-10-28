@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  27 OCT 2017 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  28 OCT 2017 17:29
 entering extended mode
 **"./Travlendar +.tex"
 ("Travlendar +.tex"
@@ -6,8 +6,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (Files/Packages.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -577,11 +577,11 @@ s
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 32.
+less on input line 29.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 34.
+less on input line 31.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -895,7 +895,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 76.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 )
 ("Travlendar +.aux")
 \openout1 = `"Travlendar +.aux"'.
@@ -944,12 +944,12 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \topmargin=1.08829pt
 * \headheight=12.0pt
 * \headsep=28.45274pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1005,7 +1005,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 \openout3 = `"Travlendar +.out"'.
 
 
-<Images/Polimi_Logo.png, id=83, 405.515pt x 125.46875pt>
+<Images/Polimi_Logo.png, id=135, 405.515pt x 125.46875pt>
 File: Images/Polimi_Logo.png Graphic file (type png)
 
 <use Images/Polimi_Logo.png>
@@ -1036,7 +1036,7 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1057,412 +1057,1548 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 29.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 32.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 	\newpage
+l.32 	\newpage
                [1]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 36.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (Files/1_Introduction.tex
-Overfull \hbox (1.1602pt too wide) in paragraph at lines 4--8
- []\T1/lmtt/m/n/12 This document represents the Requirement Analysis and Specif
-ication
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ []\T1/lmtt/m/n/10.95 This document represents the Requirement Analysis and Spe
+cification
  []
 
 
-Overfull \hbox (77.68251pt too wide) in paragraph at lines 4--8
- \T1/lmtt/m/n/12 Document (RASD). All the goals of the application, the functio
-nal and non-functional
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ \T1/lmtt/m/n/10.95 Document (RASD). All the goals of the application, the func
+tional and
  []
 
 
-Overfull \hbox (13.51021pt too wide) in paragraph at lines 4--8
- []\T1/lmtt/m/n/12 There are also the use cases of the system and various scena
-rios that
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+ []\T1/lmtt/m/n/10.95 There are also the use cases of the system and various sc
+enarios that
  []
 
 
-Overfull \hbox (15.93248pt too wide) in paragraph at lines 4--8
- \T1/lmtt/m/n/12 represent the examples of a real life system's utilization. Th
-is document
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+ \T1/lmtt/m/n/10.95 represent the examples of a real life system's utilization.
+ This document
  []
 
 
-Overfull \hbox (71.5075pt too wide) in paragraph at lines 4--8
- \T1/lmtt/m/n/12 is addressed to the developers who have to implement the appli
-cation's requirements
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+ \T1/lmtt/m/n/10.95 is addressed to the developers who have to implement the ap
+plication's
  []
 
 
-Overfull \hbox (1.1602pt too wide) in paragraph at lines 9--15
- []\T1/lmtt/m/n/12 The system that we will expose in this paper is called Travl
-endar+.
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+ []\T1/lmtt/m/n/10.95 The system that we will expose in this paper is called Tr
+avlendar+.
  []
 
 
-Overfull \hbox (3.58247pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 Travlendar+ is a calendar-based application that has the aim o
-f managing
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+ \T1/lmtt/m/n/10.95 Travlendar+ is a calendar-based application that has the ai
+m of managing the
  []
 
 
-Overfull \hbox (34.45749pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 the many meetings, events and appointments that a user has to 
-deal with every
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+ \T1/lmtt/m/n/10.95 many meetings, events and appointments that a user has to d
+eal with every
  []
 
 
-Overfull \hbox (38.21022pt too wide) in paragraph at lines 9--15
- []\T1/lmtt/m/n/12 After the registration and the login, the system will let th
-e user create
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ []\T1/lmtt/m/n/10.95 After the registration and the login, the system will let
+ the user
  []
 
 
-Overfull \hbox (3.58247pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 events in his personal calendar, checking if he is able to rea
-ch them on
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ \T1/lmtt/m/n/10.95 create events in his personal calendar, checking if he is a
+ble to reach
  []
 
 
-Overfull \hbox (22.10748pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 time and supporting his choices about the way of reaching the 
-location. In
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ \T1/lmtt/m/n/10.95 them on time and supporting his choices about the way of re
+aching the
  []
 
 
-Overfull \hbox (28.28249pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 fact, the user will be able to insert customizable settings wh
-ich will allow
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ \T1/lmtt/m/n/10.95 location. In fact, the user will be able to insert customiz
+able settings
  []
 
 
-Overfull \hbox (9.75748pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 the system to give him back precise advices about the means of
- transport,
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ \T1/lmtt/m/n/10.95 which will allow the system to give him back precise advice
+s about the means
  []
 
 
-Overfull \hbox (13.51021pt too wide) in paragraph at lines 9--15
- []\T1/lmtt/m/n/12 Travlendar+ will also give the user the possibility to buy t
-ickets of
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ []\T1/lmtt/m/n/10.95 Travlendar+ will also give the user the possibility to bu
+y tickets of
  []
 
 
-Overfull \hbox (22.10748pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 a town's public means of transport and it will also allow him 
-to manage his
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 a town's public means of transport and it will also allow h
+im to manage
  []
 
 
-Overfull \hbox (40.63249pt too wide) in paragraph at lines 9--15
- \T1/lmtt/m/n/12 travels to reach other cities, creating specific travel events
- in the calendar
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 his travels to reach other cities, creating specific travel
+ events in the
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (26.78217pt too wide) in paragraph at lines 16--17
- []\T1/lmtt/m/n/12 The possibility to register the season ticket for the public
- transport.
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+ []\T1/lmtt/m/n/10.95 The possibility to register the season ticket for the pub
+lic transport.
  []
 
 
-Overfull \hbox (26.78217pt too wide) in paragraph at lines 17--18
- []\T1/lmtt/m/n/12 The possibility to set the starting time, ending time and th
-e preferred
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+ []\T1/lmtt/m/n/10.95 The possibility to set the starting time, ending time and
+ the preferred
  []
 
 
-Overfull \hbox (2.08215pt too wide) in paragraph at lines 17--18
- \T1/lmtt/m/n/12 duration of every day lunch. The system will guarantee to pres
-erve
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+ \T1/lmtt/m/n/10.95 duration of every day lunch. The system will guarantee to p
+reserve at
  []
 
 
-Overfull \hbox (8.25716pt too wide) in paragraph at lines 18--19
- []\T1/lmtt/m/n/12 In case of outdoor trips, the user will be able to insert th
-e period
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+ []\T1/lmtt/m/n/10.95 In case of outdoor trips, the user will be able to insert
+ the period
  []
 
 
-Overfull \hbox (63.83218pt too wide) in paragraph at lines 18--19
- \T1/lmtt/m/n/12 he will spend out of town and the system will suggest him the 
-most convenient
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+ \T1/lmtt/m/n/10.95 he will spend out of town and the system will suggest him t
+he most
  []
 
 
-Overfull \hbox (39.13217pt too wide) in paragraph at lines 18--19
- \T1/lmtt/m/n/12 public transport tickets available keeping in mind the informa
-tion given. 
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+ \T1/lmtt/m/n/10.95 convenient public transport tickets available keeping in mi
+nd the
  []
 
 
-Overfull \hbox (39.13217pt too wide) in paragraph at lines 19--20
- []\T1/lmtt/m/n/12 The possibility of setting the anticipation time for reachin
-g the various
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ []\T1/lmtt/m/n/10.95 The possibility of setting the anticipation time for reac
+hing the
  []
 
 
-Overfull \hbox (20.60716pt too wide) in paragraph at lines 19--20
- \T1/lmtt/m/n/12 events. The system will warn the user when he needs to leave i
-n order
- []
-
-
-LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 24.
-
-
-Overfull \hbox (66.47095pt too wide) in paragraph at lines 24--25
- []\T1/lmtt/b/sl/12 System : \T1/lmtt/m/n/12 the software and hardware componen
-ts that characterize Travlendar's
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 various events. The system will warn the user when he needs
+ to leave
  []
 
 [2]
-Overfull \hbox (13.27063pt too wide) in paragraph at lines 26--27
- []\T1/lmtt/b/sl/12 Outdoor Transport Service : \T1/lmtt/m/n/12 the services de
-dicated to the transport
+
+LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+ []\T1/lmtt/b/sl/10.95 System : \T1/lmtt/m/n/10.95 the software and hardware co
+mponents that characterize
  []
 
 
-Overfull \hbox (44.77057pt too wide) in paragraph at lines 27--28
- []\T1/lmtt/b/sl/12 Local Public Transport Service : \T1/lmtt/m/n/12 the servic
-es dedicated to the transport
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+ []\T1/lmtt/b/sl/10.95 Outdoor Transport Service : \T1/lmtt/m/n/10.95 the servi
+ces dedicated to the transport
  []
 
 
-Overfull \hbox (29.29594pt too wide) in paragraph at lines 28--29
- []\T1/lmtt/b/sl/12 Event : \T1/lmtt/m/n/12 a generic word used for speaking ab
-out appointments, meetings,
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+ []\T1/lmtt/b/sl/10.95 Local Public Transport Service : \T1/lmtt/m/n/10.95 the 
+services dedicated to the
  []
 
 
-Overfull \hbox (23.37091pt too wide) in paragraph at lines 29--30
- []\T1/lmtt/b/sl/12 Warning : \T1/lmtt/m/n/12 the method used by system to warn
- the user about something. 
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+ []\T1/lmtt/b/sl/10.95 Event : \T1/lmtt/m/n/10.95 a generic word used for speak
+ing about appointments, meetings,
  []
 
 
-Overfull \hbox (1.67053pt too wide) in paragraph at lines 30--31
- []\T1/lmtt/b/sl/12 Best means of transport options : \T1/lmtt/m/n/12 the best 
-transport found by the
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+ []\T1/lmtt/b/sl/10.95 Event Path : \T1/lmtt/m/n/10.95 a part of an event solut
+ion that the user can perform
  []
 
 
-Overfull \hbox (30.04585pt too wide) in paragraph at lines 31--32
- []\T1/lmtt/b/sl/12 Preferences : \T1/lmtt/m/n/12 a set of options that modify 
-the behaviour of the system
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+ []\T1/lmtt/b/sl/10.95 Event Solution : \T1/lmtt/m/n/10.95 a set of event path 
+that allow the user to reach the
  []
 
 
-Overfull \hbox (10.64595pt too wide) in paragraph at lines 33--34
- []\T1/lmtt/b/sl/12 User : \T1/lmtt/m/n/12 the person who has performed a regis
-tration and is logged in
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+ []\T1/lmtt/b/sl/10.95 Best means of transport options : \T1/lmtt/m/n/10.95 the
+ best transport found by the
  []
 
 
-Overfull \hbox (12.27075pt too wide) in paragraph at lines 34--35
- []\T1/lmtt/b/sl/12 Anticipation Time : \T1/lmtt/m/n/12 it specifies how much t
-ime before the beginning
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+ []\T1/lmtt/b/sl/10.95 Preferences : \T1/lmtt/m/n/10.95 a set of options that m
+odify the behaviour of the system
  []
 
 
-Overfull \hbox (22.74599pt too wide) in paragraph at lines 35--36
- []\T1/lmtt/b/sl/12 TAG : \T1/lmtt/m/n/12 it's a collection of information, cre
-ated by the user, which can
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ []\T1/lmtt/b/sl/10.95 User : \T1/lmtt/m/n/10.95 the person who has performed a
+ registration and is logged in
  []
 
 
-Overfull \hbox (26.78217pt too wide) in paragraph at lines 35--36
- \T1/lmtt/m/n/12 be associated to an event and contains the preferred means of 
-transport
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+ []\T1/lmtt/b/sl/10.95 Anticipation Time : \T1/lmtt/m/n/10.95 it specifies how 
+much time before the beginning of
  []
 
 
-Overfull \hbox (11.77081pt too wide) in paragraph at lines 37--38
- []\T1/lmtt/b/sl/12 Accommodation : \T1/lmtt/m/n/12 the user's occasional accom
-modation address located
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+ []\T1/lmtt/b/sl/10.95 TAG : \T1/lmtt/m/n/10.95 it's a collection of informatio
+n, created by the user, which can
  []
 
 
-Overfull \hbox (53.87097pt too wide) in paragraph at lines 38--39
- []\T1/lmtt/b/sl/12 Trip : \T1/lmtt/m/n/12 a set of information about the journ
-ey that the user has organized. 
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+ \T1/lmtt/m/n/10.95 be associated to an event and contains the preferred means 
+of transport
  []
 
 
-Overfull \hbox (11.64583pt too wide) in paragraph at lines 39--40
- []\T1/lmtt/b/sl/12 Travel event : \T1/lmtt/m/n/12 an event that contains all t
-he information about the
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+ []\T1/lmtt/b/sl/10.95 Accommodation : \T1/lmtt/m/n/10.95 the user's occasional
+ accommodation address located in
  []
 
 
-Overfull \hbox (2.08215pt too wide) in paragraph at lines 39--40
- \T1/lmtt/m/n/12 travel between two different towns such as start time, end tim
-e and
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+ []\T1/lmtt/b/sl/10.95 Trip : \T1/lmtt/m/n/10.95 a set of information about the
+ journey that the user has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+ []\T1/lmtt/b/sl/10.95 Travel event : \T1/lmtt/m/n/10.95 an event that contains
+ all the information about the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+ \T1/lmtt/m/n/10.95 travel between two different towns such as start time, end 
+time and the
  []
 
 [3]
-Overfull \hbox (13.00716pt too wide) in paragraph at lines 61--62
- []\T1/lmtt/m/n/12 [G$[]$] Allow the user to have advices about the means of tr
-ansport that
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+ []\T1/lmtt/m/n/10.95 [G$[]$] Allow the user to have advices about the means of
+ transport that
  []
 
 
-Overfull \hbox (13.00716pt too wide) in paragraph at lines 62--63
- []\T1/lmtt/m/n/12 [G$[]$] Support the user to have at least 30 minutes of lunc
-h every day. 
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+ []\T1/lmtt/m/n/10.95 [G$[]$] Remember the user about the expiry date of his se
+ason ticket, if he
  []
 
 
-Overfull \hbox (6.83215pt too wide) in paragraph at lines 64--65
- []\T1/lmtt/m/n/12 [G$[]$] Give advice about the best public transportation tic
-ket to buy. 
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+ []\T1/lmtt/m/n/10.95 The first chapter is constituted by an introduction of th
+e system,
  []
 
 
-Overfull \hbox (13.00716pt too wide) in paragraph at lines 65--66
- []\T1/lmtt/m/n/12 [G$[]$] Remember the user about the expiry date of his seaso
-n ticket, if
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+ \T1/lmtt/m/n/10.95 his application domain, his goals and a glossary with the m
+ost common
  []
 
 
-Overfull \hbox (4.90715pt too wide) in paragraph at lines 68--69
- []\T1/lmtt/m/n/12 [G$[]$] Allow the user to set the preferences in the setting
-s section. 
- []
-
-
-Overfull \hbox (20.60716pt too wide) in paragraph at lines 85--86
- []\T1/lmtt/m/n/12 The first chapter is constituted by an introduction of the s
-ystem, his
- []
-
-
-Overfull \hbox (57.65718pt too wide) in paragraph at lines 85--86
- \T1/lmtt/m/n/12 application domain, his goals and a glossary with the most com
-mon expression
- []
-
-
-Overfull \hbox (2.08215pt too wide) in paragraph at lines 85--86
- \T1/lmtt/m/n/12 used in order to give to the reader a basic knowledge of the s
-ystem
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+ \T1/lmtt/m/n/10.95 expression used in order to give to the reader a basic know
+ledge of the
  []
 
 [4]
-Overfull \hbox (8.25716pt too wide) in paragraph at lines 86--88
- []\T1/lmtt/m/n/12 The second part consists of an overall description of the sy
-stem and
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ []\T1/lmtt/m/n/10.95 The second part consists of an overall description of the
+ system and
  []
 
 
-Overfull \hbox (57.65718pt too wide) in paragraph at lines 86--88
- \T1/lmtt/m/n/12 the main functionalities, which are listed and described. It a
-lso describes
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ \T1/lmtt/m/n/10.95 the main functionalities, which are listed and described. I
+t also
  []
 
 
-Overfull \hbox (57.65718pt too wide) in paragraph at lines 86--88
- \T1/lmtt/m/n/12 the relation of the system with the external services and how 
-they interact.
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ \T1/lmtt/m/n/10.95 describes the relation of the system with the external serv
+ices and how
  []
 
 
-Overfull \hbox (8.25716pt too wide) in paragraph at lines 86--88
- \T1/lmtt/m/n/12 The constraints that have to be respected in order to use the 
-system
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ \T1/lmtt/m/n/10.95 they interact. The constraints that have to be respected in
+ order to
  []
 
 
-Overfull \hbox (32.95717pt too wide) in paragraph at lines 86--88
- \T1/lmtt/m/n/12 properly are also explained. Moreover, a classification of the
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ \T1/lmtt/m/n/10.95 use the system properly are also explained. Moreover, a cla
+ssification
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+ \T1/lmtt/m/n/10.95 of the system's actors and the domain properties are given 
+to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+ []\T1/lmtt/m/n/10.95 The third part is composed by the specific requirements i
+dentified,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+ \T1/lmtt/m/n/10.95 both functional and non-functional, some mockups that show 
+the most
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+ \T1/lmtt/m/n/10.95 important features and how the user will be able to interac
+t with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+ []\T1/lmtt/m/n/10.95 The fourth part is composed by 6 scenarios that describe 
+how the system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+ []\T1/lmtt/m/n/10.95 The fifth and final part is composed entirely by Alloy co
+de and some
+ []
+
+) [5] (Files/2_Overall_Description.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+ []\T1/lmtt/m/n/10.95 The system for achieving its goal, it will be related wit
+h three kind
+ []
+
+
+Overfull \hbox (1.63474pt too wide) in paragraph at lines 12--12
+ \T1/lmtt/m/n/10.95 To localize the means and the user's position and to retrie
+ve the directions,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ \T1/lmtt/m/n/10.95 we will use in our system Google maps API. The system will 
+format the data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ \T1/lmtt/m/n/10.95 received in a standardized manner and show them to the user
+ according to his
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+ []\T1/lmtt/m/n/10.95 Our system will contain all the references to the local a
+nd outdoor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+ \T1/lmtt/m/n/10.95 transport services, which APIs will be known in order to re
+trieve the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+ \T1/lmtt/m/n/10.95 requested information about the tickets' prices. Once the u
+ser will have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+ \T1/lmtt/m/n/10.95 chosen the ticket, he will be addressed to the service's we
+bsite to complete
+ []
+
+<Images/Class_Diagram.jpg, id=210, 1550.79375pt x 906.38625pt>
+File: Images/Class_Diagram.jpg Graphic file (type jpg)
+
+<use Images/Class_Diagram.jpg>
+Package pdftex.def Info: Images/Class_Diagram.jpg used on input line 19.
+(pdftex.def)             Requested size: 387.6975pt x 226.59601pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+ []\T1/lmtt/m/n/10.95 At first the system will advise about the best local publ
+ic transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+ \T1/lmtt/m/n/10.95 tickets only in the towns of Milano, Torino and Rome; for t
+he other towns,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+ \T1/lmtt/m/n/10.95 the system will give the user the possibility to access to 
+the local
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+ \T1/lmtt/m/n/10.95 transport websites. Regarding the outdoor travels, it will 
+be possible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+ \T1/lmtt/m/n/10.95 to buy ticket only with a restricted group of transport ser
+vices such as
+ []
+
+<Images/Use_Case/General_Use_Case.png, id=211, 1119.18124pt x 1787.67876pt>
+File: Images/Use_Case/General_Use_Case.png Graphic file (type png)
+
+<use Images/Use_Case/General_Use_Case.png>
+Package pdftex.def Info: Images/Use_Case/General_Use_Case.png used on input lin
+e 27.
+(pdftex.def)             Requested size: 279.79462pt x 446.9186pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+ []\T1/lmtt/m/n/10.95 In order to provide a clear vision of the system's aims t
+hat will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+ \T1/lmtt/m/n/10.95 implemented, we are going to show some use cases diagram re
+presenting the
+ []
+
+[6 <./Images/Class_Diagram.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+ []\T1/lmtt/m/n/10.95 The system will let the user to sign up, inserting the e-
+mail and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+ \T1/lmtt/m/n/10.95 password for creating his personal profile and he will be a
+ble to sign-in
+ []
+
+<Images/Use_Case/Set_Preferences.png, id=219, 1107.13625pt x 674.52pt>
+File: Images/Use_Case/Set_Preferences.png Graphic file (type png)
+
+<use Images/Use_Case/Set_Preferences.png>
+Package pdftex.def Info: Images/Use_Case/Set_Preferences.png used on input line
+ 37.
+(pdftex.def)             Requested size: 276.78339pt x 168.62958pt.
+ [7 <./Images/Use_Case/General_Use_Case.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+ []\T1/lmtt/m/n/10.95 The user will be able to set many preferences to customiz
+e his
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+ []\T1/lmtt/m/n/10.95 insert his season ticket and receives warnings to remembe
+r him the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+ []\T1/lmtt/m/n/10.95 set his home address that will allow the system to comput
+e the routes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+ \T1/lmtt/m/n/10.95 for reaching the first event of the day using it as the sta
+rting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+ []\T1/lmtt/m/n/10.95 set the constrains about the maximum distance that the us
+er wants to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+ []\T1/lmtt/m/n/10.95 set the default lunch time window and duration. The durat
+ion must be
+ []
+
+
+Overfull \hbox (2.99504pt too wide) in paragraph at lines 51--52
+ []\T1/lmtt/m/n/10.95 define a break time window and its duration as in the lun
+ch preference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+ []\T1/lmtt/m/n/10.95 A TAG will be used to define the type of the event. It wi
+ll contain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+ \T1/lmtt/m/n/10.95 the list of means of transports and the anticipation time f
+or reaching the
+ []
+
+[8 <./Images/Use_Case/Set_Preferences.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+ []\T1/lmtt/m/n/10.95 Each lunch event is created automatically considering the
+ time window
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ []\T1/lmtt/m/n/10.95 The system will guarantee at least 30 minutes of lunch pe
+r day. In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 fact, every time that the user will try to create an event 
+that overlaps
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 the lunch event, the system will check if it is possible to
+ move the lunch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 event, keeping the same duration, in the time window define
+d. If not, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 system will check if it's possible to reduce the default lu
+nch duration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 guaranteeing the 30 minutes' constraint. In this case, the 
+system will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+ \T1/lmtt/m/n/10.95 ask the user if he wants to confirm the changes proposed, i
+f not, it will
+ []
+
+<Images/Use_Case/Add_Event.png, id=232, 942.52126pt x 383.4325pt>
+File: Images/Use_Case/Add_Event.png Graphic file (type png)
+
+<use Images/Use_Case/Add_Event.png>
+Package pdftex.def Info: Images/Use_Case/Add_Event.png used on input line 63.
+(pdftex.def)             Requested size: 235.62973pt x 95.85788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+ []\T1/lmtt/m/n/10.95 The system will let the user add a new event to the calen
+dar. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+ \T1/lmtt/m/n/10.95 user will have to set the title, the date and time, the car
+bon footprint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+ \T1/lmtt/m/n/10.95 preference and must associate the event with a TAG. Once do
+ne, the system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+ \T1/lmtt/m/n/10.95 will check if the event is reachable by the previous one an
+d if there's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+ \T1/lmtt/m/n/10.95 not overlapping. If the two previous conditions are confirm
+ed the new
+ []
+
+<Images/Use_Case/Advice_Mean.png, id=233, 1181.41376pt x 323.2075pt>
+File: Images/Use_Case/Advice_Mean.png Graphic file (type png)
+
+<use Images/Use_Case/Advice_Mean.png>
+Package pdftex.def Info: Images/Use_Case/Advice_Mean.png used on input line 73.
+
+(pdftex.def)             Requested size: 295.3527pt x 80.80167pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+ []\T1/lmtt/m/n/10.95 The system will show the user the advices about the best 
+means of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+ \T1/lmtt/m/n/10.95 transport for reaching every event that the he has to atten
+d. The routes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+ []\T1/lmtt/m/n/10.95 the home address/outdoor accommodation in the case the ev
+ent to reach
+ []
+
+[9 <./Images/Use_Case/Add_Event.png> <./Images/Use_Case/Advice_Mean.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+ []\T1/lmtt/m/n/10.95 In any case it will be possible to show the directions of
+ every event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+ \T1/lmtt/m/n/10.95 using as starting point his position just tapping on a spec
+ific button in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+ []\T1/lmtt/m/n/10.95 The advices will follow the user's preferences described 
+in the TAG
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+ \T1/lmtt/m/n/10.95 related to the event, keeping into account also the weather
+ conditions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+ \T1/lmtt/m/n/10.95 and giving him warnings in the presence of strikes. Moreove
+r, it will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+ \T1/lmtt/m/n/10.95 given a warning when the user needs to leave in order to re
+ach the event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+ []\T1/lmtt/m/n/10.95 The system will also localize and show the position of th
+e nearest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+ []\T1/lmtt/m/n/10.95 The system will recommend and allow to buy the best publi
+c transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+ \T1/lmtt/m/n/10.95 ticket. This feature is available just in the towns reporte
+d in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+ []\T1/lmtt/m/n/10.95 Furthermore, during the trip management, after have inser
+ted the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+ \T1/lmtt/m/n/10.95 accommodation address and the duration, the system will giv
+e back the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+ \T1/lmtt/m/n/10.95 user the tickets available, their prices and the best optio
+n that covers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+ \T1/lmtt/m/n/10.95 the entire period. The user will be able to purchase them a
+fter being
+ []
+
+<Images/Use_Case/Trip.png, id=242, 1119.18124pt x 836.12375pt>
+File: Images/Use_Case/Trip.png Graphic file (type png)
+
+<use Images/Use_Case/Trip.png>
+Package pdftex.def Info: Images/Use_Case/Trip.png used on input line 94.
+(pdftex.def)             Requested size: 279.79462pt x 209.03043pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+ []\T1/lmtt/m/n/10.95 The system will allow the user to manage trips and, by de
+fining the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+ \T1/lmtt/m/n/10.95 accommodation and the duration, it will suggest the tickets
+ available
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+ \T1/lmtt/m/n/10.95 for reaching the desired town. It will be possible to arran
+ge a trip
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+ \T1/lmtt/m/n/10.95 directly from the calendar section. Furthermore, when an ev
+ent is crated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+ \T1/lmtt/m/n/10.95 and it's located in a town different from the user's positi
+on, the trip's
+ []
+
+[10 <./Images/Use_Case/Trip.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+ []\T1/lmtt/m/n/10.95 The travel will be represented as a special event in the 
+calendar's
+ []
+
+
+Overfull \hbox (10.11238pt too wide) in paragraph at lines 98--100
+ \T1/lmtt/m/n/10.95 section that covers the entire travel time and contains all
+ the information.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+ \T1/lmtt/m/n/10.95 The user will be able to edit the trip information any time
+ he wants
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+ []\T1/lmtt/m/n/10.95 The system is suitable for any kind of user. In fact, the
+ Travlendar+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+ \T1/lmtt/m/n/10.95 goals are appropriate for any person who needs help for tak
+ing on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+ []\T1/lmtt/b/sl/10.95 User : \T1/lmtt/m/n/10.95 is a person who has done the s
+ubscription in the system.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+ \T1/lmtt/m/n/10.95 Every user, after the login process, is able to use all the
  system's
  []
 
 
-Overfull \hbox (2.08215pt too wide) in paragraph at lines 88--89
- []\T1/lmtt/m/n/12 The third part is composed by the specific requirements iden
-tified,
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+ []\T1/lmtt/b/sl/10.95 System Manager Team : \T1/lmtt/m/n/10.95 it's a group of
+ engineers and programmers in
  []
 
 
-Overfull \hbox (2.08215pt too wide) in paragraph at lines 88--89
- \T1/lmtt/m/n/12 both functional and non-functional, some mockups that show the
- most
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+ \T1/lmtt/m/n/10.95 which the founders have entrust the maintenance of the syst
+em and its
  []
 
 
-Overfull \hbox (14.43216pt too wide) in paragraph at lines 88--89
- \T1/lmtt/m/n/12 important features and how the user will be able to interact w
-ith the
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+ []\T1/lmtt/b/sl/10.95 Client Service : \T1/lmtt/m/n/10.95 it is a small team t
+hat has the aim of receiving
  []
 
 
-Overfull \hbox (26.77516pt too wide) in paragraph at lines 89--90
- []\T1/lmtt/m/n/12 The fourth part is composed by 6 scenarios that describe how
- the system
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+ []\T1/lmtt/m/n/10.95 The duration of the event in world corresponds to the dur
+ation of the
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+ []\T1/lmtt/m/n/10.95 External services answer to the system request in no more
+ than 5
  []
 
 
-Overfull \hbox (8.25716pt too wide) in paragraph at lines 90--91
- []\T1/lmtt/m/n/12 The fifth and final part is composed entirely by Alloy code 
-and some
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+ []\T1/lmtt/m/n/10.95 The user who asks to purchase a ticket on the system, wil
+l actually
  []
 
-) [5] (Files/2_Overall_Description.tex
-<Images/General_Use_Case.png, id=145, 343.2825pt x 412.54124pt>
-File: Images/General_Use_Case.png Graphic file (type png)
 
-<use Images/General_Use_Case.png>
-Package pdftex.def Info: Images/General_Use_Case.png used on input line 8.
-(pdftex.def)             Requested size: 171.64082pt x 206.27011pt.
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+ []\T1/lmtt/m/n/10.95 The user has to follow at least one of the warnings send 
+from the
+ []
+
+) [12] (Files/3_Specific_Requirements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+ []\T1/lmtt/m/n/10.95 The following mockups represent an idea of the interfaces
+ that will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to give the possibility to the u
+ser of arriving
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system sends data about the starting and en
+ding location to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system receives the path and the available 
+transport from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to use the information given in 
+the event's TAG
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to obey the constraints set by t
+he user about the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check if the Carbon footprint
+ preference has
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check the possibility of reac
+hing on time the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+ \T1/lmtt/m/n/10.95 next event with the slowest mean of transport in the list o
+f suggested
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+ \T1/lmtt/b/sl/10.95 [G$[]$] : Allow the user to have advices about the means o
+f transport that can
+ []
+
+
+Overfull \hbox (5.01613pt too wide) in paragraph at lines 67--68
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to check the carbon foo
+tprint preference. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must know how to filter the means of
+ transport to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to create every day a l
+unch based on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to avoid the creation o
+f those events
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to check that all the necessary 
+travel info have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to address the user to the web s
+ite/application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to get information ab
+out tickets from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to interpret and elab
+orate the
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
+ \T1/lmtt/b/sl/10.95 [G$[]$] : Remember the user about the expiry date of his s
+eason ticket, if he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to notify the user th
+at his season
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must check the data inserted by the 
+user to buy the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to send the data to the
+ external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to interpret and elab
+orate the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to show the sharing m
+ean position to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to redirect the user 
+to the external
+ []
+
+
+Overfull \hbox (10.76486pt too wide) in paragraph at lines 137--138
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system must be able to show the user the po
+ssible preferences. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to have access to these preferen
+ces each time is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+ []\T1/lmtt/m/n/10.95 [R$[]$] : The system has to be able to let the user modif
+y the trips when
+ []
+
+[15]) [16] (Files/4_Scenarios.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ []\T1/lmtt/m/n/10.95 Giuseppe is an employee of a society. One night, before g
+oing to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 sleep, he receives a call from his chief that inform him th
+at he has to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 attend three meetings in three different zone of Milan. The
+ next day
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 the chief needs to know if Giuseppe can take part at all th
+ese meetings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 or if he has to ask to someone else. Giuseppe has never bee
+n in those
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 zones of Milan and, at the moment, he doesn't have his car 
+because it's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 broken. Thus, he has to find another solution. In that mome
+nt an idea came
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 in Giuseppe's mind! He opened the Travlendar+ app on his sm
+artphone and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 inserted the three events in the calendar using a TAG calle
+d \T1/lmtt/m/it/10.95 no car\T1/lmtt/m/n/10.95 , which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 was specifically created for this situation. This tag inclu
+des all the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 means of transport supported by the app except the car. Dur
+ing the creation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 of the last event, Travlendar+ has showed to Giuseppe a war
+ning telling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 him that the event was unreachable in time from the previou
+s one he set.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 Knowing this information, Giuseppe called his chief for tel
+ling him that he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 has to ask to someone else just for the third event and tha
+t he can attend
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ \T1/lmtt/m/n/10.95 the first two without any problems because he will take the
+ means suggested
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ []\T1/lmtt/m/n/10.95 Michela is a very busy person and she cares about the env
+ironment. She
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 has been very happy to download Travlendar+ on her smartpho
+ne because it can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 suggest the means of transport that have the less impact on
+ the environment.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 Thus, every day Michela inserts her events in Travlendar+ a
+nd she associates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 to each one the \T1/lmtt/m/it/10.95 CO$[]$ free \T1/lmtt/m/
+n/10.95 preference. In this way, the system gives her
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 the information about all the means of transport available 
+for reaching the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 destination, order by the one who produce the less CO$[]$ q
+uantity to the one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 who produce the most. This is very useful for Michela, beca
+use now she can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 both follow her wish of having a good impact on the environ
+ment and avoid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \T1/lmtt/m/n/10.95 arriving late to her appointments, finding always a good co
+mpromise without
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ []\T1/lmtt/m/n/10.95 Luca lives in Milan and the 20$[]$ of October he has a wo
+rk meeting in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 Turin. He decides to insert the meeting in his calendar. As
+ soon as he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 sets all the data defining the event and concludes the crea
+tion, a message
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 appears saying that the event is very far and advices Luca 
+to plan a trip.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 Luca is very happy of having this opportunity and proceeds 
+on. Travlendar+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 provides him an interface in which he can chose of buying a
+ ticket for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 the train or for the airplane or simply adding a travel eve
+nt with that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 mean. Luca selects the train, then Travlendar+ asks Luca to
+ fill up a form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 containing the date and the time in which he would like to 
+leave, in order
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 to provide him all the solutions with the related starting 
+prices. After a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 quick look, thanks to the ad-hoc filtration of the trains, 
+Luca is able to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+ \T1/lmtt/m/n/10.95 choose the most suitable ticket. As soon as he decides to p
+urchase it, two
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+ []\T1/lmtt/m/n/10.95 Luca is addressed on the travel service website to comple
+te the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+ \T1/lmtt/m/n/10.95 Luca will be able to check the solutions for arriving to th
+e station on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+ \T1/lmtt/m/n/10.95 time in every moment tapping on the travel event auto-gener
+ated. When
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+ \T1/lmtt/m/n/10.95 Luca returns on the application, he inserts the period of s
+taying and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+ \T1/lmtt/m/n/10.95 his accommodation in Turin. After this Travlendar+ advices 
+him to buy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+ \T1/lmtt/m/n/10.95 the ticket that represents the best compromise between pric
+e and utility.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ []\T1/lmtt/m/n/10.95 Sean lives in Milan and he has to attend a work-lunch in 
+Rome tomorrow.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 He has already the ticket for reaching Rome, because his co
+mpany has already
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 bought it. Thus, he wants to add the travel event in Travle
+ndar+. Nothing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 of more simple! Sean has only to tap for about one second t
+he screen on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 the calendar interface and two choices will appear on the s
+creen: \T1/lmtt/m/it/10.95 create
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/it/10.95 an event \T1/lmtt/m/n/10.95 and \T1/lmtt/m/it/10.95 plan a
+ trip\T1/lmtt/m/n/10.95 . Tapping on plan a trip, Travlendar+ will show
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 to Sean an interface in which he can chose the mean of tran
+sport and, after
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \T1/lmtt/m/n/10.95 this, he can simply insert all the info of his ticket and c
+reate the travel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ []\T1/lmtt/m/n/10.95 Gianluca is a financial expert, he has always many meetin
+gs during the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 day and sometimes he forgets to take a break. He needs some
+thing which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 reminds him to reserve some time for having lunch. Travlend
+ar+ is the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 perfect solution to his needs. Gianluca set in the preferen
+ces the span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 of time in which he wants to have lunch, from 12 to 14, and
+ the preferred
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 duration, 60 minutes. Today Gianluca has to add to his cale
+ndar one event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 from 12:00 to 13:00 and another one from 13:30 to 15:00. Tr
+avlendar+, given
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 the Gianluca's setting for the lunch, has already automatic
+ally created
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 an event lunch every day between from 12:00 and 13.00. When
+ Gianluca adds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 the first event, the lunch break slides automatically and c
+overs the period
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 between 13.00 and 14.00 without giving any problems. When t
+he second event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 was added, some problems came up! In fact, Gianluca will no
+t be able to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 have a lunch of 60 minute. Despite this, Travlendar+ must r
+eserve at least
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 30 minutes to lunch per day to each user, so it asks Gianlu
+ca if he wants
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 to reduce his lunch time to 30 minutes or postpone the even
+t. Gianluca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+ \T1/lmtt/m/n/10.95 cannot postpone the event, so he decides of reducing his lu
+nch duration to
+ []
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
- [6 <./Images/General_Use_Case.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ []\T1/lmtt/m/n/10.95 Gabriele has inserted in his Travlendar+ application his 
+girlfriend
+ []
 
-("Travlendar +.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+
+Overfull \hbox (1.63474pt too wide) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 tonight's party event but he has completely forgotten about
+ it. Fortunately,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 Travlendar+ sends him warnings to remind him to go to the e
+vent whenever the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 time for reaching the party's location, without arriving la
+te, with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 slowest mean of transport in the list is going to expire. B
+ut during almost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 all these warnings Gabriele was sleeping and he did not rea
+d them. He
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 just gets the last one, which advices him to use the car. U
+nfortunately,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 Gabriele doesn't have a car in Milan but he has the drive l
+icence and so he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 can take a car sharing. Travlendar+ is perfect for Gabriele
+'s situation!
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 In fact, when he taps on the car choice, the app opens an i
+nterface that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 asks Gabriele to choose between his own car and a car shari
+ng. Choosing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 second one, Gabriele is able to see the route for reaching 
+the nearest car
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 location and he can also be addressed to the car sharing se
+rvice app to book
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--45
+ \T1/lmtt/m/n/10.95 it and reaching his girlfriend party's location on time. Tr
+avlendar+ will
+ []
+
+[18] [19] (Files/5_Alloy.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+ ("Travlendar +.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `"Travlendar +".out' has not changed.
-(rerunfilecheck)             Checksum: 1ECEBD4992C4E0FA026C63DD58A20221;1422.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
+(rerunfilecheck)             Checksum: 85C16662B89C003E5A982E16E598944A;2286.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 9488 strings out of 493323
- 134995 string characters out of 3139053
- 240204 words of memory out of 3000000
- 12795 multiletter control sequences out of 15000+200000
- 51109 words of font info for 47 fonts, out of 3000000 for 9000
+ 9591 strings out of 493323
+ 136700 string characters out of 3139053
+ 242200 words of memory out of 3000000
+ 12830 multiletter control sequences out of 15000+200000
+ 54083 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,43p,488b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-ri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on "Travlendar +.pdf" (7 pages, 255256 bytes).
+ 43i,12n,43p,1172b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.en
+c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10
+.pfb>
+Output written on "Travlendar +.pdf" (20 pages, 867384 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

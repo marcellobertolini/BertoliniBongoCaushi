@@ -10,11 +10,24 @@
 \BOOKMARK [1][-]{section.2}{Overall Description}{}% 10
 \BOOKMARK [2][-]{subsection.2.1}{Product Perspective}{section.2}% 11
 \BOOKMARK [2][-]{subsection.2.2}{Product Functions}{section.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Register \046 Login}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Registration \046 Login}{subsection.2.2}% 13
 \BOOKMARK [3][-]{subsubsection.2.2.2}{Set Preferences}{subsection.2.2}% 14
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Add Events to the Calendar}{subsection.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Give Advices About the Means of Transport for Reaching an Event}{subsection.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.5}{Recommends the Local Public Transportation Tickets}{subsection.2.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.6}{Purchase Ticket}{subsection.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.3}{User Characteristics}{section.2}% 19
-\BOOKMARK [2][-]{subsection.2.4}{Domanin Properties}{section.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Guarantee at Least 30 Minutes of Lunch Break}{subsection.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Add Events to the Calendar}{subsection.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Give Advices About the Means of Transport}{subsection.2.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.6}{The Local Transport Tickets : Recommendation and Purchasing}{subsection.2.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.2.7}{Trip Management}{subsection.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.3}{User Characteristics}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.4}{Domanin Properties}{section.2}% 21
+\BOOKMARK [1][-]{section.3}{Specific Requirements}{}% 22
+\BOOKMARK [2][-]{subsection.3.1}{Proposed System}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.2}{External Interface Requirements}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.1}{User Interfaces}{subsection.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.3}{Functional Requirements}{section.3}% 26
+\BOOKMARK [1][-]{section.4}{Scenarios}{}% 27
+\BOOKMARK [2][-]{subsection.4.1}{Scenario 1}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.2}{Scenario 2}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.3}{Scenario 3}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.4}{Scenario 4}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.5}{Scenario 5}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.6}{Scenario 6}{section.4}% 33

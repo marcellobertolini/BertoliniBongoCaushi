@@ -1,0 +1,151 @@
+\vspace*{-5mm}
+\mysection{Specific Requirements}
+
+\mysubsection{Proposed System}
+
+\mysubsection{External Interface Requirements}
+
+\mysubsubsection{User Interfaces}
+The following mockups represent an idea of the interfaces that will be provided to the user.
+
+\mysubsection{Functional Requirements}
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{1}$] : Allow the user to register and log into the system}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The System has to check the credentials.
+	\item \lbrack R$_{2}$] : A registered user must be able to log in the system.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{2}$] : Allow the user to add events in the calendar}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system mustn’t allow events overlapping.
+	\item \lbrack R$_{2}$] : The system has to guarantee the minimum lunch duration.
+	\item \lbrack R$_{3}$] : The system has to give the possibility to the user of arriving on time to the new event.
+	\item \lbrack R$_{4}$] : The system has to be able to add the new event to the calendar.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{3}$] : Allow user to receive the mobility options}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to check that the event has been created.
+	\item \lbrack R$_{2}$] : The system is able to communicate with the route provider.
+	\item \lbrack R$_{3}$] : The system sends data about the starting and ending location to the route provider.
+	\item \lbrack R$_{4}$] : The system receives the path and the available transport from the external service.
+	\item \lbrack R$_{5}$] : The system has to use the information given in the event’s TAG to filter the possible means of transport.
+	\item \lbrack R$_{6}$] : The system has to check the travel means enabled by the user.
+	\item \lbrack R$_{7}$] : The system has to obey the constraints set by the user about the travel means.
+	\item \lbrack R$_{8}$] : The system has to check if the Carbon footprint preference has been enabled.
+	\item \lbrack R$_{9}$] : The system has to retrieve user position.
+	\item \lbrack R$_{10}$] : The system has to check the weather forecast.
+	\item \lbrack R$_{11}$] : The system has to retrieve the appointment location.
+	\item \lbrack R$_{12}$] : The system has to know how to show the solution found.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{4}$] : Support the user to avoid getting late on appointment}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to retrieve the user GPS position.
+	\item \lbrack R$_{2}$] : The system has to know how to send warnings to the user.
+	\item \lbrack R$_{3}$] : The system has to check the destination position.
+	\item \lbrack R$_{4}$] : The system has to check the possibility of reaching on time the next event with the slowest mean of transport in the list of suggested ones.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{5}$] : Allow the user to have advices about the means of transport that can minimize his carbon footprint}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system must be able to check the carbon footprint preference.
+	\item \lbrack R$_{2}$] : The system must know how to filter the means of transport to minimize their carbon footprint.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{6}$] : Support the user to have at least 30 minutes of lunch every day}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system must be able to check the lunch preferences.
+	\item \lbrack R$_{2}$] : The system must be able to create every day a lunch based on the user preferences.
+	\item \lbrack R$_{3}$] : The system must be able to avoid the creation of those events that prevent the presence of a lunch with the minimum duration.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{7}$] : Allow the user to buy local transport ticket}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to check that all the necessary travel info have been inserted by the user.
+	\item \lbrack R$_{2}$] : The system has to address the user to the web site/application to complete the ticket purchase.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{8}$] : Give advice about the best public transportation ticket to buy}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to know how much time the user will stay in town.
+	\item \lbrack R$_{2}$] : The system has to be able to get information about tickets from the public transport service.
+	\item \lbrack R$_{3}$] : The system has to be able to interpret and elaborate the information received.
+	\item \lbrack R$_{4}$] : The system has to find the most convenient ticket.
+	\item \lbrack R$_{5}$] : The system has to be able to show the results.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{9}$] : Remember the user about the expiry date of his season ticket, if he has inserted one}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to check the season ticket’s expiry date.
+	\item \lbrack R$_{2}$] : The system has to be able to notify the user that his season ticket is expiring.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{10}$] : Allow the user to buy ticket for outdoor travels}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system must check the data inserted by the user to buy the ticket.
+	\item \lbrack R$_{2}$] : The system must be able to send the data to the external transport service.
+	\item \lbrack R$_{3}$] : The system has to be able to interpret and elaborate the information received.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{11}$] : Allow user to use local sharing services}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to retrieve the sharing means’ location.
+	\item \lbrack R$_{2}$] : The system has to check the user location.
+	\item \lbrack R$_{3}$] : The system has to be able to show the sharing mean position to user.
+	\item \lbrack R$_{4}$] : The system has to be able to redirect the user to the external sharing service system for booking the mean.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{12}$] : Allow the user to set the preferences in the settings section}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system must be able to show the user the possible preferences.
+	\item \lbrack R$_{2}$] : The system has to register these preferences in its database.
+	\item \lbrack R$_{3}$] : The system has to have access to these preferences each time is needed.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent
+\emph{\textbf{[G$_{13}$] : Allow the user to handle his trips}}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack R$_{1}$] : The system has to be able to create Travel events.
+	\item \lbrack R$_{2}$] : The system has to be able to show the list trips created.
+	\item \lbrack R$_{3}$] : The system has to be able to let the user modify the trips when needed.
+	\item \lbrack R$_{4}$] : The system has to be able to check the trip’s data.
+\end{itemize}
