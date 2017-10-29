@@ -33,3 +33,10 @@
 \BOOKMARK [2][-]{subsection.4.4}{Scenario 4}{section.4}% 33
 \BOOKMARK [2][-]{subsection.4.5}{Scenario 5}{section.4}% 34
 \BOOKMARK [2][-]{subsection.4.6}{Scenario 6}{section.4}% 35
+\BOOKMARK [1][-]{section.5}{Sequence Diagrams}{}% 36
+\BOOKMARK [2][-]{subsection.5.1}{Event Creation}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.2}{Trip Transport Ticket Purchasing}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.3}{Local Transport Ticket Purchasing}{section.5}% 39
+\BOOKMARK [1][-]{section.6}{Activity Diagrams}{}% 40
+\BOOKMARK [2][-]{subsection.6.1}{Event Route Computation}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.2}{Trip Creation}{section.6}% 42

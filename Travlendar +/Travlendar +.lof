@@ -1,16 +1,21 @@
 \select@language {english}
-\contentsline {figure}{\numberline {1}{\ignorespaces Class Diagram}}{7}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces General Use Case}}{8}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Set Preferences Use Case}}{9}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Add Event Use Case}}{10}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Advice Mean, Sharing and Ticket Purchase Use Case}}{10}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Trip Management and Ticket Purchase Use Case}}{11}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Proposed System}}{14}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Login Sketch}}{14}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces User Profile Sketch}}{15}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Event Creation Sketch}}{15}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Trip Sketch}}{16}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Plan Trip and Trips Sketch}}{16}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Tag Sketch}}{17}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Event View Sketch}}{17}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Directions Sketch}}{18}{figure.15}
+\contentsline {figure}{\numberline {1}{\ignorespaces Class Diagram}}{8}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces General Use Case}}{9}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Set Preferences Use Case}}{10}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Add Event Use Case}}{11}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Advice Mean, Sharing and Ticket Purchase Use Case}}{11}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Trip Management and Ticket Purchase Use Case}}{12}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Proposed System}}{15}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Login Sketch}}{15}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces User Profile Sketch}}{16}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Event Creation Sketch}}{16}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Trip Sketch}}{17}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Plan Trip and Trips Sketch}}{17}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Tag Sketch}}{18}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Event View Sketch}}{18}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Directions Sketch}}{19}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Event Creation Sequence Diagram}}{27}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Trip Transport Ticket Purchasing Sequence Diagram}}{28}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Local Transport Ticket Purchasing Sequence Diagram}}{29}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Event Route Computation Activity Diagram}}{30}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Trip Creation Activity Diagram}}{31}{figure.20}
