@@ -224,3 +224,49 @@ The following mockups represent an idea of the interfaces that will be provided 
 	\item \lbrack R$_{3}$] : The system has to be able to let the user modify the trips when needed.
 	\item \lbrack R$_{4}$] : The system has to be able to check the trip’s data.
 \end{itemize}
+
+\mysubsection{Design Constraints}
+\vspace{0.5cm}
+\textbf{Regulatory Policies}
+\vspace{0.5cm}\par
+The system has to ask the users' permission to retrieve and use their positions. Telephone numbers and email addresses won't be used for commercial purposes but just for identify and support them when needed.
+\vspace{0.5cm}\\
+\indent \textbf{Hardware Limitations}
+\vspace{0.2cm}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item Mobile App
+		\begin{itemize}
+			\setlength{\leftskip}{1cm}
+			\item iOS or Android Smartphone
+			\item 3G/4G Connection
+			\item GPS
+		\end{itemize}
+	\item Web App
+		\begin{itemize}
+			\setlength{\leftskip}{1cm}
+			\item Modern Browser able to retrieve user's location
+		\end{itemize}
+\end{itemize}
+
+\mysubsection{Non-Functional Requirements}
+\vspace{0.5cm}
+\textbf{Performance}\par
+\vspace{0.2cm}
+The system has to be able to respond to a great number of simultaneously users’ requests in order give the best route in the shortest time possible. In order to obtain the best performances, the computation will be provided by an external service.
+\vspace{0.5cm}\\
+\indent \textbf{Reliability}
+\vspace{0.2cm}\par
+The system must guarantee a 24/7 service. The information must be stored in a cloud database in order to be always available to the user when required.
+\vspace{0.5cm}\\
+\indent \textbf{Scalability}
+\vspace{0.2cm}\par
+Due to the continuous enlargement of the sharing companies and new ways to travel, the system has to guarantee a high level of scalability to be maintained updated.
+\vspace{0.5cm}\\
+\indent \textbf{Security}
+\vspace{0.2cm}\par
+The data must be encrypted based on the user’s password and a personal security key provided to the user during the account creation. In this way the information will be always available to the user and hided by the ones who don’t have the required permissions.
+\vspace{0.5cm}\\
+\indent \textbf{Accuracy}
+\vspace{0.2cm}\par
+The accuracy of the information provided, such as the sharing positions and the route provided by the system must be as best as possible.
