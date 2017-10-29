@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  29 OCT 2017 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  29 OCT 2017 13:58
 entering extended mode
 **"./Travlendar +.tex"
 ("Travlendar +.tex"
@@ -896,8 +896,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip61
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count118
+\lst@gtempboxa=\box38
+\lst@token=\toks28
+\lst@length=\count119
+\lst@currlwidth=\dimen138
+\lst@column=\count120
+\lst@pos=\count121
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count122
+\lst@lineno=\count123
+\lst@maxwidth=\dimen141
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
+\lst@framebox=\box39
 )
-("Travlendar +.aux")
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+)
+(alloy-style.sty) ("Travlendar +.aux")
 \openout1 = `"Travlendar +.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -914,7 +939,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -961,17 +987,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen138
-\scratchbox=\box38
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen139
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count126
+\scratchdimen=\dimen142
+\scratchbox=\box40
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen143
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -985,7 +1011,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box39
+\AtBeginShipoutBox=\box41
 Package hyperref Info: Link coloring ON on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -994,7 +1020,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count132
 )
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -1004,8 +1030,9 @@ LaTeX Info: Redefining \nameref on input line 3.
 \@outlinefile=\write3
 \openout3 = `"Travlendar +.out"'.
 
+\c@lstlisting=\count133
 
-<Images/Polimi_Logo.png, id=171, 405.515pt x 125.46875pt>
+<Images/Polimi_Logo.png, id=199, 405.515pt x 125.46875pt>
 File: Images/Polimi_Logo.png Graphic file (type png)
 
 <use Images/Polimi_Logo.png>
@@ -1050,33 +1077,32 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write4
-\openout4 = `"Travlendar +.toc"'.
-
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 44.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 	\newpage
-               [1] [2] ("Travlendar +.lof")
+l.44 ...tion}{\numberline {7}Alloy}{32}{section.7}
+                                                   [1])
+\tf@toc=\write4
+\openout4 = `"Travlendar +.toc"'.
+
+ [2] ("Travlendar +.lof")
 \tf@lof=\write5
 \openout5 = `"Travlendar +.lof"'.
 
  [3]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (Files/1_Introduction.tex
@@ -1478,7 +1504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 o complete the
  []
 
-<Images/Class_Diagram.jpg, id=305, 1550.79375pt x 906.38625pt>
+<Images/Class_Diagram.jpg, id=350, 1550.79375pt x 906.38625pt>
 File: Images/Class_Diagram.jpg Graphic file (type jpg)
 
 <use Images/Class_Diagram.jpg>
@@ -1514,7 +1540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 Trenitalia and
  []
 
-<Images/Use_Case/General_Use_Case.png, id=306, 1119.18124pt x 1787.67876pt>
+<Images/Use_Case/General_Use_Case.png, id=351, 1119.18124pt x 1787.67876pt>
 File: Images/Use_Case/General_Use_Case.png Graphic file (type png)
 
 <use Images/Use_Case/General_Use_Case.png>
@@ -1545,7 +1571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 ble to sign-in
  []
 
-<Images/Use_Case/Set_Preferences.png, id=312, 1107.13625pt x 674.52pt>
+<Images/Use_Case/Set_Preferences.png, id=357, 1107.13625pt x 674.52pt>
 File: Images/Use_Case/Set_Preferences.png Graphic file (type png)
 
 <use Images/Use_Case/Set_Preferences.png>
@@ -1660,7 +1686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 f not, it will
  []
 
-<Images/Use_Case/Add_Event.png, id=323, 942.52126pt x 383.4325pt>
+<Images/Use_Case/Add_Event.png, id=368, 942.52126pt x 383.4325pt>
 File: Images/Use_Case/Add_Event.png Graphic file (type png)
 
 <use Images/Use_Case/Add_Event.png>
@@ -1696,7 +1722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
 ed, the new
  []
 
-<Images/Use_Case/Advice_Mean.png, id=324, 1181.41376pt x 323.2075pt>
+<Images/Use_Case/Advice_Mean.png, id=369, 1181.41376pt x 323.2075pt>
 File: Images/Use_Case/Advice_Mean.png Graphic file (type png)
 
 <use Images/Use_Case/Advice_Mean.png>
@@ -1799,7 +1825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 fter being
  []
 
-<Images/Use_Case/Trip.png, id=331, 1119.18124pt x 836.12375pt>
+<Images/Use_Case/Trip.png, id=376, 1119.18124pt x 836.12375pt>
 File: Images/Use_Case/Trip.png Graphic file (type png)
 
 <use Images/Use_Case/Trip.png>
@@ -1931,7 +1957,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
  []
 
 ) [14] (Files/3_Specific_Requirements.tex
-<Images/Proposed_System.png, id=367, 722.7pt x 542.025pt>
+<Images/Proposed_System.png, id=412, 722.7pt x 542.025pt>
 File: Images/Proposed_System.png Graphic file (type png)
 
 <use Images/Proposed_System.png>
@@ -1945,14 +1971,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 17.
-<Images/Sketch/Login.png, id=368, 376.2858pt x 669.2202pt>
+<Images/Sketch/Login.png, id=413, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Login.png Graphic file (type png)
 
 <use Images/Sketch/Login.png>
 Package pdftex.def Info: Images/Sketch/Login.png used on input line 20.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
  [15 <./Images/Proposed_System.png> <./Images/Sketch/Login.png>]
-<Images/Sketch/User_Profile.png, id=376, 376.2858pt x 669.2202pt>
+<Images/Sketch/User_Profile.png, id=421, 376.2858pt x 669.2202pt>
 File: Images/Sketch/User_Profile.png Graphic file (type png)
 
 <use Images/Sketch/User_Profile.png>
@@ -1994,7 +2020,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--32
 l warn
  []
 
-<Images/Sketch/Event_Creation_1.png, id=377, 376.2858pt x 669.2202pt>
+<Images/Sketch/Event_Creation_1.png, id=422, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_1.png Graphic file (type png)
 
 <use Images/Sketch/Event_Creation_1.png>
@@ -2002,7 +2028,7 @@ Package pdftex.def Info: Images/Sketch/Event_Creation_1.png used on input line
 38.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Event_Creation_2.png, id=378, 376.2858pt x 669.2202pt>
+<Images/Sketch/Event_Creation_2.png, id=423, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_2.png Graphic file (type png)
 
 <use Images/Sketch/Event_Creation_2.png>
@@ -2010,7 +2036,7 @@ Package pdftex.def Info: Images/Sketch/Event_Creation_2.png used on input line
 40.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Event_Creation_3.png, id=379, 376.2858pt x 669.2202pt>
+<Images/Sketch/Event_Creation_3.png, id=424, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_3.png Graphic file (type png)
 
 <use Images/Sketch/Event_Creation_3.png>
@@ -2029,21 +2055,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--44
 eans
  []
 
-<Images/Sketch/Trip_1.png, id=380, 376.2858pt x 669.2202pt>
+<Images/Sketch/Trip_1.png, id=425, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_1.png Graphic file (type png)
 
 <use Images/Sketch/Trip_1.png>
 Package pdftex.def Info: Images/Sketch/Trip_1.png used on input line 49.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Trip_2.png, id=381, 376.2858pt x 669.2202pt>
+<Images/Sketch/Trip_2.png, id=426, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_2.png Graphic file (type png)
 
 <use Images/Sketch/Trip_2.png>
 Package pdftex.def Info: Images/Sketch/Trip_2.png used on input line 51.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Trip_3.png, id=382, 376.2858pt x 669.2202pt>
+<Images/Sketch/Trip_3.png, id=427, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_3.png Graphic file (type png)
 
 <use Images/Sketch/Trip_3.png>
@@ -2069,14 +2095,14 @@ k the
 
 [16 <./Images/Sketch/User_Profile.png> <./Images/Sketch/Event_Creation_1.png> <
 ./Images/Sketch/Event_Creation_2.png> <./Images/Sketch/Event_Creation_3.png>]
-<Images/Sketch/Plan_Trip_1.png, id=393, 376.2858pt x 669.2202pt>
+<Images/Sketch/Plan_Trip_1.png, id=438, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Plan_Trip_1.png Graphic file (type png)
 
 <use Images/Sketch/Plan_Trip_1.png>
 Package pdftex.def Info: Images/Sketch/Plan_Trip_1.png used on input line 59.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Plan_Trip_2.png, id=394, 376.2858pt x 669.2202pt>
+<Images/Sketch/Plan_Trip_2.png, id=439, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Plan_Trip_2.png Graphic file (type png)
 
 <use Images/Sketch/Plan_Trip_2.png>
@@ -2096,7 +2122,7 @@ way he
 
 [17 <./Images/Sketch/Trip_1.png> <./Images/Sketch/Trip_2.png> <./Images/Sketch/
 Trip_3.png> <./Images/Sketch/Plan_Trip_1.png> <./Images/Sketch/Plan_Trip_2.png>
-] <Images/Sketch/Tag.png, id=404, 376.2858pt x 669.2202pt>
+] <Images/Sketch/Tag.png, id=449, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Tag.png Graphic file (type png)
 
 <use Images/Sketch/Tag.png>
@@ -2120,14 +2146,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--72
 by the
  []
 
-<Images/Sketch/Event_View_1.png, id=405, 376.2858pt x 669.2202pt>
+<Images/Sketch/Event_View_1.png, id=450, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_View_1.png Graphic file (type png)
 
 <use Images/Sketch/Event_View_1.png>
 Package pdftex.def Info: Images/Sketch/Event_View_1.png used on input line 78.
 (pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
 
-<Images/Sketch/Event_View_2.png, id=406, 376.2858pt x 669.2202pt>
+<Images/Sketch/Event_View_2.png, id=451, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_View_2.png Graphic file (type png)
 
 <use Images/Sketch/Event_View_2.png>
@@ -2159,7 +2185,7 @@ eck the
 
 [18 <./Images/Sketch/Tag.png> <./Images/Sketch/Event_View_1.png> <./Images/Sket
 ch/Event_View_2.png>]
-<Images/Sketch/Directions.png, id=417, 376.2858pt x 669.2202pt>
+<Images/Sketch/Directions.png, id=462, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Directions.png Graphic file (type png)
 
 <use Images/Sketch/Directions.png>
@@ -2905,7 +2931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 fastest route to
  []
 
-[26] <Images/Sequence/Event_Creation.png, id=454, 954.56625pt x 1382.16376pt>
+[26] <Images/Sequence/Event_Creation.png, id=499, 954.56625pt x 1382.16376pt>
 File: Images/Sequence/Event_Creation.png Graphic file (type png)
 
 <use Images/Sequence/Event_Creation.png>
@@ -2913,7 +2939,7 @@ Package pdftex.def Info: Images/Sequence/Event_Creation.png used on input line
 36.
 (pdftex.def)             Requested size: 286.37209pt x 414.65233pt.
 
-<Images/Sequence/Trip_Transport_Ticket_Purchasing.png, id=455, 1516.66624pt x 2
+<Images/Sequence/Trip_Transport_Ticket_Purchasing.png, id=500, 1516.66624pt x 2
 441.12pt>
 File: Images/Sequence/Trip_Transport_Ticket_Purchasing.png Graphic file (type p
 ng)
@@ -2922,7 +2948,7 @@ Package pdftex.def Info: Images/Sequence/Trip_Transport_Ticket_Purchasing.png u
 sed on input line 43.
 (pdftex.def)             Requested size: 348.8259pt x 561.4458pt.
  [27 <./Images/Sequence/Event_Creation.png>]
-<Images/Sequence/Local_Transport_Ticket_Purchasing.png, id=461, 1202.4925pt x 1
+<Images/Sequence/Local_Transport_Ticket_Purchasing.png, id=506, 1202.4925pt x 1
 246.6575pt>
 File: Images/Sequence/Local_Transport_Ticket_Purchasing.png Graphic file (type 
 png)
@@ -2933,14 +2959,14 @@ used on input line 50.
 
 [28 <./Images/Sequence/Trip_Transport_Ticket_Purchasing.png>] [29 <./Images/Seq
 uence/Local_Transport_Ticket_Purchasing.png>]
-<Images/Activity/Event_Route_Computation.png, id=472, 611.28375pt x 768.8725pt>
+<Images/Activity/Event_Route_Computation.png, id=517, 611.28375pt x 768.8725pt>
 File: Images/Activity/Event_Route_Computation.png Graphic file (type png)
 <use Images/Activity/Event_Route_Computation.png>
 Package pdftex.def Info: Images/Activity/Event_Route_Computation.png used on in
 put line 59.
 (pdftex.def)             Requested size: 244.50917pt x 307.54355pt.
 
-<Images/Activity/Trip_Creation.png, id=473, 702.625pt x 1529.715pt>
+<Images/Activity/Trip_Creation.png, id=518, 702.625pt x 1529.715pt>
 File: Images/Activity/Trip_Creation.png Graphic file (type png)
 
 <use Images/Activity/Trip_Creation.png>
@@ -2948,39 +2974,101 @@ Package pdftex.def Info: Images/Activity/Trip_Creation.png used on input line 6
 6.
 (pdftex.def)             Requested size: 245.92242pt x 535.40828pt.
 ) [30 <./Images/Activity/Event_Route_Computation.png>] [31 <./Images/Activity/T
-rip_Creation.png>] (Files/5_Alloy.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+rip_Creation.png>] (Files/5_Alloy.tex
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 3.
+
+(Files/Alloy/Alloy_Travlendar.als
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 1.
+ [32] [33] [34] [35] [36] [37]) [38]
+<Images/Alloy/Run.png, id=1003, 1058.95625pt x 730.73pt>
+File: Images/Alloy/Run.png Graphic file (type png)
+
+<use Images/Alloy/Run.png>
+Package pdftex.def Info: Images/Alloy/Run.png used on input line 9.
+(pdftex.def)             Requested size: 370.64024pt x 255.75932pt.
+
+<Images/Alloy/Check.png, id=1004, 1112.155pt x 461.725pt>
+File: Images/Alloy/Check.png Graphic file (type png)
+
+<use Images/Alloy/Check.png>
+Package pdftex.def Info: Images/Alloy/Check.png used on input line 14.
+(pdftex.def)             Requested size: 389.26009pt x 161.60617pt.
+ [39 <./Images/Alloy/Run.png> <./Images/Alloy/Check.png>] <Images/Alloy/Show.pn
+g, id=1011, 1344.02126pt x 632.3625pt>
+File: Images/Alloy/Show.png Graphic file (type png)
+
+<use Images/Alloy/Show.png>
+Package pdftex.def Info: Images/Alloy/Show.png used on input line 22.
+(pdftex.def)             Requested size: 470.41449pt x 221.33018pt.
+
+Overfull \hbox (15.17038pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
+<Images/Alloy/Add_Event.png, id=1012, 1315.91624pt x 614.295pt>
+File: Images/Alloy/Add_Event.png Graphic file (type png)
+
+<use Images/Alloy/Add_Event.png>
+Package pdftex.def Info: Images/Alloy/Add_Event.png used on input line 29.
+(pdftex.def)             Requested size: 460.57759pt x 215.00647pt.
+
+Overfull \hbox (5.33348pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+[40 <./Images/Alloy/Show.png> <./Images/Alloy/Add_Event.png>]
+<Images/Alloy/Add_Trip.png, id=1019, 1307.88625pt x 624.3325pt>
+File: Images/Alloy/Add_Trip.png Graphic file (type png)
+
+<use Images/Alloy/Add_Trip.png>
+Package pdftex.def Info: Images/Alloy/Add_Trip.png used on input line 37.
+(pdftex.def)             Requested size: 457.76704pt x 218.51964pt.
+
+Overfull \hbox (2.52293pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+) [41 <./Images/Alloy/Add_Trip.png>] (Files/6_Final_Part.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
 ("Travlendar +.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `"Travlendar +".out' has not changed.
-(rerunfilecheck)             Checksum: C6AD800A6F572303F32E9039730BECFB;2911.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+(rerunfilecheck)             Checksum: 965E67BC0CA3D04D8CE53022DAAB3D1B;3316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 9753 strings out of 493323
- 140631 string characters out of 3139053
- 244200 words of memory out of 3000000
- 12923 multiletter control sequences out of 15000+200000
- 54401 words of font info for 49 fonts, out of 3000000 for 9000
+ 12118 strings out of 493323
+ 173046 string characters out of 3139053
+ 463324 words of memory out of 3000000
+ 14788 multiletter control sequences out of 15000+200000
+ 62350 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,43p,1182b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
+ 43i,12n,43p,1182b,1989s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.en
-c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmtko10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on "Travlendar +.pdf" (32 pages, 4749792 bytes).
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmtti10.pfb>
+Output written on "Travlendar +.pdf" (43 pages, 5581309 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 472 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 593 named destinations out of 1000 (max. 500000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
