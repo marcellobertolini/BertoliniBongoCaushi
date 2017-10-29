@@ -48,3 +48,7 @@
 \contentsline {subsection}{\numberline {7.4}Alloy Add Event}{40}{subsection.7.4}
 \contentsline {subsection}{\numberline {7.5}Alloy Add Trip}{41}{subsection.7.5}
 \contentsline {section}{\numberline {8}Programs Used}{42}{section.8}
+\contentsline {section}{\numberline {9}Effort Spent}{42}{section.9}
+\contentsline {subsection}{\numberline {9.1}Kostandin Caushi}{42}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Marcello Bertolini}{43}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Raffaele Bongo}{43}{subsection.9.3}
