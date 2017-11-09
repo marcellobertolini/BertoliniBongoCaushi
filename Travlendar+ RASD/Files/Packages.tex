@@ -1,0 +1,79 @@
+\documentclass [11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{textcomp}
+\usepackage{lmodern}
+
+% Text Indentation
+\usepackage{indentfirst}
+\setlength{\parindent}{1cm}
+
+% Section, Subsection & Subsubsection Indentation
+\newcommand{\mysection}[1]{
+	\setlength{\leftskip}{0cm}
+	\section{#1}}
+\newcommand{\mysubsection}[1]{
+	\setlength{\leftskip}{0.5cm}
+	\subsection{#1}}
+\newcommand{\mysubsubsection}[1]{
+	\setlength{\leftskip}{1cm}
+	\subsubsection{#1}}
+
+% Defined header and footer style
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{%
+	\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+%\lhead{\color{Gray}{\small{Travlendar+ : Manage your Day !}}}
+\lfoot{\textcolor{Gray}{\small{Copyright © 2017 Kostandin Caushi, Marcello Bertolini, Raffaele Bongo – All rights reserved}}}
+%\rfoot{\textcolor{Gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\fancyhfoffset[lf]{0mm}
+
+% Page margins, header and footer positions
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={210mm,297mm},
+	left=25mm,
+	right=25mm,
+	top=40mm,
+	bottom=25mm,
+	headsep=10mm
+	}
+
+\interfootnotelinepenalty=10000
+
+% Tables
+\usepackage{tabu}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\usepackage{longtable}
+\usepackage{float} % To allow the use of H modifier in long tables
+
+% Graphics
+\usepackage{graphicx}
+\usepackage[dvipsnames, table]{xcolor}
+
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage[pdftex, colorlinks]{hyperref}
+\hypersetup{%
+	colorlinks = true,
+	linkcolor  = black,
+	pdfauthor  = {Kostandin Caushi, Marcello Bertolini, Raffaele Bongo},
+	pdftitle   = {Travlendar+}
+}
+\newcommand{\comment}[1]{{\color{Blue}$\blacktriangleright$ Comment: #1 $\blacktriangleleft$}}
+
+% Alloy
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+\usepackage{alloy-style}

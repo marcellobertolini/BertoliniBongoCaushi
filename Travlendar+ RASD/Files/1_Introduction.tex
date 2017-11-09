@@ -1,0 +1,102 @@
+\vspace*{-5mm}
+\mysection{Introduction}
+
+\mysubsection{Purpose}
+This document represents the Requirement Analysis and Specification Document (RASD).
+All the goals of the application, the functional and non-functional requirements for achieving them are here reported.\par
+There are also the use cases of the system and various scenarios that represent the examples of a real life system’s utilization.
+This document is addressed to the developers who have to implement the application’s requirements and it also could be used as a contractual basis.
+
+\mysubsection{Scope}
+The system that we will expose in this paper is called Travlendar+. 
+Travlendar+ is a calendar-based application that has the aim of managing the many meetings, events and appointments that a user has to deal with every day.\par
+After the registration and the login, the system will let the user create events in his personal calendar, checking if he is able to reach them on time and supporting his choices about the way of reaching the location. In fact, the user will be able to insert customizable settings which will allow the system to give him back precise advices about the means of transport, including taxis and sharing services means, to use.\par
+Travlendar+ will also give the user the possibility to buy tickets of a town’s public and private means of transport and it will also allow him to manage his travels to reach other cities, creating specific travel events in the calendar section.
+The system will offer other additional features :
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item The possibility to register the season ticket for the public transport. Travlendar+ will notify the user when the expiry date is near.
+	\item The possibility to set the starting time, ending time and the preferred duration of every day lunch. The system will guarantee to reserve at least 30 minutes for this purpose.
+	\item In case of outdoor trips, the user will be able to insert the period he will spend out of town and the system will suggest him the most convenient transport tickets available, keeping in mind the information given.
+	\item The possibility of setting the anticipation time for reaching the various events. The system will warn the user when he needs to leave in order to arrive on time.
+\end{itemize}
+
+\newpage
+\mysubsection{Definitions}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \emph{\textbf{System : }}the software and hardware components that characterize Travlendar’s environment.
+	\item \emph{\textbf{Outdoor : }}a different location from the user’s residence town.
+	\item \emph{\textbf{Outdoor Transport Service : }}the services dedicated to the transport between different towns.
+	\item \emph{\textbf{Local Public Transport Service : }}the services dedicated to the transport within a town.
+	\item \emph{\textbf{Event : }}a generic word used for speaking about appointments, meetings, etc. added to the calendar.
+	\item \emph{\textbf{Event Path : }}a part of an event solution that the user can perform with a specific mean of transport.
+	\item \emph{\textbf{Event Solution : }}a set of event path that allow the user to reach the event location.
+	\item \emph{\textbf{Warning : }}the method used by the system to warn the user about something.
+	\item \emph{\textbf{Best means of transport options : }}the best transport found by the system according to the user’s preferences.
+	\item \emph{\textbf{Preferences : }}a set of options which modify the behaviour of the system when computing the routes.
+	\item \emph{\textbf{Sharing Means : }}bike or car sharing.
+	\item \emph{\textbf{User : }}the person who has performed a registration and is logged in the system.
+	\item \emph{\textbf{Anticipation Time : }}it specifies how much time before the beginning of the event the user wants to arrive with.
+	\item \emph{\textbf{TAG : }}it’s a collection of information, created by the user, which can be associated to an event and contains the preferred means of transport and anticipation time to use.
+	\item \emph{\textbf{Residence : }}the user’s home address.
+	\item \emph{\textbf{Accommodation : }}the user’s occasional accommodation address located in a town different from the one reported in his profile.
+	\item \emph{\textbf{Trip : }}a set of information about the journey that the user has organized.
+	\item \emph{\textbf{Travel event : }}an event that contains all the information about the travel between two different towns such as the start time, end time and the mean of transport involved.
+\end{itemize}
+
+\mysubsection{Acronyms}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \emph{RASD : }Requirement Analysis and Specification Document
+	\item \emph{API : }Application Programming Interface
+\end{itemize}
+
+\mysubsection{Abbreviations}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack Gn] : Goal n
+	\item \lbrack Rn] : Requirement n
+	\item \lbrack Dn] : Domain n
+\end{itemize}
+
+\mysubsection{Goals}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item \lbrack G$_{1}$] Allow the user to register and to log into the system.
+	\item \lbrack G$_{2}$] Allow user to add events in the calendar.
+	\item \lbrack G$_{3}$] Allow the user to receive the mobility options.
+	\item \lbrack G$_{4}$] Support the user to avoid getting late on appointment.
+	\item \lbrack G$_{5}$] Allow the user to have advices about the means of transport that can minimize his carbon footprint.
+	\item \lbrack G$_{6}$] Support the user to have at least 30 minutes of lunch every day.
+	\item \lbrack G$_{7}$] Allow the user to buy local public transport tickets.
+	\item \lbrack G$_{8}$] Give advices about the best transport tickets to buy.
+	\item \lbrack G$_{9}$] Remind the user about the expiry date of his season ticket, if he has inserted one.
+	\item \lbrack G$_{10}$] Allow the user to buy tickets for outdoor travels.
+	\item \lbrack G$_{11}$] Allow the user to use local sharing services.
+	\item \lbrack G$_{12}$] Allow the user to set some preferences in the settings section.
+	\item \lbrack G$_{13}$] Allow the user to handle his trips.
+\end{itemize}
+
+\mysubsection{Reference Documents}
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item Mandatory Project Assignments.pdf
+	\item Requirement+Engineering+Part+III.pdf
+	\item IEEE standard on requirement engineering.pdf
+	\item Paper by Jackson and Zave on the word and the machine.pdf
+	\item Software Abstractions -Logic Language and Analysis.\\
+	Author: Daniel Jackson
+\end{itemize}
+
+\mysubsection{Document Structure}
+This paper is composed by 5 chapters :
+\begin{enumerate}
+	\setlength{\leftskip}{0.5cm}
+	\item The first chapter is constituted by an introduction of the system, his application domain, his goals and a glossary containing the most common expression used in order to give to the reader a basic knowledge of the system and to make him understand better the subsequent parts.
+	\item The second part consists of an overall description of the system and the main functionalities, which are listed and described. It also describes the relation of the system with the external services and how they interact. The constraints, that have to be respected in order to use the system properly, are also explained.
+	Moreover, a classification of the system’s actors and the domain properties are given to the reader.
+	\item The third part is composed by the specific requirements identified, both functional and non-functional, some mockups showing the most important features and how the user will be able to interact with the system are also included.
+	\item The fourth part is composed by 6 scenarios describing how the system will work and how it will perform his functionalities.
+	\item The fifth and final part is composed entirely by Alloy code and some snapshots of the world generated with the related tool.
+\end{enumerate}
