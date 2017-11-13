@@ -2,10 +2,23 @@
 \mysection{Introduction}
 
 \mysubsection{Purpose}
-% INSERT TEXT HERE
+This document has the aim of entering into the detail of Travlendar+ system. 
+We will show the software architecture that we have designed for our system with different levels of abstraction, analyzing deeply the main components. 
+Additionally we will exhibit a runtime view of the system, showing as the various components will interact between themself specifying architectural and design pattern used.
+Finally we will present the critical algorithm implemented, a requirement - software componets correspondency and an high level plan about implementig and integrating the various components.
 
 \mysubsection{Scope}
-% INSERT TEXT HERE
+Travlendar+ is a calendar-based application that has the aim of managing the many meetings, events and appointments that a user has to deal with every day.\par
+The system will let the user create events in his personal calendar, checking if he is able to reach them on time and supporting his choices about the way of reaching the location. \par
+Travlendar+ will also give the user the possibility to buy tickets of a town’s public and private means of transport and it will also allow him to manage his travels to reach other cities, creating specific travel events in the calendar section.
+The system will offer other additional features :
+\begin{itemize}
+	\setlength{\leftskip}{0.5cm}
+	\item The possibility to register the season ticket for the public transport. Travlendar+ will notify the user when the expiry date is near.
+	\item The possibility to set the starting time, ending time and the preferred duration of every day lunch. The system will guarantee to reserve at least 30 minutes for this purpose.
+	\item In case of outdoor trips, the user will be able to insert the period he will spend out of town and the system will suggest him the most convenient transport tickets available, keeping in mind the information given.
+	\item The possibility of setting the anticipation time for reaching the various events. The system will warn the user when he needs to leave in order to arrive on time.
+\end{itemize}
 
 \mysubsection{Definitions}
 % INSERT TEXT HERE
