@@ -6,3 +6,11 @@
 \BOOKMARK [2][-]{subsection.1.5}{Abbreviations}{section.1}% 6
 \BOOKMARK [2][-]{subsection.1.6}{Reference Documents}{section.1}% 7
 \BOOKMARK [2][-]{subsection.1.7}{Document Structure}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{Architectural Design}{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.2}{High Level Components and Their Interactions}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Component View}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Deployment View}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Runtime View}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.6}{Selected Architectural Styles and Patterns}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 16
