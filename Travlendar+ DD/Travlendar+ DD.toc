@@ -13,5 +13,5 @@
 \contentsline {subsection}{\numberline {2.3}Component View}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Deployment View}{5}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Runtime View}{5}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{5}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{5}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{6}{subsection.2.7}
