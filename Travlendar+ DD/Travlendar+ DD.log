@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.5)  20 NOV 2017 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.5)  21 NOV 2017 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,7 +901,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 \openout3 = `"Travlendar+ DD.out"'.
 
 
-<Images/Polimi_Logo.png, id=72, 405.515pt x 125.46875pt>
+<Images/Polimi_Logo.png, id=96, 405.515pt x 125.46875pt>
 File: Images/Polimi_Logo.png Graphic file (type png)
 
 <use Images/Polimi_Logo.png>
@@ -1148,7 +1148,7 @@ ver, that contains and manages
  []
 
 
-<Images/Architecture/Proposed_Architecture.png, id=122, 722.7pt x 458.46281pt>
+<Images/Architecture/Proposed_Architecture.png, id=152, 722.7pt x 458.46281pt>
 File: Images/Architecture/Proposed_Architecture.png Graphic file (type png)
 
 <use Images/Architecture/Proposed_Architecture.png>
@@ -1156,7 +1156,7 @@ Package pdftex.def Info: Images/Architecture/Proposed_Architecture.png used on
 input line 15.
 (pdftex.def)             Requested size: 289.07487pt x 183.38187pt.
 
-<Images/Architecture/Components_High_Level.png, id=123, 964.60374pt x 262.9825p
+<Images/Architecture/Components_High_Level.png, id=153, 964.60374pt x 262.9825p
 t>
 File: Images/Architecture/Components_High_Level.png Graphic file (type png)
  <use Images/Architecture/Components_High_Level.png>
@@ -1219,7 +1219,7 @@ sed to contain and manage all
  []
 
 
-<Images/Architecture/Components_View.png, id=131, 2361.82375pt x 1364.09625pt>
+<Images/Architecture/Components_View.png, id=162, 2361.82375pt x 1364.09625pt>
 File: Images/Architecture/Components_View.png Graphic file (type png)
 
 <use Images/Architecture/Components_View.png>
@@ -1232,597 +1232,903 @@ Overfull \hbox (17.11227pt too wide) in paragraph at lines 41--42
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
- []\T1/lmtt/m/n/10.95 Our system architecture proves to be a mix between three 
-well known
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+ \T1/lmtt/m/n/10.95 Our system architecture proves to be a mix between three we
+ll known
  []
 
 [5 <./Images/Architecture/Components_View.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []\T1/lmtt/m/n/10.95 The system is divided in three main layers: Presentation 
 Layer,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  []\T1/lmtt/m/n/10.95 The presentation layer is both a web-based application an
 d a mobile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  \T1/lmtt/m/n/10.95 application. For the web application we will have a very th
 in client with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  \T1/lmtt/m/n/10.95 the only aim of performing requests, through a web server, 
 to the Business
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  \T1/lmtt/m/n/10.95 layer and receiving the HTML pages with the demanded inform
 ation. On the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  \T1/lmtt/m/n/10.95 other hand, the mobile application will not require an inte
 rface with the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
  \T1/lmtt/m/n/10.95 web server because it will have all the logic for communica
 ting directly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
  []\T1/lmtt/m/n/10.95 The main server will contain all the logic of the system.
  The main
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
  \T1/lmtt/m/n/10.95 component of the logic will be the User manager. This compo
 nent will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
  \T1/lmtt/m/n/10.95 perform as the Main program in the Main program with subrou
 tines style: it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
  \T1/lmtt/m/n/10.95 will receive the requests from the clients and call the rig
 ht sub-component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []\T1/lmtt/m/n/10.95 Our system, being a calendar based application, will have
  the main
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 issue of managing a richly structured body of information. 
 In our case
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 these information will be persistently stored in multiple D
 ata Bases, each
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 one containing a precise schema with a precise kind of data
 , and they always
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 have to reflect the true state of affairs. For this reason 
 every client's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 requests that will implicate a changing data operation is p
 receded by a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
  \T1/lmtt/m/n/10.95 set of controls performed by defined control components des
 ignated to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []\T1/lmtt/m/n/10.95 if the requests will pass the check steps a special compo
 nent called
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  \T1/lmtt/m/n/10.95 Repository Manager is activated. This component will offer 
 function that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  \T1/lmtt/m/n/10.95 performs all the operation that change the DBs' state with 
 an high level
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  \T1/lmtt/m/n/10.95 of abstraction. In fact these methods will be constituted b
 y a composition
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  \T1/lmtt/m/n/10.95 of DBMS operation that accomplish the aim of the requests: 
 in this way the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
  \T1/lmtt/m/n/10.95 complexity of articulated DB operation is hidden to the cal
 ler and is very
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  []\T1/lmtt/m/n/10.95 An essential our system business, as said in the RASD, wi
 ll be to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 provide directions related to the precise travel means, sha
 ring means'
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 position and give tickets information about local and outdo
 or public
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 transport. All these information will not be stored in our 
 DBs, but they
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 will be retrieved with API REST requests to fitting externa
 l services. For
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 this goal we will use a SOA style. In our system we will ha
 ve a component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 called Transport manager that will be able to distinguish t
 he kind of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 request and demand the aim of submitting it to the right ex
 ternal service
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 to another precise component devoted to a certain type of e
 xternal services
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 connections. Once received the information, their manipulat
 ion will be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 performed internally to the business logic of the system. I
 n these way
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
  \T1/lmtt/m/n/10.95 we will have the possibility of adding new components for i
 ncoming kind of
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []\T1/lmtt/m/n/10.95 The last style exploited is the Event based Architectural
  style, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
  \T1/lmtt/m/n/10.95 it is used for the notification system always attending par
 ticular events
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
  \T1/lmtt/m/n/10.95 that, if happens, triggers the component that produce a not
 ification that is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []\T1/lmtt/m/it/10.95 MVC\T1/lmtt/m/n/10.95 : The Database server contains all 
 the software's data and constitutes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 \T1/lmtt/m/n/10.95 the model part. The presentation layer with the web-based ap
 plication and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 \T1/lmtt/m/n/10.95 the mobile application is the view that is released to the u
 ser. Finally
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\T1/lmtt/m/it/10.95 OBSERVER: \T1/lmtt/m/n/10.95 Our software has to be able 
 to, for instance, advising the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 user that he has to take a certain mean in a specific time f
 or arriving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 on time, or that the registered season ticket is expiring or
  also the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 possibility of a strike or a bad meteorological condition. A
 ll these
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 events have to be supported by a notification system.This ne
 eds will be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 implemented with this pattern. There will be a specific grou
 p of event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 listener, namely objects that extend a common abstract class
 . When a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 process that could generate a notification starts, one or mo
 re concrete
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 references of event listeners are got by the objects involve
 d into the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 process devoted to perform operations and eventually change 
 the variables,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 or a set of variables of interest. The system will have as m
 uch kind
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 of event listener as is necessary and they could be added fr
 eely for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 future expansion. When during such a process a variable of i
 nterest for a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/lmtt/m/n/10.95 listener is changed some checks are performed and, under som
 e particular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 []\T1/lmtt/m/it/10.95 STRATEGY: \T1/lmtt/m/n/10.95 The filters applied on the d
 ata for showing particular results
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 based on the user's choices, for example for advising the be
 st means
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 of transport for a destination, will be implemented with a s
 trategy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 pattern. The class the will put in order the results will ha
 ve an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 instance of an abstract class that will be implemented by so
 me concrete
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 class representing different ordering strategy. In this way 
 the system
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 will be able to adapt his strategy runtime and it will be ve
 ry simple to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/lmtt/m/n/10.95 add new strategy creating new classes that will implement th
 e abstract
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 []\T1/lmtt/m/it/10.95 COMPOSITE: \T1/lmtt/m/n/10.95 We will use this pattern in
  our system for performing in a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 cleaned and elegant way the various check that will have to 
 be apply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 on the user input. There will be a abstract class Checker th
 at will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 be extended by Composite checkers and Checkers. Each composi
 te checker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 contains one or more checkers and both implements the method
  check.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 The class that will have to manage a specific user input wil
 l have one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 or more composite checkers. When a method that have to proce
 ss the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 user input data for passing them to an external service or t
 o another
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 component that will insert such a data in a DB, the check me
 thod of all
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 the compiste checker in such a class will be called and each
  composite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 checkers will recursively call his checker's check method. I
 n this way
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 all the check will be applied and if something is wrong, the
  subsequent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 operation will not be executed and all the possible problems
  linked
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 with that will be avoided. Thanks to this pattern is possibl
 e to create
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 \T1/lmtt/m/n/10.95 new checkers/composite checkers very easily and deal with co
 mplex and
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 []\T1/lmtt/m/it/10.95 FAÇADE: \T1/lmtt/m/n/10.95 As guideline of our implementa
 tion, for all the complex operations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 \T1/lmtt/m/n/10.95 that will require multiple method's calls from different cla
 sses we will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 \T1/lmtt/m/n/10.95 use a façade pattern. In this way we will able to hide a com
 plex logic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 \T1/lmtt/m/n/10.95 operation within a single method's call. In this way we will
  simplify the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 []\T1/lmtt/m/n/10.95 A very delicate phase of our system is that one in which t
 he user input
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \T1/lmtt/m/n/10.95 is checked. This is so important because the most user's ope
 rations in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \T1/lmtt/m/n/10.95 Travlendar+ terminates writing data on the Data Bases and if
  the system letted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \T1/lmtt/m/n/10.95 wrong input to be written in the persistent memory, will ris
 e big problems of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 []\T1/lmtt/m/n/10.95 The operations that the user is allowed to do, work all wi
 th similar data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 \T1/lmtt/m/n/10.95 but the checks that have to be performed are different, some
 times very complex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 []\T1/lmtt/m/n/10.95 Moreover, giving a quick look on the rapid world's evoluti
 on, it sounds
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 \T1/lmtt/m/n/10.95 quite possible that new kinds of event and operations could 
 be implemented in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 \T1/lmtt/m/n/10.95 the system and so we needs that create a modular and scalabl
 e way of facing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 []\T1/lmtt/m/n/10.95 We will take on this problem using the composite pattern, 
 that has been
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 \T1/lmtt/m/n/10.95 described item by item in the design pattern paragraph. We g
 ive downward an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 \T1/lmtt/m/n/10.95 example of how will be implemented a checking process from t
 he received request
  []
 
-) [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[] \T1/lmtt/m/it/20.74 CONTINUARE CON SCREEN DELL'ALGORITMO
+ []
+
+
+Overfull \hbox (4.36365pt too wide) in paragraph at lines 111--115
+[]\T1/lmtt/m/n/10.95 In this section we will give a plan that we have projected
+ for implementing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/lmtt/m/n/10.95 Travlendar+. Firstly we will give the strategy for the proce
+sses chosen for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/lmtt/m/n/10.95 taking on the our project and the structure of our team, how
+ it is divided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/lmtt/m/n/10.95 and the tasks that each part has to accomplish. After we wil
+l state how each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/lmtt/m/n/10.95 team's part has to interact with the others and the span of 
+time of these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/lmtt/m/n/10.95 interactions. Finally we will give a list of possible risks,
+ the probability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ []\T1/lmtt/m/n/10.95 For giving a quality assurance of the project and be sure
+ that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 product will be as our stakeholders expect, we will an Agil
+e planning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 process. It consists in a first initiating part in which it
+'s given an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 overall plan of the system process. We have started with th
+e information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 given in the RASD and we will terminate it in this document
+: in fact we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 have already stated the software's architecture and the des
+ign pattern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+ \T1/lmtt/m/n/10.95 that will be used and in this section we will give a schedu
+le for all the
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ []\T1/lmtt/m/n/10.95 After this part, there is a cycle of phases called respec
+tively:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 Executing, monitoringANDControlling, Closing, Planning. Eve
+ry cycle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 round has as input a specific process to accomplish, divide
+d between the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 various team's parts. After executing all the task in a pre
+cise given
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 timeframe, the works is checked and after the parts agreeme
+nt, that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 reached after that the customers have analyzed the results,
+ it will follow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 another planning phase that will contain also the correctio
+ns that will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+ \T1/lmtt/m/n/10.95 result after the agreement. This cycle is repeated until th
+e end of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+[]\T1/lmtt/m/it/10.95 Back-End Team :\T1/lmtt/m/n/10.95 developers appointed to
+ implement the application logic of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[]\T1/lmtt/m/it/10.95 Supervisors: \T1/lmtt/m/n/10.95 developers that belongs t
+o the Back-End Team or to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+\T1/lmtt/m/n/10.95 Front-End Team and that have the main task of having any tim
+e the picture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ []\T1/lmtt/m/n/10.95 The work will be divided in sub-milestone from a minimum 
+of one to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 a maximum of two weeks, and main-milestone every three or m
+aximum four
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 weeks. In these span of time all the teams have to complete
+ the tasks that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 have been established in the previous planning phase. Every
+ two days the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 different team's supervisors and a Tester's team delegate w
+ill manage a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 meeting for speaking about their teams progress and will gi
+ve directive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 for proceeding basically at the same speed. in the while, t
+he Tester team
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 will work on white-box test for the functionalities that th
+e developer's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 teams are implementing. When the milestone's day come, the 
+Tester team
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 will have from a minimum of a day to a maximum of one they 
+for testing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+ \T1/lmtt/m/n/10.95 functionalities and give the results to the development tea
+m that will have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+ []\T1/lmtt/m/n/10.95 During the week before the the milestone's day, the Teste
+r team has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+ \T1/lmtt/m/n/10.95 to perform an integration test of the components and give t
+he result to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+ \T1/lmtt/m/n/10.95 the development teams that has to release a beta version to
+ restrict and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+ \T1/lmtt/m/n/10.95 selected group of people for the milestone day. In this way
+, will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+ \T1/lmtt/m/n/10.95 performed also an incremental User acceptance test on the w
+ork that has been
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
+ [] \T1/lmtt/m/it/20.74 NON LO SO METTERE BENE \T1/lmtt/m/n/10.95 Probability E
+ffects Budget
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--158
+ []\T1/lmtt/m/n/10.95 Time M Serious for implementing a function exceed from th
+e calculated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\T1/lmtt/m/it/10.95 Budget problems :\T1/lmtt/m/n/10.95 specify before starti
+ng stating all the functionalities a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\T1/lmtt/m/n/10.95 realize prevision of the costs predicted and agree with the 
+stakeholder a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\T1/lmtt/m/n/10.95 margin of budget that could increase for unpredicted situati
+on during the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]\T1/lmtt/m/it/10.95 Time for implementing a function exceed :\T1/lmtt/m/n/10.
+95 agree with the stakeholder a span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]\T1/lmtt/m/it/10.95 Team's member not available in critic moment : \T1/lmtt/m
+/n/10.95 being sure that at least
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[]\T1/lmtt/m/it/10.95 Impossibility to recruit staff with required skills : \T1
+/lmtt/m/n/10.95 advices the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+\T1/lmtt/m/n/10.95 customers about possible delete and be ready with a list of 
+COTS to
+ []
+
+) [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./Travlendar+ DD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-Package rerunfilecheck Info: File `"Travlendar+ DD".out' has not changed.
-(rerunfilecheck)             Checksum: 5167EA30984F96F8AD59A0D967371269;1078.
+
+
+Package rerunfilecheck Warning: File `"Travlendar+ DD".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Travlendar+ DD".out':
+(rerunfilecheck)             Before: 646FEFCF660DAEA7BD0957BEF5FBFB09;1489
+(rerunfilecheck)             After:  221C3929DCCF2A38C09F8382B1BEFAC0;1498.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 9329 strings out of 493089
- 134863 string characters out of 6134843
- 236084 words of memory out of 5000000
- 12585 multiletter control sequences out of 15000+600000
- 53763 words of font info for 47 fonts, out of 8000000 for 9000
+ 9346 strings out of 493089
+ 135090 string characters out of 6134843
+ 237084 words of memory out of 5000000
+ 12593 multiletter control sequences out of 15000+600000
+ 54400 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,43p,1148b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1831,11 +2137,12 @@ texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
 m/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on "Travlendar+ DD.pdf" (9 pages, 309707 bytes).
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
+Output written on "Travlendar+ DD.pdf" (11 pages, 337288 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,11 +52,12 @@ TEXT HERE
 
 \mysubsection{Selected Architectural Styles and Patterns}
 
-Our system architecture proves to be a mix between three well known architectural styles, in particular: 
+\textcolor{red}{\huge mettere spazio fra i paragrfi}\\
+Our system architecture proves to be a mix between three well known architectural styles, in particular : 
 
 \begin{itemize}
 \setlength{\leftskip}{0.5cm}
-\item \emph{Client/Server Architectural style : }
+\item \emph{Client/Server Architectural style}
 \item \emph{Main program with subroutines architectural style}
 \item \emph{Service oriented Architectural style}
 \item \emph{Event Based Architectural style}
@@ -104,4 +105,72 @@ Moreover, giving a quick look on the rapid world’s evolution, it sounds quite 
 
 We will take on this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how will be implemented a checking process from the received request to the writing of the data into the DB.
 
-CONTINUARE CON SCREEN DELL'ALGORITMO SPIEGATO
+\emph{ \huge CONTINUARE CON SCREEN DELL'ALGORITMO SPIEGATO}
+
+\mysection{Implementation, integration and test plan}
+In this section we will give a plan that we have projected for implementing Travlendar+. 
+Firstly we will give the strategy for the processes chosen for taking on the our project and the structure of our team, how it is divided and the tasks that each part has to accomplish.
+After we will state how each team’s part has to interact with the others and the span of time of these interactions. 
+Finally we will give a list of possible risks, the probability that they happen, their impact and a possible strategy to deal with them.
+
+\mysubsection{Strategy adopted}
+For giving a quality assurance of the project and be sure that the product will be as our stakeholders expect, we will an Agile planning process. It consists in a first initiating part in which it’s given an overall plan of the system process. 
+We have started with the information given in the RASD and we will terminate it in this document: in fact we have already stated the software’s architecture and the design pattern that will be used and in this section we will give a schedule for all the various' team tasks.
+
+After this part, there is a cycle of phases called respectively: Executing, monitoringANDControlling, Closing, Planning. 
+Every cycle round has as input a specific process to accomplish, divided between the various team’s parts. After executing all the task in a precise given timeframe, the works is checked and after the parts agreement, that is reached after that the customers have analyzed the results, it will follow another planning phase that will contain also the corrections that will result after the agreement.
+This cycle is repeated until the end of the project, when all the functionalities stated in the RASD will be covered.
+
+\mysubsection{Team structure}
+Our team will be composed by two main parts:
+
+\begin{itemize}
+	\item \emph{Developers :} people devoted to implement the software
+	
+	\item \emph{Testers: }people devoted to test the software functionalities
+	
+	\item \emph{Front-End Team :}developers appointed to implement the system’s front end.
+	
+	
+	\item \emph{Back-End Team :}developers appointed to implement the application logic of the system
+	
+	\item \emph{Supervisors: }developers that belongs to the Back-End Team or to the Front-End Team and that have the main task of having any time the picture of all the their team work.
+
+\end{itemize}
+
+\mysubsection{Implementation and testing plan}
+
+The work will be divided in sub-milestone from a minimum of one to a maximum of two weeks, and main-milestone every three or maximum four weeks. In these span of time all the teams have to complete the tasks that have been established in the previous planning phase. Every two days the different team's supervisors and a Tester’s team delegate will manage a meeting for speaking about their teams progress and will give directive for proceeding basically at the same speed. 
+in the while, the Tester team will work on white-box test for the functionalities that the developer’s teams are implementing.
+When the milestone’s day come, the Tester team will have from a minimum of a day to a maximum of one they for testing the functionalities and give the results to the development team that will have to fix the eventual bugs.
+
+During the week before the the milestone’s day, the Tester team has to perform an integration test of the components and give the result to the development teams that has to release a beta version to restrict and selected group of people for the milestone day. In this way, will be performed also an incremental User acceptance test on the work that has been done. 
+
+\mysubsection{Possible risks}
+\emph{ \huge NON LO SO METTERE BENE}
+		Probability		Effects
+		Budget problems		L			Catastrophic
+		
+		Time                                    M                            Serious
+		for implementing 
+		a function exceed
+		from the calculated one
+		
+		Team’ members                  M                            Catastrophic
+		not available in critic
+		moments
+		
+		Impossibility to recruit          M                           Serious
+		staff with required skills  
+
+\mysubsection{Possible solutions}
+\begin{itemize}
+	\item \emph{Budget problems :}specify before starting stating all the functionalities a realize prevision of the costs predicted and agree with the stakeholder a margin of budget that could increase for unpredicted situation during the development.
+	
+	\item \emph{Time for implementing a function exceed :}agree with the stakeholder a span of time of delay that they can accept for unpredicted problems.
+	
+	\item \emph{Team’s member not available in critic moment :} being sure that at least one of the supervisors could substitute a team member in case of necessity
+	
+	\item \emph{Impossibility to recruit staff with required skills :} advices the customers about possible delete and be ready with a list of COTS to buy in case of needs with the correspondent costs.
+	
+\end{itemize}

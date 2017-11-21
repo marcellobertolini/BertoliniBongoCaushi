@@ -16,3 +16,9 @@
 \contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{6}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Design patterns}{7}{subsection.2.7}
 \contentsline {section}{\numberline {3}Algorithm Design}{8}{section.3}
+\contentsline {section}{\numberline {4}Implementation, integration and test plan}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Strategy adopted}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Team structure}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Implementation and testing plan}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Possible risks}{10}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Possible solutions}{10}{subsection.4.5}
