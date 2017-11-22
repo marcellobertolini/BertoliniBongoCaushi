@@ -3,12 +3,12 @@
 
 \mysubsection{Overview}
 In this chapter we will analyze the proposed architecture and components of the Travlendar+ system.\par
-The proposed architecture has three tiers :
+The proposed architecture is composed by three tiers :
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
-	\item \emph{Presentation Tier : }represented by Browser and Mobile App. It's how the system shows himself to the user.
-	\item \emph{Web and Business Tier : }represented by Web Server, which contains javascript and html code in order to create dynamic pages, and Application Server, which contains all the system's logic (the so called Business Logic).
-	\item \emph{Database Tier : }represented by DB Server, that contains and manages persistent data in an efficient way.
+	\item \emph{Presentation Tier : }it's represented by Browser and Mobile App, the View part of our system.
+	\item \emph{Web and Business Tier : }it's represented by Web Server, which responds to the user's HTTP requests, and Application Server, which contains all the Business Logic.
+	\item \emph{Database Tier : }it's represented by DB Server, that contains and manages persistent data in an efficient way.
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -17,20 +17,17 @@ The proposed architecture has three tiers :
 \end{figure}
 
 \mysubsection{High Level Components and Their Interactions}
-Here we have a proposed High Level Component Diagram
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{Images/Architecture/Components_High_Level}
 	\caption{Components High Level}
 \end{figure}
 
-Analyzing this Diagram we can see :
-\begin{itemize}
-	\setlength{\leftskip}{0.5cm}
-	\item \emph{On the Client Side : }The Mobile App of Travlendar+ for all users that uses a smartphone and has already downloaded it or the Web Browser for all the others.
-	\item \emph{On the Server Side : }The Web Server that, as told before, creates dynamic html and js pages, for the Web Browser, using data elaborated by the server's logic and the Application that is actually the server's logic. There is also a third component, the External Communication Server, that manages the communication of our server with the external ones, such as Google servers or Transport Service servers, in order to send and recieve informations and data from them.
-	\item \emph{On the Database Side : }The Database used to contain and manage all data and informations that our system needs to handle.
-\end{itemize}
+\textcolor{red}{The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
+The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
+On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
+The main server is composed by three parts : the Web Server, 
+Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case these information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason every client's requests that will implicate a changing data operation is preceded by a set of controls performed by defined control components designated to the database’s consistency maintenance.}
 
 \mysubsection{Component View}
 \begin{figure}[H]
@@ -39,20 +36,20 @@ Analyzing this Diagram we can see :
 	\caption{Component View}
 \end{figure}
 \mysubsubsection{Travlendar+ Mobile App}
-This is the component responsible for the communication between user’s devices, like user’s smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and will render the user interface based on the server’s replies.\par
+This is the component responsible for the communication between user’s devices, like user’s smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and will render the  based on the server’s replies.\par
 In order to communicate with the server the component will use specific frameworks and libraries depending on the specific device used by the user (ex. Android SDK Platform for Android smartphones).\par
 This component represent the View part of our MVC pattern.
 
 \mysubsubsection{Travlendar+ Web Browser}
-This is the component responsible for the communication between users only equipped with a browser and the rest of the system.\par
-It sends HTTP requests to the \emph{webInterface} in order to get back from the server HTML pages and static resources like CSS and JavaScript files. This because it has to be as light as possible in order to not fully user’s CPU rendering the page.
+This is the component responsible for the communication between user's browser and the rest of the system.\par
+It sends HTTP requests to the \emph{webInterface} in order to get back from the server HTML pages and static resources like CSS and JavaScript files.
 
 \mysubsubsection{Web Server}
-As told before this component is responsible for the HTTP responses of the \emph{webInterface}. It’s main function it’s to elaborate pages, generate contents in a very dynamic way and send them to the browser.\par
-An example is the Apache HTTP Server, a very common used one. It’s cross-platform, highly scalable and use a \emph{gzip} module to reduce web pages size (weight).
+This component is responsible for the HTTP responses of the \emph{webInterface}. Its main function it’s to elaborate pages, generate contents in a very dynamic way and send them to the browser. These processes are performed by the Web Server instead of the user's Browser for managing in the most efficient way the user CPU's load.\par
+An example could be the Apache HTTP Server. It’s cross-platform, highly scalable and use a \emph{gzip} module to reduce web pages size (weight).
 
 \mysubsubsection{User Manager}
-This is one of the most important components of the server because handles the communication with the user, so it takes care also of all possible breakouts or errors that may occur in runtime, and it also manages all user’s request redirecting them to other server’s specific components.
+This is one of the most important component of the server because it handles the communication with the user, so it takes care of all possible breakouts or errors that may occur runtime. It also manages all user’s request redirecting them to other server’s specific components.
 
 \mysubsubsection{Registration \& Login}
 It allows user to register and login to the system memorizing and verifying user’s credentials.
@@ -61,22 +58,24 @@ It allows user to register and login to the system memorizing and verifying user
 It allows user to set all his preferences such as carbon footprint, TAGs, residence location, etc… So its aim is to memorize these preferences’ data in the DB through the Repository Manager and get them every time is needed.
 
 \mysubsubsection{Trip Manager}
-This component handles all user’s trips, allowing him to add, delete or edit trips. It allows also user to buy tickets to reach the trip’s location (through the Outdoor Transport Tickets component) and tickets to take the local transport service in the destination city (through the Local Transport Tickets).
+This component handles all user’s trips, allowing him to add, delete or edit trips. It allows also the user to buy tickets to reach the trip’s location (through the Outdoor Transport Tickets component) and tickets to use the local transport service in the destination city (through the Local Transport Tickets).
 
 \mysubsubsection{Events Manager}
-This component takes care of user’s calendar managing the events that the user wants to add, delete, edit or visualize, so every time the user wants to :
+This component takes care of user’s calendar managing the events that the user wants to add, delete, edit or visualize.\par
+So every time he wants to :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item \emph{insert or edit an event} this component will check through the Repository Manager if in the DB there is an overlap, so if there’s already a planned event in that specific moment, and if the event is reachable from the previous one (using also Transport Manager to verify route’s time).
-	\item \emph{delete an event} this component will simply delete it in the DB.
-	\item \emph{visualize an event} this component will check through the Transport Manager the available means of transport, the time needed and the route to reach the event.
+	\item \emph{insert or edit an event}, this component will check through the Repository Manager if in the DB there is an overlap and if the event is reachable from the previous one (using also Transport Manager to verify route’s time).
+	\item \emph{delete an event}, this component will simply delete it in the DB.
+	\item \emph{visualize an event}, this component will check through the Transport Manager the available means of transport, the time needed and the route to reach the event.
 \end{itemize}
 
 \mysubsubsection{Transport Manager}
-This componet handles all event’s means of transport and tickets. In fact, talking about transport, it filters the means according to :
+This component handles all event’s means of transport and tickets. About transport, it filters the means according to :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
 	\item the means selected in the event’s TAG;
+	\item the $CO_2$ preference;
 	\item the means selected in the “Available Means” in Preferences;
 	\item the means available to reach the event (received by the route provider);
 	\item the weather conditions;
@@ -85,18 +84,18 @@ This componet handles all event’s means of transport and tickets. In fact, tal
 It allows also to buy local transport tickets if the user needs to. 
 
 \mysubsubsection{Directions}
-This component handles the communication with the route provider in order to get maps, means and routes to reach a specific destination. To get these info it uses API requests (an example are Google APIs).
-It also parses and elaborates the API responses in specific structures in order to make them more readable to the other server’s components.
+This component handles the communication with the route provider in order to get maps, means and routes to reach a specific destination. To get these information it uses API requests (an example are Google APIs).
+It also parses and elaborates the API responses in specific structures in order to allow the other server’s components to use them in the best way.
 
 \mysubsubsection{Environment Manager}
-This component is used from our system to check weather and transport strikes.
-It uses API requests to check if the next day it's going to rain, in order to warn all user about the weather's condition and also to check if there will be transport strikes, in order to warn the user that some mean of transport will be unavailable.
+This component is used by our system to check and warn the user about the weather's conditions and the transport strikes.
+It uses API requests in oreder to communicate with the external services.
 
 \mysubsubsection{Sharing Service Manager}
-This component allows our server to communicate with external sharing services in order to get the nearest sharing mean of transport location.
+This component allows our server to communicate with external sharing services in order to get the nearest sharing mean of transport's location.
 
 \mysubsubsection{Local Transport Tickets}
-It takes care of the communication with the local transport services in order to get information about the available tickets, suggesting to the user the best one to buy, based on his travel needs.
+It takes care of the communication with the local transport services for getting information about the available tickets, suggesting to the user the best one to buy based on his travel's needs.
 
 \mysubsubsection{Outdoor Transport Tickets}
 It takes care of the communication with the outdoor transport services in order get information about the available tickets and means of transport.
@@ -104,6 +103,10 @@ It takes care of the communication with the outdoor transport services in order 
 \mysubsection{Deployment View}
 
 TEXT HERE
+
+\mysubsection{DB Structure}
+
+INSERT DBMS DIAGRAM
 
 \mysubsection{Runtime View}
 
@@ -123,9 +126,8 @@ Our system architecture proves to be a mix between three well known architectura
 \end{itemize}
 
 The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
-
 The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
-On the other hand, the mobile application will not require an interface with the web server because it will have all the logic for communicating directly with the main server.
+On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
 
 The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the Main program with subroutines style: it will receive the requests from the clients and call the right sub-component for accomplishing the goal related to the request.
 
