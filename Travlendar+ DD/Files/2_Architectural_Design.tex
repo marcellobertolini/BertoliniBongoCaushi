@@ -23,11 +23,13 @@ The proposed architecture is composed by three tiers :
 	\caption{Components High Level}
 \end{figure}
 
-\textcolor{red}{The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
+The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
 The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
-The main server is composed by three parts : the Web Server, 
-Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case these information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason every client's requests that will implicate a changing data operation is preceded by a set of controls performed by defined control components designated to the database’s consistency maintenance.}
+
+The main server is composed by three parts : the previous mentioned Web Server, Application and External Communication Server. The application part of the main server contains all the system's logic: it receives requestes and input data from the client side and performs all the necessary operations.
+The External Communication Server part is devoted to handle all the comunication with the external services for retrieving data of interests from other systems in order to achieve the system's goals.
+Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case these information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason every client's requests that will implicate a changing data operation is preceded by a set of controls performed by the Business logic in order to mantain the database’s consistency.
 
 \mysubsection{Component View}
 \begin{figure}[H]
@@ -125,20 +127,15 @@ Our system architecture proves to be a mix between three well known architectura
 \item \emph{Event Based Architectural style}
 \end{itemize}
 
-The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
-The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
+Travlendar+ is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests to the Business Logic through a web server.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
 
-The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the Main program with subroutines style: it will receive the requests from the clients and call the right sub-component for accomplishing the goal related to the request.
+The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the \emph{Main program with subroutines style}: it will receive the requests from the clients and call the right sub-components for accomplishing the goals related to the request.
 
-Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case these information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason every client's requests that will implicate a changing data operation is preceded by a set of controls performed by defined control components designated to the database’s consistency maintenance.
-
-if the requests will pass the check steps a special component called Repository Manager is activated. This component will offer function that performs all the operation that change the DBs’ state with an high level of abstraction. In fact these methods will be constituted by a composition of DBMS operation that accomplish the aim of the requests: in this way the complexity of articulated DB operation is hidden to the caller and is very simple to add new methods making this interaction highly scalable.
-
-An essential our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and give tickets information about local and outdoor public transport. All these information will not be stored in our DBs, but they will be retrieved with API REST requests to fitting external services. For this goal we will use a SOA style. 
+An essential our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and give tickets information about local and outdoor public transport. All these information will not be stored in our DBs, but they will be retrieved with API REST requests to appropiate external services. For this goal we will use a \emph{SOA style}. 
 In our system we will have a component called Transport manager that will be able to distinguish the kind of the request and demand the aim of submitting it to the right external service to another precise component devoted to a certain type of external services connections. Once received the information, their manipulation will be performed internally to the business logic of the system. In these way we will have the possibility of adding new components for incoming kind of transportation, also personalized, in a very simple and scalable way.
 
-The last style exploited is the Event based Architectural style, and it is used for the notification system always attending particular events that, if happens, triggers the component that produce a notification that is immediately sent to the right client. 
+The last style exploited is the \emph{Event based Architectural style}, and it is used for the notification system that will be always attending particular events that, if happens, triggers a notification that is immediately sent to the right clients subscribed to the topic. 
 
 \mysubsection{Design patterns}
 
@@ -146,40 +143,43 @@ The last style exploited is the Event based Architectural style, and it is used 
 	\item 
 \emph{MVC}: The Database server contains all the software’s data and constitutes the model part. The presentation layer with the web-based application and the mobile application is the view that is released to the user. Finally the main server,  that is the business logic layer, it’s the control part.
 
-\item \emph{OBSERVER:} Our software has to be able to, for instance, advising the user that he has to take a certain mean in a specific time for arriving on time, or that the registered season ticket is expiring or also the possibility of a strike or a bad meteorological condition. All these events have to be supported by a notification system.This needs will be implemented with this pattern.  There will be a specific group of event listener, namely objects that extend a common abstract class. When a process that could generate a notification starts, one or more concrete references of event listeners are got by the objects involved into the process devoted to perform operations and eventually change the variables, or a set of variables of interest. The system will have as much kind of event listener as is necessary and they could be added freely for future expansion. When during such a process a variable of interest for a listener is changed some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
+\item \emph{OBSERVER:} Our software has to be able to advise the user that he has to take a certain mean of transport in a specific time for arriving on time, or that the registered season ticket is expiring or also the possibility of a strike or a bad meteorological condition. All these events have to be supported by a notification system.These needs will be implemented with this pattern.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as much kind of event listener as is necessary and they could be added freely for future expansion. When during a process a state of interest for a listener is changed some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
 
-\item \emph{STRATEGY:} The filters applied on the data for showing particular results based on the user’s choices, for example for advising the best means of transport for a destination, will be implemented with a strategy pattern. The class the will put in order the results will have an instance of an abstract class that will be implemented by some concrete class representing different ordering strategy. In this way the system will be able to adapt his strategy runtime and it will be very simple to add new strategy creating new classes that will implement the abstract strategy class previous mentioned.
+\item \emph{STRATEGY:} The filters applied on the data for showing particular results based on the user’s choices, for example for advising the best means of transport for a destination, will be implemented with a strategy pattern. The class that will put in order the results will have an instance of an abstract class that will be implemented by some concrete classes representing different ordering strategy. In this way the system will be able to adapt his strategy runtime and it will be very simple to add new strategy creating new classes that will implement the abstract strategy class previous mentioned.
 
-\item \emph{COMPOSITE:} We will use this pattern in our system for performing in a cleaned and elegant way the various check that will have to be apply on the user input. There will be a abstract class Checker that will be extended by Composite checkers and Checkers. Each composite checker contains one or more checkers and both implements the method check. The class that will have to manage a specific user input will have one or more composite checkers.
-When a method that have to process the user input data for passing them to an external service or to another component that will insert such a data in a DB, the check method of all the compiste checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the check will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
+\item \emph{COMPOSITE:} We will use this pattern in our system for performing in a cleaned and elegant way the various check that will have to be apply on the user input. There will be a abstract class Checker that will be extended by Composite checkers and Checkers. Each composite checker contains one or more checkers and both implements a common interface with the method \emph{check}. The class that will have to manage a specific user input will have one or more composite checkers.
+When a method that have to process the user input data for passing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the check will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
 Thanks to this pattern is possible to create new checkers/composite checkers very easily and deal with complex and composite check that will be needed in future software expansions.
 
 \item \emph{FAÇADE:} As guideline of our implementation, for all the complex operations that will require multiple method’s calls from different classes we will use a façade pattern. In this way we will able to hide a complex logic operation within a single method’s call. In this way we will simplify the software maintenance for future changing needs.
 \end{itemize}
 
 \mysection{Algorithm Design}
-A very delicate phase of our system is that one in which the user input is checked. This is so important because the most user’s operations in Travlendar+ terminates writing data on the Data Bases and if the system letted wrong input to be written in the persistent memory, will rise big problems of inconsistency.
+\mysubsection{Problem faced}
+A very delicate phase of our system is that one in which the user's input is checked. This is so important because the most user’s operations in Travlendar+ terminates writing data on the Data Bases and if the system letted wrong input to be written in the persistent memory, will rise big problems of inconsistency.
 
-The operations that the user is allowed to do, work all with similar data but the checks that have to be performed are different, sometimes very complex and also some of them need a check’s combination concerning single operations.
+The operations that the user is allowed to do work all with similar data but the checks that have to be performed are different, sometimes very complex and also some of them need a check’s combination concerning single operations.
 
-Moreover, giving a quick look on the rapid world’s evolution, it sounds quite possible that new kinds of event and operations could be implemented in the system and so we needs that create a modular and scalable way of facing this problem is a issue of primary importance.
+Moreover, giving a quick look on the rapid world’s evolution, it sounds quite possible that new kinds of event and operations could be implemented in the system and so finding a modular and scalable way of facing this problem is an issue of primary importance.
 
-We will take on this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how will be implemented a checking process from the received request to the writing of the data into the DB.
+\mysubsection{Solution found}
+We will take on this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how will be implemented using Java.
+
+\mysubsection{Algorithm sample}
 
 \emph{ \huge CONTINUARE CON SCREEN DELL'ALGORITMO SPIEGATO}
 
 \mysection{Implementation, integration and test plan}
 In this section we will give a plan that we have projected for implementing Travlendar+. 
-Firstly we will give the strategy for the processes chosen for taking on the our project and the structure of our team, how it is divided and the tasks that each part has to accomplish.
+Firstly we will give the strategy for the processes chosen for taking the project and the structure of our team, how it is divided and the tasks that each part has to accomplish.
 After we will state how each team’s part has to interact with the others and the span of time of these interactions. 
-Finally we will give a list of possible risks, the probability that they happen, their impact and a possible strategy to deal with them.
+Finally we will supply a list of possible risks, the probability that they happen, their impact and a possible strategy to deal with them.
 
 \mysubsection{Strategy adopted}
-For giving a quality assurance of the project and be sure that the product will be as our stakeholders expect, we will an Agile planning process. It consists in a first initiating part in which it’s given an overall plan of the system process. 
-We have started with the information given in the RASD and we will terminate it in this document: in fact we have already stated the software’s architecture and the design pattern that will be used and in this section we will give a schedule for all the various' team tasks.
+For giving a quality assurance of the project and be sure that the product will be as our stakeholders expect, we will follow an Agile planning process. It consists in a first initiating part in which it’s given an overall plan of the system process. We have started to build the plan with the information given in the RASD and we will terminate it in this document: in fact in the previous sections we have stated the software’s architecture and the design pattern that will be used and in this section we will give a schedule for all the various team tasks.
 
-After this part, there is a cycle of phases called respectively: Executing, monitoringANDControlling, Closing, Planning. 
-Every cycle round has as input a specific process to accomplish, divided between the various team’s parts. After executing all the task in a precise given timeframe, the works is checked and after the parts agreement, that is reached after that the customers have analyzed the results, it will follow another planning phase that will contain also the corrections that will result after the agreement.
+After this part, there will be a cycle of phases called respectively: Executing, monitoring\&Controlling, Closing and Planning. 
+Every cycle round has as input a specific process to accomplish, that is divided between the various team’s parts. After executing all the tasks in a precise given timeframe, the work is checked by all the parts, customers included. When an agreemnt is reached, it will follow another planning phase that will contain also the corrections that will result after the agreement.
 This cycle is repeated until the end of the project, when all the functionalities stated in the RASD will be covered.
 
 \mysubsection{Team structure}
@@ -201,11 +201,13 @@ Our team will be composed by two main parts:
 
 \mysubsection{Implementation and testing plan}
 
-The work will be divided in sub-milestone from a minimum of one to a maximum of two weeks, and main-milestone every three or maximum four weeks. In these span of time all the teams have to complete the tasks that have been established in the previous planning phase. Every two days the different team's supervisors and a Tester’s team delegate will manage a meeting for speaking about their teams progress and will give directive for proceeding basically at the same speed. 
-in the while, the Tester team will work on white-box test for the functionalities that the developer’s teams are implementing.
-When the milestone’s day come, the Tester team will have from a minimum of a day to a maximum of one they for testing the functionalities and give the results to the development team that will have to fix the eventual bugs.
+The work will be divided in sub-milestone from a minimum of one to a maximum of two weeks, and main-milestone every three or maximum four weeks. In these span of time all the teams have to complete the tasks that have been established in the previous planning phase. Every two days the different team's supervisors and a Tester’s team delegate will manage a meeting for speaking about their team progress and they will give directive for proceeding basically at the same speed. 
+In the while, the Tester team will work on the \emph{white-box} test for the functionalities that the developer’s teams are implementing.
+When the sub-milestone’s day come, the Tester team will have from a minimum of a day to a maximum of 3 days for testing the functionalities and give the results to the development team that will have to fix the eventual bugs.
 
-During the week before the the milestone’s day, the Tester team has to perform an integration test of the components and give the result to the development teams that has to release a beta version to restrict and selected group of people for the milestone day. In this way, will be performed also an incremental User acceptance test on the work that has been done. 
+During the week before the the milestone’s day, the Tester team has to perform an \emph{integration test} of the components and give the result to the development teams that has to release a beta version to restrict and selected group of people for the milestone day. In this way, will be performed also an incremental \emph{User acceptance test} on the work that has been performed. Futrhemore, there will take place a meeting with the customer and their needs and doubts will be discuss and taken into account in the next planning phase.
+
+The precice duration of the timeframe will be established step by step taking into account the minimum and maximum span on time given above and that the project has to be completed in maximum of 16 weeks.
 
 \mysubsection{Possible risks}
 \emph{ \huge NON LO SO METTERE BENE}
@@ -226,12 +228,12 @@ During the week before the the milestone’s day, the Tester team has to perform
 
 \mysubsection{Possible solutions}
 \begin{itemize}
-	\item \emph{Budget problems :}specify before starting stating all the functionalities a realize prevision of the costs predicted and agree with the stakeholder a margin of budget that could increase for unpredicted situation during the development.
+	\item \emph{Budget problems :}specify before starting all the functionalities and realize prevision of the costs and agree with the customers a margin of budget that could increase for unpredicted situation during the development.
 	
 	\item \emph{Time for implementing a function exceed :}agree with the stakeholder a span of time of delay that they can accept for unpredicted problems.
 	
 	\item \emph{Team’s member not available in critic moment :} being sure that at least one of the supervisors could substitute a team member in case of necessity
 	
-	\item \emph{Impossibility to recruit staff with required skills :} advices the customers about possible delete and be ready with a list of COTS to buy in case of needs with the correspondent costs.
+	\item \emph{Impossibility to recruit staff with required skills :} advices the customers about possible delete and be ready with a table of COTS to buy in case of needs with the correspondent costs.
 	
 \end{itemize}
