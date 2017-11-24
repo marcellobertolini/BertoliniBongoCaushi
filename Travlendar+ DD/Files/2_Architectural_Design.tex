@@ -115,8 +115,6 @@ INSERT DBMS DIAGRAM
 TEXT HERE
 
 \mysubsection{Selected Architectural Styles and Patterns}
-
-\textcolor{red}{\huge mettere spazio fra i paragrfi}\\
 Our system architecture proves to be a mix between three well known architectural styles, in particular : 
 
 \begin{itemize}
@@ -129,30 +127,57 @@ Our system architecture proves to be a mix between three well known architectura
 
 Travlendar+ is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests to the Business Logic through a web server.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
-
+\\\par
 The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the \emph{Main program with subroutines style}: it will receive the requests from the clients and call the right sub-components for accomplishing the goals related to the request.
-
+\\\par
 An essential our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and give tickets information about local and outdoor public transport. All these information will not be stored in our DBs, but they will be retrieved with API REST requests to appropiate external services. For this goal we will use a \emph{SOA style}. 
 In our system we will have a component called Transport manager that will be able to distinguish the kind of the request and demand the aim of submitting it to the right external service to another precise component devoted to a certain type of external services connections. Once received the information, their manipulation will be performed internally to the business logic of the system. In these way we will have the possibility of adding new components for incoming kind of transportation, also personalized, in a very simple and scalable way.
-
+\\\par
 The last style exploited is the \emph{Event based Architectural style}, and it is used for the notification system that will be always attending particular events that, if happens, triggers a notification that is immediately sent to the right clients subscribed to the topic. 
 
 \mysubsection{Design patterns}
 
-\begin{itemize}
-	\item 
-\emph{MVC}: The Database server contains all the software’s data and constitutes the model part. The presentation layer with the web-based application and the mobile application is the view that is released to the user. Finally the main server,  that is the business logic layer, it’s the control part.
+\mysubsubsection{MVC}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Images/Patterns/MVC_Pattern}
+	\caption{MVC Pattern}
+\end{figure}
+The Database server contains all the software’s data and constitutes the model part. The presentation layer with the web-based application and the mobile application is the view that is released to the user. Finally the main server,  that is the business logic layer, it’s the control part.
 
-\item \emph{OBSERVER:} Our software has to be able to advise the user that he has to take a certain mean of transport in a specific time for arriving on time, or that the registered season ticket is expiring or also the possibility of a strike or a bad meteorological condition. All these events have to be supported by a notification system.These needs will be implemented with this pattern.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as much kind of event listener as is necessary and they could be added freely for future expansion. When during a process a state of interest for a listener is changed some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
+\mysubsubsection{Observer}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{Images/Patterns/Observer_Pattern}
+	\caption{Observer Pattern}
+\end{figure}
+Our software has to be able to advise the user that he has to take a certain mean of transport in a specific time for arriving on time, or that the registered season ticket is expiring or also the possibility of a strike or a bad meteorological condition. All these events have to be supported by a notification system.These needs will be implemented with this pattern.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as much kind of event listener as is necessary and they could be added freely for future expansion. When during a process a state of interest for a listener is changed some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
 
-\item \emph{STRATEGY:} The filters applied on the data for showing particular results based on the user’s choices, for example for advising the best means of transport for a destination, will be implemented with a strategy pattern. The class that will put in order the results will have an instance of an abstract class that will be implemented by some concrete classes representing different ordering strategy. In this way the system will be able to adapt his strategy runtime and it will be very simple to add new strategy creating new classes that will implement the abstract strategy class previous mentioned.
+\mysubsubsection{Strategy}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{Images/Patterns/Strategy_Pattern}
+	\caption{Strategy Pattern}
+\end{figure}
+The filters applied on the data for showing particular results based on the user’s choices, for example for advising the best means of transport for a destination, will be implemented with a strategy pattern. The class that will put in order the results will have an instance of an abstract class that will be implemented by some concrete classes representing different ordering strategy. In this way the system will be able to adapt his strategy runtime and it will be very simple to add new strategy creating new classes that will implement the abstract strategy class previous mentioned.
 
-\item \emph{COMPOSITE:} We will use this pattern in our system for performing in a cleaned and elegant way the various check that will have to be apply on the user input. There will be a abstract class Checker that will be extended by Composite checkers and Checkers. Each composite checker contains one or more checkers and both implements a common interface with the method \emph{check}. The class that will have to manage a specific user input will have one or more composite checkers.
+\mysubsubsection{Composite}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{Images/Patterns/Composite_Pattern}
+	\caption{Composite Pattern}
+\end{figure}
+We will use this pattern in our system for performing in a cleaned and elegant way the various check that will have to be apply on the user input. There will be a abstract class Checker that will be extended by Composite checkers and Checkers. Each composite checker contains one or more checkers and both implements a common interface with the method \emph{check}. The class that will have to manage a specific user input will have one or more composite checkers.
 When a method that have to process the user input data for passing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the check will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
 Thanks to this pattern is possible to create new checkers/composite checkers very easily and deal with complex and composite check that will be needed in future software expansions.
 
-\item \emph{FAÇADE:} As guideline of our implementation, for all the complex operations that will require multiple method’s calls from different classes we will use a façade pattern. In this way we will able to hide a complex logic operation within a single method’s call. In this way we will simplify the software maintenance for future changing needs.
-\end{itemize}
+\mysubsubsection{Façade}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{Images/Patterns/Facade_Pattern}
+	\caption{Facade Pattern}
+\end{figure}
+As guideline of our implementation, for all the complex operations that will require multiple method’s calls from different classes we will use a façade pattern. In this way we will able to hide a complex logic operation within a single method’s call. In this way we will simplify the software maintenance for future changing needs.
 
 \mysection{Algorithm Design}
 \mysubsection{Problem faced}
@@ -177,54 +202,54 @@ Finally we will supply a list of possible risks, the probability that they happe
 
 \mysubsection{Strategy adopted}
 For giving a quality assurance of the project and be sure that the product will be as our stakeholders expect, we will follow an Agile planning process. It consists in a first initiating part in which it’s given an overall plan of the system process. We have started to build the plan with the information given in the RASD and we will terminate it in this document: in fact in the previous sections we have stated the software’s architecture and the design pattern that will be used and in this section we will give a schedule for all the various team tasks.
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{Images/Implementation/Agile_Planning}
+	\caption{Agile Planning Strategy}
+\end{figure}
 After this part, there will be a cycle of phases called respectively: Executing, monitoring\&Controlling, Closing and Planning. 
 Every cycle round has as input a specific process to accomplish, that is divided between the various team’s parts. After executing all the tasks in a precise given timeframe, the work is checked by all the parts, customers included. When an agreemnt is reached, it will follow another planning phase that will contain also the corrections that will result after the agreement.
 This cycle is repeated until the end of the project, when all the functionalities stated in the RASD will be covered.
 
 \mysubsection{Team structure}
-Our team will be composed by two main parts:
-
+Our team will be composed by two main parts :
 \begin{itemize}
-	\item \emph{Developers :} people devoted to implement the software
+	\item \emph{Developers :} people devoted to implement the software.
 	
-	\item \emph{Testers: }people devoted to test the software functionalities
+	\item \emph{Testers :} people devoted to test the software functionalities.
 	
-	\item \emph{Front-End Team :}developers appointed to implement the system’s front end.
+	\item \emph{Front-End Team :} developers appointed to implement the system’s front end.
 	
 	
-	\item \emph{Back-End Team :}developers appointed to implement the application logic of the system
+	\item \emph{Back-End Team :} developers appointed to implement the application logic of the system.
 	
-	\item \emph{Supervisors: }developers that belongs to the Back-End Team or to the Front-End Team and that have the main task of having any time the picture of all the their team work.
-
+	\item \emph{Supervisors :} developers that belongs to the Back-End Team or to the Front-End Team and that have the main task of having any time the picture of all the their team work.
 \end{itemize}
 
 \mysubsection{Implementation and testing plan}
-
 The work will be divided in sub-milestone from a minimum of one to a maximum of two weeks, and main-milestone every three or maximum four weeks. In these span of time all the teams have to complete the tasks that have been established in the previous planning phase. Every two days the different team's supervisors and a Tester’s team delegate will manage a meeting for speaking about their team progress and they will give directive for proceeding basically at the same speed. 
-In the while, the Tester team will work on the \emph{white-box} test for the functionalities that the developer’s teams are implementing.
+In the while, the Tester team will work on the \emph{white-box} units test for the functionalities that the developer’s teams are implementing.
 When the sub-milestone’s day come, the Tester team will have from a minimum of a day to a maximum of 3 days for testing the functionalities and give the results to the development team that will have to fix the eventual bugs.
 
 During the week before the the milestone’s day, the Tester team has to perform an \emph{integration test} of the components and give the result to the development teams that has to release a beta version to restrict and selected group of people for the milestone day. In this way, will be performed also an incremental \emph{User acceptance test} on the work that has been performed. Futrhemore, there will take place a meeting with the customer and their needs and doubts will be discuss and taken into account in the next planning phase.
 
 The precice duration of the timeframe will be established step by step taking into account the minimum and maximum span on time given above and that the project has to be completed in maximum of 16 weeks.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Images/Implementation/Implementation_Flow}
+	\caption{Implementation Flow}
+\end{figure}
+
 \mysubsection{Possible risks}
-\emph{ \huge NON LO SO METTERE BENE}
-		Probability		Effects
-		Budget problems		L			Catastrophic
-		
-		Time                                    M                            Serious
-		for implementing 
-		a function exceed
-		from the calculated one
-		
-		Team’ members                  M                            Catastrophic
-		not available in critic
-		moments
-		
-		Impossibility to recruit          M                           Serious
-		staff with required skills  
+\begin{tabular}[H]{ccc}
+	Risk & Probability & Effects\\
+	\hline\\
+	Budget Problems & Low & Catastrophic\\
+	Time for Implementing a Function Exceed & Medium & Serious\\
+	Team’s Members not Available in a Critic Moments & Medium & Catastrophic\\
+	Impossibility to Recruit Staff with Required Skills & Medium & Serious
+\end{tabular}
 
 \mysubsection{Possible solutions}
 \begin{itemize}
