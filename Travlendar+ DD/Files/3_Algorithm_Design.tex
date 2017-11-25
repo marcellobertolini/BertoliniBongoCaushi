@@ -10,9 +10,23 @@ Moreover, giving a quick look on the rapid world’s evolution, it sounds quite 
 We will take on this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how will be implemented using Java.
 
 \mysubsection{Algorithm sample}
-\mysubsubsection{Checker Interface}
-\lstinputlisting[language=Java]{Algorithm/Checkers/CheckerInterface.java}
+\mysubsubsection{EventsManager}
+\lstinputlisting[language=Java]{Algorithm/mainServer/EventsManager.java}
 
 \newpage
+\mysubsubsection{Checker Interface}
+\lstinputlisting[language=Java]{Algorithm/checkers/CheckerInterface.java}
+
 \mysubsubsection{AddEvent Checker}
-\lstinputlisting[language=Java]{Algorithm/Checkers/AddEventChecker.java}
+\lstinputlisting[language=Java]{Algorithm/checkers/AddEventChecker.java}
+
+\newpage
+\mysubsubsection{Check Overlapping}
+\lstinputlisting[language=Java]{Algorithm/checkers/subCheckers/CheckOverlapping.java}
+
+\mysubsubsection{Check Lunch Guaranteed}
+\lstinputlisting[language=Java]{Algorithm/checkers/subCheckers/CheckLunchGuaranteed.java}
+
+\newpage
+\mysubsubsection{Check Reachability}
+\lstinputlisting[language=Java]{Algorithm/checkers/subCheckers/CheckReachability.java}
