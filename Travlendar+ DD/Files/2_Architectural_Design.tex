@@ -38,69 +38,69 @@ Our system, being a calendar based application, will have the main issue of mana
 	\caption{Component View}
 \end{figure}
 \mysubsubsection{Travlendar+ Mobile App}
-This is the component responsible for the communication between user devices, i.e. smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and render based on the server replies.\par
+This is the component responsible for the communication between user devices, i.e. smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and rendering the UI based on the server replies.\par
 In order to communicate with the server the component will use specific frameworks and libraries depending on the specific device used by the user (i.e. Android SDK Platform for Android smartphones).\par
 This component represents the View part of our MVC pattern.
 
 \mysubsubsection{Travlendar+ Web Browser}
-This is the component responsible for the communication between user's browser and the rest of the system.\par
+This is the component responsible for the communication between the user browser and the rest of the system.\par
 It sends HTTP requests to the \emph{webInterface} in order to get back from the server HTML pages and static resources like CSS and JavaScript files.
 
 \mysubsubsection{Web Server}
-This component is responsible for the HTTP responses of the \emph{webInterface}. Its main function it’s to elaborate pages, generate contents in a very dynamic way and send them to the browser. These processes are performed by the Web Server instead of the user's Browser for managing in the most efficient way the user CPU's load.\par
-An example could be the Apache HTTP Server. It’s cross-platform, highly scalable and use a \emph{gzip} module to reduce web pages size (weight).
+This component is responsible for the HTTP responses of the \emph{webInterface}. Its main function is to elaborate pages, generate contents dynamically and send them back to the browser. These processes are performed by the Web Server instead of the user Browser to manage efficiently the user CPU load.\par
+An example could be the Apache HTTP Server. It’s a cross-platform server, highly scalable, that using a \emph{gzip} module reduces web pages size (weight).
 
 \mysubsubsection{User Manager}
-This is one of the most important component of the server because it handles the communication with the user, so it takes care of all possible breakouts or errors that may occur runtime. It also manages all user’s request redirecting them to other server’s specific components.
+This is one of the most important server component that handles the communication with the user and takes care of all possible breakouts and errors that may occur at runtime. It also manages all user requests redirecting them to other server specific components.
 
 \mysubsubsection{Registration \& Login}
-It allows user to register and login to the system memorizing and verifying user’s credentials.
+It allows the user to register and log into the system, memorizing and verifying user credentials.
 
 \mysubsubsection{Preference Manager}
-It allows user to set all his preferences such as carbon footprint, TAGs, residence location, etc… So its aim is to memorize these preferences’ data in the DB through the Repository Manager and get them every time is needed.
+It allows the user to set all his preferences, such as carbon footprint, TAGs, residence location, etc… with the purpose to memorize these data in the DB through the Repository Manager and retrieve them whenever it's needed.
 
 \mysubsubsection{Trip Manager}
-This component handles all user’s trips, allowing him to add, delete or edit trips. It allows also the user to buy tickets to reach the trip’s location (through the Outdoor Transport Tickets component) and tickets to use the local transport service in the destination city (through the Local Transport Tickets).
+This component handles all user trips, allowing him to add, delete or edit them. It also allows the user to buy tickets to reach the trip location (through the Outdoor Transport Tickets component) and the ones for local transport services in the destination city (through the Local Transport Tickets).
 
 \mysubsubsection{Events Manager}
-This component takes care of user’s calendar managing the events that the user wants to add, delete, edit or visualize.\par
-So every time he wants to :
+This component takes care of user calendar, managing the events that he wants to add, delete, edit or visualize.\par
+Thus, anytime he can :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item \emph{insert or edit an event}, this component will check through the Repository Manager if in the DB there is an overlap and if the event is reachable from the previous one (using also Transport Manager to verify route’s time).
-	\item \emph{delete an event}, this component will simply delete it in the DB.
-	\item \emph{visualize an event}, this component will check through the Transport Manager the available means of transport, the time needed and the route to reach the event.
+	\item \emph{insert or edit an event :} the component will check through the Repository Manager if in the DB there is an overlap and if the event is reachable from the previous one (using also Transport Manager to verify route time).
+	\item \emph{delete an event :} the component will simply delete it in the DB.
+	\item \emph{visualize an event :} the component will check through the Transport Manager the available means of transport, the time needed and suggest the route to reach the event.
 \end{itemize}
 
 \mysubsubsection{Transport Manager}
-This component handles all event’s means of transport and tickets. About transport, it filters the means according to :
+This component handles all the means of transport and tickets. Concerning transport, it will filter the means according to :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
 	\item the means selected in the event’s TAG;
 	\item the $CO_2$ preference;
 	\item the means selected in the “Available Means” in Preferences;
-	\item the means available to reach the event (received by the route provider);
-	\item the weather conditions;
-	\item the strikes.
+	\item the available means to reach the event (suggested by the route provider);
+	\item the weather forecast;
+	\item eventual strikes.
 \end{itemize}
-It allows also to buy local transport tickets if the user needs to. 
+It allows also to buy local transport tickets, if needed. 
 
 \mysubsubsection{Directions}
-This component handles the communication with the route provider in order to get maps, means and routes to reach a specific destination. To get these information it uses API requests (an example are Google APIs).
-It also parses and elaborates the API responses in specific structures in order to allow the other server’s components to use them in the best way.
+This component will handle the communication with the route provider in order to get maps, means and routes to reach a specific destination. To get these information it will use API requests (i.e. Google APIs).
+It will also parse and elaborate the API responses in specific structures, ready to be used by the server components when needed.
 
 \mysubsubsection{Environment Manager}
-This component is used by our system to check and warn the user about the weather's conditions and the transport strikes.
-It uses API requests in oreder to communicate with the external services.
+This component will be used by our system to check and warn the user about the weather conditions and eventual transport strikes.
+It will use API requests to communicate with the external services.
 
 \mysubsubsection{Sharing Service Manager}
-This component allows our server to communicate with external sharing services in order to get the nearest sharing mean of transport's location.
+This component will allow our server to communicate with the external sharing services and retrieve the nearest sharing mean of transport GPS position.
 
 \mysubsubsection{Local Transport Tickets}
-It takes care of the communication with the local transport services for getting information about the available tickets, suggesting to the user the best one to buy based on his travel's needs.
+It will take care of the communication with the local transport services, in order to get information about the available tickets, suggesting the best deal based on his travel needs.
 
 \mysubsubsection{Outdoor Transport Tickets}
-It takes care of the communication with the outdoor transport services in order get information about the available tickets and means of transport.
+It will take care of the communication with the outdoor transport services, in order to get information about the available tickets and means of transport.
 
 \mysubsection{Deployment View}
 \textcolor{red}{\Huge INSERISCI TESTO}
@@ -112,16 +112,16 @@ It takes care of the communication with the outdoor transport services in order 
 
 \mysubsection{DB Structure}
 
-INSERT DBMS DIAGRAM
+\textcolor{red}{\Huge INSERT DBMS DIAGRAM}
 
 \mysubsection{Runtime View}
 In this section we will see some Runtime Views in order to see how the components interact according to specific requests.
-Because of this we decide to consider for the client-side just the Web Browser, in order to see the interaction between the Browser and the Web Server and the Web Server and the Application Server's components.
+For the client-side we have taken into consideration the Web Browser only, in order to evaluate the interaction between the Browser and the Web Server, the Web Server and the Application Server components.
 
 \mysubsubsection{Registration}
-This Runtime View shows a user's Registration process.\par
-First of all the Web Server sends to the user the registration\_form to fulfil with his credentials. Then, once it receives the form, it sends to the Server the inserted information.\par
-Now it’s important to check if the email is already used for another account or not. So, in order to do that, the server asks the DBMS to search for it and get it. If the get\_result it’s equal \emph{Null} it means that the email it’s not used, so the server can complete the registration saving in the DB the user’s credentials. Otherwise, the server will notify the user that the inserted email can’t be used.
+This Runtime View shows a user Registration process.\par
+First of all the Web Server sends to the user the registration\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server.\par
+At this point, it’s important to check if the email has already been registered under another account. In order to do that, the server asks the DBMS to search for it. If the get\_result it’s equal \emph{Null} it means that the email it’s not used, so the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.2]{Images/Runtime/Registration}
@@ -129,10 +129,10 @@ Now it’s important to check if the email is already used for another account o
 \end{figure}
 
 \mysubsubsection{Login}
-This Runtime View shows a user's Login process.\par
-Like the previous runtime, the Web Server sends to the user the login\_form to fulfil with his credentials. Once he receives that, it sends the inserted information to the server, which now has to make some checks.\par
-First of all it has to check if the user’s email is saved in the DB and next if the user’s password is correct. So, in order to do that in an efficient way, the server asks the DBMS to get him the password related to the inserted email. This means that if the get\_result is equal \emph{Null} then there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
-If that check succeeds then the user is logged and the server gets from the DB the events related to the current month and shows them to the client.
+This Runtime View shows a user Login process.\par
+As in the previous runtime, the Web Server sends to the user the login\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server to be checked.\par
+First of all it has to check if the user email is present in the DB, then if the user password is correct. In order to accomplish this task, in an efficient way, the server asks the DBMS to retrieve him the password related to the inserted email. This means that if the get\_result is equal \emph{Null} then there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
+If that check succeeds, then the user is logged and the server gets from the DB the events related to the current month and shows them to the client.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.17]{Images/Runtime/Login}
@@ -140,21 +140,21 @@ If that check succeeds then the user is logged and the server gets from the DB t
 \end{figure}
 
 \mysubsubsection{Add Event}
-This Runtime View shows the AddEvent process.\par
+This Runtime View shows the Add Event process.\par
 In order to reduce the diagram size we make some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to put in the runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to Null.
-	\item The user hasn’t already configure the lunch preference, so there is no lunch event in the calendar. In this way we don’t put the check that, in the case that the inserted event overlaps with another one, verifies if the existing event is a Lunch. If it’s a Lunch the system has to check if it can be moved or reduced.
+	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to put at runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
+	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check that, in the case that the inserted event overlaps with another one, verifies if the existing event is a Lunch. If it’s a Lunch the system has to check if it can be moved or reduced.
 \end{itemize}\par
-Even in this runtime the user first of all has to complete the event\_form and send it to the server.
-Once Events Manager receives the data it has to check :
+Even in this runtime, first of all, the user has to complete the event\_form and send it to the server.
+Once Events Manager receives the data, it has to check :
 \begin{enumerate}
 	\setlength{\leftskip}{1cm}
-	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result it’s equal to \emph{Null} it means that there’s no overlap.
-	\item \emph{If the event is reachable from the previous one :} Events Manager asks the Repository Manager to get the information of the previous event, especially its location. Once received, it sends both locations to the Directions Component in order to get the route’s time, so it can check finally if the event is reachable or not.
+	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result is equal to \emph{Null} it means that there’s no overlapping.
+	\item \emph{If the event is reachable from the previous one :} Events Manager asks the Repository Manager to get the information of the previous event, especially its location. Once received, it sends both the locations to the Directions Component in order to get the route time. Finally, it checks if the event is reachable or not.
 	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but instead of getting the information from the DB of the previous event, it gets the one of the next event.
-	If all checks succeed, the server adds the event in the DB and show it to the user.
+	If all the checks succeed, the server will add the event in the DB and show it to the user.
 \end{enumerate}
 \begin{figure}[H]
 	\centering
