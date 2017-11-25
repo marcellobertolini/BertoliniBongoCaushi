@@ -2,13 +2,13 @@
 \mysection{Architectural Design}
 
 \mysubsection{Overview}
-In this chapter we will analyze the proposed architecture and components of the Travlendar+ system.\par
+In this chapter we will analyze the proposed architecture and components of Travlendar+ system.\par
 The proposed architecture is composed by three tiers :
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
-	\item \emph{Presentation Tier : }it's represented by Browser and Mobile App, the View part of our system.
-	\item \emph{Web and Business Tier : }it's represented by Web Server, which responds to the user's HTTP requests, and Application Server, which contains all the Business Logic.
-	\item \emph{Database Tier : }it's represented by DB Server, that contains and manages persistent data in an efficient way.
+	\item \emph{Presentation Tier : }it's represented by the Browser and the Mobile App, the View part of our system.
+	\item \emph{Web and Business Tier : }it's represented by the Web Server, which responds to the user's HTTP requests, and the Application Server, which contains all the Business Logic.
+	\item \emph{Database Tier : }it's represented by the DB Server, that contains and manages persistent data in an efficient way.
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -27,9 +27,9 @@ The system is divided in three main layers: Presentation Layer, Business Layer a
 The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
 
-The main server is composed by three parts : the previous mentioned Web Server, Application and External Communication Server. The application part of the main server contains all the system's logic: it receives requestes and input data from the client side and performs all the necessary operations.
-The External Communication Server part is devoted to handle all the comunication with the external services for retrieving data of interests from other systems in order to achieve the system's goals.
-Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case these information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason every client's requests that will implicate a changing data operation is preceded by a set of controls performed by the Business logic in order to mantain the database’s consistency.
+The main server is composed by three parts : the Web Server, mentioned here above, the Application and the External Communication Server. The application part of the main server contains all the system's logic: it receives requestes and input data from the client side and performs all the necessary operations.
+The External Communication Server part is in charge to handle all the comunication with the external services to retrieve data of interests from other systems in order to achieve the system goals.
+Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case, this information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason, every client request, implicating a changing data operation is preceded by a set of controls performed by the Business logic in order to maintain the database’s consistency.
 
 \mysubsection{Component View}
 \begin{figure}[H]
@@ -38,9 +38,9 @@ Our system, being a calendar based application, will have the main issue of mana
 	\caption{Component View}
 \end{figure}
 \mysubsubsection{Travlendar+ Mobile App}
-This is the component responsible for the communication between user’s devices, like user’s smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and will render the  based on the server’s replies.\par
-In order to communicate with the server the component will use specific frameworks and libraries depending on the specific device used by the user (ex. Android SDK Platform for Android smartphones).\par
-This component represent the View part of our MVC pattern.
+This is the component responsible for the communication between user devices, i.e. smartphone, and the rest of the system. It will exchange REST messages with the \emph{userInterface} and render based on the server replies.\par
+In order to communicate with the server the component will use specific frameworks and libraries depending on the specific device used by the user (i.e. Android SDK Platform for Android smartphones).\par
+This component represents the View part of our MVC pattern.
 
 \mysubsubsection{Travlendar+ Web Browser}
 This is the component responsible for the communication between user's browser and the rest of the system.\par
