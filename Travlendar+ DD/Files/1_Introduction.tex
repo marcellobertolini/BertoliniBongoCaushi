@@ -2,10 +2,10 @@
 \mysection{Introduction}
 
 \mysubsection{Purpose}
-This document has the aim of entering into the detail of Travlendar+ system. 
+This document has the aim of entering into the details of Travlendar+ system. 
 We will show the software architecture that we have designed for our system with different levels of abstraction, analyzing deeply the main components. 
-Additionally we will exhibit a runtime view of the system, showing as the various components will interact between themself specifying architectural and design pattern used.
-Finally we will present the critical algorithm implemented, a requirement - software componets correspondency and an high level plan about implementig and integrating the various components.
+Additionally, we will exhibit a runtime view of the system, showing as the various components will interact with each other, specifying architectural and design pattern used.
+Finally, we will present the critical algorithm implemented, a requirement - software components correspondence and a high level plan about the implementation and integration of the various components.
 
 \mysubsection{Scope}
 Travlendar+ is a calendar-based application that has the aim of managing the many meetings, events and appointments that a user has to deal with every day.\par
@@ -23,16 +23,16 @@ The system will offer other additional features :
 \newpage
 \mysubsection{Definitions}
 \begin{itemize}
-	\item \emph{Overlap :} if there’s already a planned event in that specific moment.
+	\item \emph{Overlap :} if there’s an event previously planned in that specific moment.
 	\item \emph{Reachability :} if an event is reachable from the previous one.
-	\item \emph{Tier :} physical structuring mechanism for the system infrastructure.
-	\item \emph{Server :} a computer program or a device that provides functionality for other programs or devices, called clients.
+	\item \emph{Tier :} a physical structuring mechanism for the system infrastructure.
+	\item \emph{Server :} a computer program or a device that provides functionalities for other programs or devices, called clients.
 	\item \emph{Interface :} is a shared boundary across which two or more separate components of a computer system exchange information.
-	\item \emph{Design Pattern :} is a general reusable solution to a commonly occurring problem within a given context in software design.
-	\item \emph{Milestone :} checkpoint of the implementation process. The various team have to reach determined result for the milestone's day.
-	\item \emph{Sub-Milestone :} checkpoint that together produce the milestone.
-	\item \emph{Front-End :} part of the system with which the user directly interact.
-	\item \emph{Back-end :} part of the system that contains all the system's logic and intercat with the Data Bases and the external services' software but that is hidden to the user.
+	\item \emph{Design Pattern :} it's a general reusable solution to a common problem that occurs in a given context in software design.
+	\item \emph{Sub-Milestone :} a checkpoint of the implementation process.
+	\item \emph{Milestone :} a set of Sub-Milestones. The various teams have to reach a determined result for the milestone day.
+	\item \emph{Front-End :} it's a part of the system with which the user interact directly.
+	\item \emph{Back-end :} it's a part of the system that contains all the system logic and interacts with the Data Bases and the external software services, but it's hidden to the user.
 \end{itemize}
 
 \mysubsection{Acronyms}
@@ -70,15 +70,15 @@ The system will offer other additional features :
 This paper is divided in 6 chapter:
 \begin{enumerate}
 	\setlength{\leftskip}{0.5cm}
-	\item The first chapter is constituted by an introduction of the system, his application domain, his goals and a glossary containing the most common expression used in order to give to the reader a basic knowledge of the system and to make him understand better the subsequent parts.
+	\item The first chapter is composed by an introduction of the system, its application domain, its goals and a glossary containing the most common expression used in order to give to the reader a basic knowledge of the system and to make him understand better the subsequent parts.
 	
-	\item In second chapter is defined the system's architecture. This is done starting from an High level elements description and going step by step deeper inside the various components and their interactions. The architeture styles and the design patters that we exploited for our design are also showed in the last subsections.
+	\item In the second chapter it is defined the system architecture. Starting from a High level elements description, it goes deeper step by step inside the various system components and their interactions. The architecture styles and the design patterns that we have used in designing our system are also shown in the last subsections.
 	
-	\item In the third paragraph there is a focus on the algorithm that we have designed for performing all the our system's check operations. The problem that we took on and its solution are precisely described and a code example in Java is also provided.
+	\item The third paragraph is focused on the algorithm we have designed to perform all the system check operations. The problem we faced and its solution are precisely described in this paragraph and a Java code example is also provided.
 	
-	\item In the fourth paragraph some mockups that describes user's interactions with the system are showed with a precice description of the interactions.
+	\item In the fourth paragraph some mockups, explaining the user interactions with the system, are shown and described.
 	
 	\item In the fifth chapter is shown how the requirements we have defined in the RASD map to the design elements that we have defined in this document.
 	
-	\item In the sixth chapter we have provided a startegy for dealing with Travlendar+ implementation. Furthemore, we have stated a precise team structure with the interactions between the various team's parts. Finally, we have stated a table of possible risks that may occur during the development process and a list of possible solutions.
+	\item In the sixth chapter a startegy to address the Travlendar+ implementation is provided. Furthermore, we have defined a precise team structure describing the interactions between the various team parts. Finally, we have defined a table of the possible risks that may occur during the development process and a list of the possible solutions.
 \end{enumerate}
