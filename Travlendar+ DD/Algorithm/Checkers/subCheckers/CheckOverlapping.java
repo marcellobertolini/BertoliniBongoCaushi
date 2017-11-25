@@ -9,7 +9,7 @@ public class CheckOverlapping implements CheckerInterface {
     @Override
     public Message check(ActionParameters eventInfo ) {
         EventInfo info = (EventInfo)eventInfo;
-        if ( !startingTimeInAnotherEvent(eventInfo)
+        if ( startingTimeInAnotherEvent(eventInfo)
                 && manager.getStartingTimeNextEvent(eventInfo) <= info.getEndingTime()  )
             return new Message(false, "The event overlaps the next one!");
 

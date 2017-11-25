@@ -10,7 +10,7 @@ public class CheckLunchGuaranteed implements CheckerInterface {
     public Message check(ActionParameters eventInfo ) {
         EventInfo info = (EventInfo)eventInfo;
 
-        if ( !checkLunchPreferenceRespected(info).getTruthValue())
+        if ( !checkLunchPreferenceRespected(info))
             return new Message(false, "The new event do not respect the lunch constraits!");
 
         return new Message(true, "all ok");

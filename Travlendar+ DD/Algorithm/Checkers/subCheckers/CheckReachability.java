@@ -4,17 +4,13 @@
  */
 public class CheckReachability implements CheckerInterface {
 
-    private Directions directions = new Directions();
-    private EventsManager manager = new EventsManager();
-
     @Override
     public Message check(ActionParameters eventInfo) {
-        EventInfo info = (EventInfo)eventInfo;
-        float timeNeeded = directions.getTimeNeeded(info.getEventDepartureCoord(), info.getEventArrivalCoord());
 
-        if (  isReachble(timeNeeded, eventInfo) )
+        if (  isReachble(eventInfo) )
             return new Message(true, "check ok");
 
         return new Message(false, "Event not reachble on time!");
     }
+
 }
