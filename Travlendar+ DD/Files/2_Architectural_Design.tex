@@ -111,8 +111,29 @@ TEXT HERE
 INSERT DBMS DIAGRAM
 
 \mysubsection{Runtime View}
+In this section will see some Runtime Views in order to see how the components interact according to specific requests.
+Because of this we decide to consider for the client-side just the Web Browser, in order to see the interaction between the Browser and the Web Server and the Web Server and the Application Server's components.
 
-TEXT HERE
+\mysubsubsection{Registration}
+This Runtime View shows a user's Registration process.\par
+First of all the Web Server sends to the user the registration\_form to fulfil with his credentials. Then, once it receives the form, it sends to the Server the inserted information.\par
+Now it’s important to check if the email is already used for another account or not. So, in order to do that, the server asks the DBMS to search for it and get it. If the get\_result it’s equal \emph{Null} it means that the email it’s not used, so the server can complete the registration saving in the DB the user’s credentials. Otherwise, the server will notify the user that the inserted email can’t be used.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{Images/Runtime/Registration}
+	\caption{Registration Runtime View}
+\end{figure}
+
+\mysubsubsection{Login}
+This Runtime View shows a user's Login process.\par
+Like the previous runtime, the Web Server sends to the user the login\_form to fulfil with his credentials. Once he receives that, it sends the inserted information to the server, which now has to make some checks.\par
+First of all it has to check if the user’s email is saved in the DB and next if the user’s password is correct. So, in order to do that in an efficient way, the server asks the DBMS to get him the password related to the inserted email. This means that if the get\_result is equal \emph{Null} then there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
+If that check succeeds then the user is logged and the server gets from the DB the events related to the current month and shows them to the client.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.17]{Images/Runtime/Login}
+	\caption{Login Runtime View}
+\end{figure}
 
 \mysubsection{Selected Architectural Styles and Patterns}
 Our system architecture proves to be a mix between three well known architectural styles, in particular : 
