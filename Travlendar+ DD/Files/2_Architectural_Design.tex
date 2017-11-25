@@ -115,7 +115,7 @@ It takes care of the communication with the outdoor transport services in order 
 INSERT DBMS DIAGRAM
 
 \mysubsection{Runtime View}
-In this section will see some Runtime Views in order to see how the components interact according to specific requests.
+In this section we will see some Runtime Views in order to see how the components interact according to specific requests.
 Because of this we decide to consider for the client-side just the Web Browser, in order to see the interaction between the Browser and the Web Server and the Web Server and the Application Server's components.
 
 \mysubsubsection{Registration}
@@ -140,10 +140,22 @@ If that check succeeds then the user is logged and the server gets from the DB t
 \end{figure}
 
 \mysubsubsection{Add Event}
-Premesse :
-- c'è un previous event e un Next Event
-- Non ho fissato il Lunch senno qual'ora l'evento overlap dovrei vedere se è un lunch o meno e se posso spostarlo o ridurlo
-
+This Runtime View shows the AddEvent process.
+In order to reduce the diagram size we make some premises :
+\begin{itemize}
+	\setlength{\leftskip}{1cm}
+	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to put in the runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to Null.
+	\item The user hasn’t already configure the lunch preference, so there is no lunch event in the calendar. In this way we don’t put the check that, in the case that the inserted event overlaps with another one, verifies if the existing event is a Lunch. If it’s a Lunch the system has to check if it can be moved or reduced.
+\end{itemize}
+Even in this runtime the user first of all has to complete the event\_form and send it to the server.
+Once Events Manager receives the data it has to check :
+\begin{enumerate}
+	\setlength{\leftskip}{1cm}
+	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result it’s equal to \emph{Null} it means that there’s no overlap.
+	\item \emph{If the event is reachable from the previous one :} Events Manager asks the Repository Manager to get the information of the previous event, especially its location. Once received, it sends both locations to the Directions Component in order to get the route’s time, so it can check finally if the event is reachable or not.
+	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but instead of getting the information from the DB of the previous event, it gets the one of the next event.
+	If all checks succeed, the server adds the event in the DB and show it to the user.
+\end{enumerate}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.15]{Images/Runtime/Add_Event}
