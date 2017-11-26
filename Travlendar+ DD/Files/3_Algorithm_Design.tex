@@ -1,13 +1,13 @@
 \mysection{Algorithm Design}
 \mysubsection{Problem faced}
-A very delicate phase of our system is that one in which the user's input is checked. This is so important because the most user’s operations in Travlendar+ terminates writing data on the Data Bases and if the system letted wrong input to be written in the persistent memory, will rise big problems of inconsistency.
+A very delicate phase of our system is when the user input is checked. This is very important because the most user’s operations in Travlendar+ terminates writing data on the Data Bases and if the system letted wrong input to be written in the persistent memory, big problems of inconsistency could be raised.
 
-The operations that the user is allowed to do work all with similar data but the checks that have to be performed are different, sometimes very complex and also some of them need a check’s combination concerning single operations.
+The operations that the user is allowed to do work all with similar data but the checks that have to be performed are different, sometimes very complex and also some of them require a check combination.
 
-Moreover, giving a quick look on the rapid world’s evolution, it sounds quite possible that new kinds of event and operations could be implemented in the system and so finding a modular and scalable way of facing this problem is an issue of primary importance.
+Moreover, giving a quick look on the rapid world evolution, it sounds quite possible that new kinds of events and operations could be implemented in the next future. Thus, the problem of finding a modular and scalable way to take on this possible software expansion assumes a primary importance.
 
 \mysubsection{Solution found}
-We will take on this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how will be implemented using Java.
+We will face this problem using the composite pattern, that has been described item by item in the design pattern paragraph. We give downward an example of how it will be implemented using Java.
 
 \mysubsection{Algorithm sample}
 \mysubsubsection{EventsManager}
