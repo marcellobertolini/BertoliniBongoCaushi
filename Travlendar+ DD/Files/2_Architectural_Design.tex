@@ -111,14 +111,19 @@ Here's the Deployment Diagram of our system. We will use the Apache Server, for 
 	\caption{Deployment View}
 \end{figure}
 
+\newpage
 \mysubsection{DB Structure}
-
-\textcolor{red}{\Huge INSERT DBMS DIAGRAM}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{Images/Architecture/DB_Structure}
+	\caption{DB Structure}
+\end{figure}
 
 \mysubsection{Runtime View}
 In this section we will see some Runtime Views in order to see how the components interact according to specific requests.
 For the client-side we have taken into consideration the Web Browser only, in order to evaluate the interaction between the Browser and the Web Server, the Web Server and the Application Server components.
 
+\newpage
 \mysubsubsection{Registration}
 This Runtime View shows a user Registration process.\par
 First of all the Web Server sends to the user the registration\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server.\par
@@ -129,6 +134,7 @@ At this point, it’s important to check if the email is already associated to a
 	\caption{Registration Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Login}
 This Runtime View shows a user Login process.\par
 As in the previous runtime, the Web Server sends to the user the login\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server to be checked.\par
@@ -140,6 +146,7 @@ If that check succeeds, then the user is logged and the server gets from the DB 
 	\caption{Login Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Add Event}
 This Runtime View shows the Add Event process.\par
 In order to reduce the diagram size we have made some premises :
@@ -163,6 +170,7 @@ Once Events Manager receives the data, it has to check :
 	\caption{Add Event Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Visualize Event}
 This Runtime View shows a user's Visualize Event process.\par
 In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to visualize.\par
@@ -174,6 +182,7 @@ Before sending back the result, Transport Manager filters all the means based on
 	\caption{Visualize Event Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Visualize Directions}
 This Runtime View shows a user's Visualize Directions process.\par
 In order to reduce the diagram size we have made a premise : the system has already checked that exists an event before the one that the user wants to get directions.\par
@@ -184,6 +193,7 @@ The Server receives the user request to show him the directions to reach a speci
 	\caption{Visualize Directions Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Weather \& Strike Check}
 This Runtime View shows the Weather and Strike Check process.\par
 In order to implement this in an efficient way we decide to create two server threads that wakes up every 24h and checks the weather conditions and the presence of strikes for the next day.\par
@@ -196,6 +206,7 @@ The same happens with the Strike thread.
 	\caption{Weather \& Strike Check Runtime View}
 \end{figure}
 
+\newpage
 \mysubsubsection{Add Trip}
 This Runtime View shows a user's Add Trip process.\par
 In order to reduce the diagram size we make some premises :
@@ -214,6 +225,7 @@ If all checks succeed Events Manager adds to the DB the travel event, while Trip
 	\caption{Add Trip Runtime View}
 \end{figure}
 
+\newpage
 \mysubsection{Selected Architectural Styles and Patterns}
 Our system architecture proves to be a mix between three well known architectural styles, in particular : 
 
