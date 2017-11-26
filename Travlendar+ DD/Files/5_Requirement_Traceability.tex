@@ -1,1 +1,226 @@
 \mysection{Requirement Traceability}
+Tis Section explain how the requirements we have defined in the RASD map to the design elements that we have defined in this document.
+\begin{itemize}
+	\item \emph{\textbf{[G$_{1}$] : Allow the user to register and log into the system}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The System has to check the credentials. & - Registration \& Login Manager & .checkEmail() .checkPassword()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{2}$] : A registered user must be able to log in the system.}	&	- User Manager & .login()\\
+		& - Registration \& Login Manager & .login()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The System has to handle the connection and user requests. & - User Manager & (all user manager methods)
+	\end{tabular}
+	\vspace{0.3cm}\\
+
+	\item \emph{\textbf{[G$_{2}$] : Allow the user to add events in the calendar}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system mustn’t allow events overlapping. & - Events Manager & .checkOverlap()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to guarantee the minimum lunch duration. & - Events Manager	& .checkMinLunchDuration()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{3}{5cm}{\lbrack R$_{3}$] : The system has to give the possibility to the user of arriving on time to the new event.} & - Transport Manager & .getRouteTime()\\
+		& - Directions & .getRouteTime()\\
+		& - Events Manager & .checkReachability()\\
+		&&\\
+		&&\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{4}$] : The system has to be able to add the new event to the calendar. & - Events Manager & .addEvent()
+	\end{tabular}
+
+	\newpage
+	\item \emph{\textbf{[G$_{3}$] : Allow the user to receive the mobility options}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{1}$] : The system has to check that the event has been created.} & - Repository Manager & .getEvent()\\
+		& - EventsManager & .checkEvent()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system is able to communicate with the route provider. & - Directions	&	(all Directions methods)\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system sends data about the starting and ending location to the route provider. &	- Directions & .getDirections(locations)\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{4}$] : The system receives the path and the available transports from the external service. & - Directions & .getMeans() .getDirections()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{5}$] : The system has to use the information given in the event’s TAG to filter the possible means of transport. & - Transport Manager & .filterMeans(TAG)\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{6}$] : The system has to check the travel means enabled by the user. & - Preference Manager & .getAvailableMeans()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{7}$] : The system has to obey the constraints set by the user about the travel means. & - Preference Manager & .getMeansConstraint()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{3}{5cm}{\lbrack R$_{8}$] : The system has to check if the Carbon footprint preference has been enabled.} & - Repository Manager & .getEventInfo()\\
+		& - Events Manager & .getCO2()\\
+		& - Preference Manager & .getCO2()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{9}$] : The system has to retrieve the user's position. & - User Manager & .getUserLocation()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{10}$] : The system has to check the weather forecast. & - Environment & .checkWeather()\\
+		\hline
+	\end{tabular}
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{11}$] : The system has to retrieve the appointment location. & - Repository Manager & .getEventInfo()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{12}$] : The system has to know how to show the solution found.}	& - User Manager & .visualizeEvent()\\
+		& - Events Manager & .visualizeEvent()
+	\end{tabular}
+	\vspace{0.3cm}\\
+	
+	\item \emph{\textbf{[G$_{4}$] : Support the user to avoid getting late on appointment}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to retrieve the user's GPS position. &	- User Manager & .getUserLocation()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to know how to send warnings to the user. &	- User Manager & .warning()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system has to check the destination position. &	- Repository Manager & .getEventInfo()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{4}{5cm}{\lbrack R$_{4}$] : The system has to check the possibility of reaching on time the next event with the slowest mean of transport in the list of suggested ones.} & - Repository Manager & .getNextEvent()\\
+		& - Directions & .getMeans()\\
+		& - Transport Manager & .filterMeans()\\
+		& - Directions & .getRouteTime()\\
+		&&\\
+		&&
+	\end{tabular}
+	\vspace{0.3cm}\\
+
+	\item \emph{\textbf{[G$_{5}$] : Allow the user to have advices about the means of transport that can minimize his carbon footprint}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\multirow{3}{5cm}{\lbrack R$_{1}$] : The system must be able to check the carbon footprint preference.} & - Repository Manager & .getEventInfo()\\
+		& - Events Manager & .getCO2()\\
+		& - Preference Manager & .getCO2()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system must know how to filter the means of transport to minimize their carbon footprint. & - Transport Manager & .filterMeans(TAG)	
+	\end{tabular}
+	
+	\newpage
+	\item \emph{\textbf{[G$_{6}$] : Support the user to have at least 30 minutes of lunch every day}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must be able to check the lunch preferences. & - Preference Manager & .getLunchPref()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{2}$] : The system must be able to create every day a lunch based on the user's preferences.} & - Preference Manager & .getLunchPref()\\
+		& - Events Manager & .addLunchEvent()\\
+		&&\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{3}$] : The system must be able to avoid the creation of those events that prevent the presence of a lunch with the minimum duration.} & - Events Manager & .checkOverlap() .checkMinLunchDuration()\\
+		&&\\
+		&&\\
+		&&\\
+		&&
+	\end{tabular}
+	\vspace{0.3cm}\\
+	
+	\item \emph{\textbf{[G$_{7}$] : Allow the user to buy local transport ticket}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to check that all the necessary travel info has been inserted by the user. & - Events Manager & .checkEventInfo\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to address the user to the web site/application to complete the ticket purchase. & - Local Transport Tickets & .showWebSite()
+	\end{tabular}
+	
+	\newpage
+	\item \emph{\textbf{[G$_{8}$] : Give advices about the best transportation ticket to buy}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to know how long the user will stay in town. & - Repository Manager & .getTripInfo()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to be able to get information about tickets from the public transport service. & - Local Transport Tickets & .getTickets()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system has to be able to interpret and elaborate the information received. & - Local Transport Tickets & .parseInfo()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{4}$] : The system has to find the most convenient ticket. & - Local Transport Tickets & .getBestTicket()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{5}$] : The system has to be able to show the results. & - User Manager & .visualizeLocalTickets()
+	\end{tabular}
+	\vspace{0.3cm}\\
+	
+	\item \emph{\textbf{[G$_{9}$] : Remind the user about the expiry date of his season ticket, if he has inserted one}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to check the season ticket expiry date. & - Preference Manager & .getSeasonTicket() .checkExpiryDate\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to be able to notify the user that his season ticket is expiring. & - User Manager & .visualizePreferences()
+	\end{tabular}
+	
+	\newpage
+	\item \emph{\textbf{[G$_{10}$] : Allow the user to buy ticket for outdoor travels}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must check the data inserted by the user to buy the ticket. & - Trip Manager & .checkTrip()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system must be able to send the data to the external transport service. & - Outdoor Transport Tickets & .getTickets(trip)\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system has to be able to interpret and elaborate the information received. & - Outdoor Transport Tickets & .parseInfo()
+	\end{tabular}
+	\vspace{0.3cm}\\
+	
+	\item \emph{\textbf{[G$_{11}$] : Allow the user to use local sharing services}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to retrieve the sharing means location. & - Sharing Service Manager & .getMeansLocation()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to check the user's location. & - User Manager & .getUserLocation()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system has to be able to show the sharing mean position to the user. & - User Manager & .visualizeSharingMean()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{4}$] : The system has to be able to redirect the user to the external sharing service system for booking the mean. & - Sharing Service Manager & .bookMean()
+	\end{tabular}
+	
+	\newpage
+	\item \emph{\textbf{[G$_{12}$] : Allow the user to set some preferences in the settings section}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must be able to show the user the possible preferences. & - User Manager & .visualizePreferences()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{2}$] : The system has to register these preferences in its database.} & - Preference Manager & .registerPreferences()\\
+		& - Repository Manager & .registerPreferences()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{3}$] : The system has to have access to these preferences each time is needed.} & - Preference Manager & .getPreferences()\\
+		& - Repository Manager & .getPreferences()
+	\end{tabular}
+	\vspace{0.3cm}\\
+	
+	\item \emph{\textbf{[G$_{13}$] : Allow the user to handle his trips}}
+	\vspace{0.4cm}\\
+	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
+		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to be able to create travel events. & - Events Manager & .addTravelEvent()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{2}$] : The system has to be able to show the list of trips created.} & - Trip Manager & .getTrips()\\
+		& - Repository Manager & .getTrips()\\
+		\hline
+		\rule{0pt}{4ex}\lbrack R$_{3}$] : The system has to be able to let the user modify the trips when needed. & - Trip Manager & .editTrip()\\
+		\hline
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{4}$] : The system has to be able to check the trips data.} & - Repository Manager & .getTrip()\\
+		& - Trip Manager & .checkTrip()
+	\end{tabular}
+	
+\end{itemize}
