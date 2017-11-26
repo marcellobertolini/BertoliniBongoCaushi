@@ -20,7 +20,7 @@ ore latex/pdflatex auxiliary files:
 # *.eps
 *.pdf
 
-!Pdf/* # do not ignore pdf files inside the Pdf directory
+!DeliveryFolder/* # do not ignore pdf files inside the Pdf directory
 
 ## Generated if empty string is given at "Please type another file name for output:"
 .pdf
