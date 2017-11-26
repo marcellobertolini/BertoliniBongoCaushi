@@ -121,7 +121,7 @@ For the client-side we have taken into consideration the Web Browser only, in or
 \mysubsubsection{Registration}
 This Runtime View shows a user Registration process.\par
 First of all the Web Server sends to the user the registration\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server.\par
-At this point, it’s important to check if the email has already been registered under another account. In order to do that, the server asks the DBMS to search for it. If the get\_result it’s equal \emph{Null} it means that the email it’s not used, so the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
+At this point, it’s important to check if the email is already associated to another account. In order to do that, the server calls method on the DBMS to retrive this information. If the get\_result it’s equal \emph{Null} the email it’s not used and the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.2]{Images/Runtime/Registration}
@@ -131,8 +131,8 @@ At this point, it’s important to check if the email has already been registere
 \mysubsubsection{Login}
 This Runtime View shows a user Login process.\par
 As in the previous runtime, the Web Server sends to the user the login\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server to be checked.\par
-First of all it has to check if the user email is present in the DB, then if the user password is correct. In order to accomplish this task, in an efficient way, the server asks the DBMS to retrieve him the password related to the inserted email. This means that if the get\_result is equal \emph{Null} then there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
-If that check succeeds, then the user is logged and the server gets from the DB the events related to the current month and shows them to the client.
+First of all it has to check if the user email is present in the DB and then if the user password is correct. In order to accomplish this task in an efficient way, the server asks the DBMS to retrieve him the password related to the inserted email. If the get\_result is equal \emph{Null} there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
+If that check succeeds, then the user is logged and the server gets and shows to the user the events related to the current month retrieved from the DB.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.17]{Images/Runtime/Login}
@@ -141,20 +141,20 @@ If that check succeeds, then the user is logged and the server gets from the DB 
 
 \mysubsubsection{Add Event}
 This Runtime View shows the Add Event process.\par
-In order to reduce the diagram size we make some premises :
+In order to reduce the diagram size we have made some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to put at runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
-	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check that, in the case that the inserted event overlaps with another one, verifies if the existing event is a Lunch. If it’s a Lunch the system has to check if it can be moved or reduced.
+	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to show runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
+	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check for verifying that the inserted event overlaps with a lunch event. In fact, if the overlapped event was a Lunch, the system would have to check if it could be moved or reduced respecting the lunch contraints.
 \end{itemize}\par
-Even in this runtime, first of all, the user has to complete the event\_form and send it to the server.
+Even in this runtime, firstly the user has to complete the event\_form and send it to the server.
 Once Events Manager receives the data, it has to check :
 \begin{enumerate}
 	\setlength{\leftskip}{1cm}
-	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result is equal to \emph{Null} it means that there’s no overlapping.
+	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result is equal to \emph{Null} there’s no overlap.
 	\item \emph{If the event is reachable from the previous one :} Events Manager asks the Repository Manager to get the information of the previous event, especially its location. Once received, it sends both the locations to the Directions Component in order to get the route time. Finally, it checks if the event is reachable or not.
-	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but instead of getting the information from the DB of the previous event, it gets the one of the next event.
-	If all the checks succeed, the server will add the event in the DB and show it to the user.
+	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but it gets from the DB the information of the next event instead of the previous one.
+	If all the checks succeed, the server will add the event in the DB and shows it to the user.
 \end{enumerate}
 \begin{figure}[H]
 	\centering
@@ -165,8 +165,7 @@ Once Events Manager receives the data, it has to check :
 \mysubsubsection{Visualize Event}
 This Runtime View shows a user's Visualize Event process.\par
 In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to visualize.\par
-In this diagram the user asks the server to show him an event, so this mean that the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager, first of all, gets from the DB the event info and the previous event info, and next asks the Directions component to compute the route between this two locations and to send back for each mean of transport the time needed to cover the travel.
-But before sending the result back, Transport Manager filters all the means based on preferences, weather and strikes.
+In this diagram the user asks the server to show him an event. For achieving this result, the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager gets from the DB the choosen and the previous event info and after asks the Directions component to compute the route between this two locations. Before sending back the results, before sending the result back, the Transport Manager component filters all the means based on preferences, weather and strikes.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.125]{Images/Runtime/Visualize_Event}
@@ -174,9 +173,9 @@ But before sending the result back, Transport Manager filters all the means base
 \end{figure}
 
 \mysubsubsection{Visualize Directions}
-This Runtime View shows a user's Visualize Directions process.\par
-In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to get directions.\par
-Server receives the user request to show him the directions to reach a specific event. In order to do that, Events Manager, first of all, gets from the DB the information about that event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
+This Runtime View shows a user's Visualization Directions process.\par
+In order to reduce the diagram size we make a premise : the system has already checked that exists an event before the one that the user wants to get directions.\par
+The Server receives the user request to show him the directions to reach a specific event. In order to do that, the Events Manager gets from the DB the information about the choosen event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.16]{Images/Runtime/Visualize_Directions}
@@ -185,9 +184,9 @@ Server receives the user request to show him the directions to reach a specific 
 
 \mysubsubsection{Weather \& Strike Check}
 This Runtime View shows the Weather and Strike Check process.\par
-In order to implement this in an efficient way we decide to create two server threads that wakes up every 24h and checks the weather conditions and the presence of strikes for the next day.\par
+In order to implement this in an efficient way we decide to create two server threads that wakes up every 24h and checks the weather conditions and the presence of strikes for the next days.\par
 As seen in Add Event diagram, in the first part the user adds an event for tomorrow, just to make sure that there’s something to check for the next day.\par
-At midnight the Weather thread, in the Environment component, wakes up and asks the DB for all the locations that it has to check. Once it receives them, it checks it tomorrow will rain and in that case will notify it to the user.\par
+At midnight the Weather thread, in the Environment component, wakes up and asks the DB for all the locations that it has to check. Once it receives them, it checks if tomorrow will rain and in that case will notify it to the user.\par
 The same happens with the Strike thread.
 \begin{figure}[H]
 	\centering
@@ -200,13 +199,13 @@ This Runtime View shows a user's Add Trip process.\par
 In order to reduce the diagram size we make some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item The Overlap and Reachability checks aren’t fully showed. To see them watch the Add Event Runtime View.
+	\item The Overlap and Reachability checks aren’t fully showed. For more details watch the Add Event Runtime View above.
 	\item The user has inserted just a departure travel, so all the checks for the travel event are executed just one time, instead of two.
 \end{itemize}\par
-In this diagram, as in others before, the user receives a form to fulfil and to send back to the Web Server.
-Once the server receives the trip\_form, it sends that to the Trip Manager, which, first of all, checks if the trip is already present in the DB (get\_result!=\emph{Null}).\par
-After that it has to check if the departure travel event can be added to the calendar, this mean that it has to ask the Events Manager to check the Overlap and the Reachability.\par
-If all checks succeed Events Manager adds to the DB the travel event, while Trip Manager adds the Trip.
+In this diagram, the user receives a form to fulfil and to send back to the Web Server.
+Once the server receives the trip\_form, it sends that to the Trip Manager, which checks if the trip is already present in the DB (get\_result!=\emph{Null}).\par
+After that it has to check if the departure travel event can be added to the calendar. For performing this control, it has to ask the Events Manager to check the Overlap and the Reachability.\par
+If all checks succeed Events Manager adds to the DB the travel event and Trip Manager adds the Trip.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.165]{Images/Runtime/Add_Trip}
