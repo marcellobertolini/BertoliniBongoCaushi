@@ -1,0 +1,4609 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  26 NOV 2017 19:55
+entering extended mode
+**"./Travlendar+ DD.tex"
+("Travlendar+ DD.tex"
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(Files/Packages.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/01/24 v3.3q English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 29.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 31.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (597.50787pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (845.04684pt) is ignored.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen112
+\extrarowheight=\dimen113
+\NC@list=\toks18
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box26
+\sift@deathcycles=\count91
+\@vwid@loff=\dimen114
+\@vwid@roff=\dimen115
+)
+\c@taburow=\count92
+\tabu@nbcols=\count93
+\tabu@cnt=\count94
+\tabu@Xcol=\count95
+\tabu@alloc=\count96
+\tabu@nested=\count97
+\tabu@target=\dimen116
+\tabu@spreadtarget=\dimen117
+\tabu@naturalX=\dimen118
+\tabucolX=\dimen119
+\tabu@Xsum=\dimen120
+\extrarowdepth=\dimen121
+\abovetabulinesep=\dimen122
+\belowtabulinesep=\dimen123
+\tabustrutrule=\dimen124
+\tabu@thebody=\toks19
+\tabu@footnotes=\toks20
+\tabu@box=\box27
+\tabu@arstrutbox=\box28
+\tabu@hleads=\box29
+\tabu@vleads=\box30
+\tabu@cellskip=\skip54
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen125
+\TX@old@table=\dimen126
+\TX@old@col=\dimen127
+\TX@target=\dimen128
+\TX@delta=\dimen129
+\TX@cols=\count98
+\TX@ftn=\toks21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count99
+\multirow@dima=\skip56
+\bigstrutjot=\dimen130
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltablex\ltablex.sty"
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count100
+\LTcapwidth=\dimen131
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count101
+\LT@rows=\count102
+\c@LT@tables=\count103
+\c@LT@chunks=\count104
+\LT@p@ftn=\toks22
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks23
+\float@box=\box35
+\@float@everytoks=\toks24
+\@floatcapt=\box36
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+))
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks25
+\minrowclearance=\skip61
+)
+\rownum=\count107
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip62
+\enit@outerparindent=\dimen134
+\enit@toks=\toks26
+\enit@inbox=\box37
+\enitdp@description=\count108
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count111
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count112
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count113
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip63
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count119
+\lst@gtempboxa=\box38
+\lst@token=\toks28
+\lst@length=\count120
+\lst@currlwidth=\dimen139
+\lst@column=\count121
+\lst@pos=\count122
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count123
+\lst@lineno=\count124
+\lst@maxwidth=\dimen142
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count125
+\lst@skipnumbers=\count126
+\lst@framebox=\box39
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+))
+("Travlendar+ DD.aux")
+\openout1 = `"Travlendar+ DD.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 3.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 674.33032pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-13.13809pt
+* \headheight=12.0pt
+* \headsep=28.45274pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen143
+\scratchbox=\box40
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen144
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks30
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring ON on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+
+("Travlendar+ DD.out") ("Travlendar+ DD.out")
+\@outlinefile=\write3
+\openout3 = `"Travlendar+ DD.out"'.
+
+\c@lstlisting=\count134
+
+<Images/Polimi_Logo.png, id=299, 405.515pt x 125.46875pt>
+File: Images/Polimi_Logo.png Graphic file (type png)
+
+<use Images/Polimi_Logo.png>
+Package pdftex.def Info: Images/Polimi_Logo.png used on input line 10.
+(pdftex.def)             Requested size: 283.85855pt x 87.82751pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/Polimi_Logo.png>
+] ("Travlendar+ DD.toc"
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 47.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 ...e {3.2}Solution found}{26}{subsection.3.2}
+                                                   [1])
+\tf@toc=\write4
+\openout4 = `"Travlendar+ DD.toc"'.
+
+ [2] ("Travlendar+ DD.lof")
+\tf@lof=\write5
+\openout5 = `"Travlendar+ DD.lof"'.
+
+ [3]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(Files/1_Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ []\T1/lmtt/m/n/10.95 This document has the aim of entering into the details of
+ Travlendar+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 system. We will show the software architecture that we have
+ designed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 for our system with different levels of abstraction, analyz
+ing deeply
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 the main components. Additionally, we will exhibit a runtim
+e view of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 the system, showing as the various components will interact
+ with each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 other, specifying architectural and design pattern used. Fi
+nally, we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 will present the critical algorithm implemented, a requirem
+ent - software
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ \T1/lmtt/m/n/10.95 components correspondence and a high level plan about the i
+mplementation and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []\T1/lmtt/m/n/10.95 Travlendar+ is a calendar-based application that has the 
+aim of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ \T1/lmtt/m/n/10.95 managing the many meetings, events and appointments that a 
+user has to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ []\T1/lmtt/m/n/10.95 The system will let the user create events in his persona
+l calendar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ \T1/lmtt/m/n/10.95 checking if he is able to reach them on time and supporting
+ his choices
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+ []\T1/lmtt/m/n/10.95 Travlendar+ will also give the user the possibility to bu
+y tickets of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+ \T1/lmtt/m/n/10.95 town's public and private means of transport and it will al
+so allow him to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+ \T1/lmtt/m/n/10.95 manage his travels to reach other cities, creating specific
+ travel events in
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 17.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+ []\T1/lmtt/m/n/10.95 The possibility to register the season ticket for the pub
+lic transport.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+ []\T1/lmtt/m/n/10.95 The possibility to set the starting time, ending time and
+ the preferred
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+ \T1/lmtt/m/n/10.95 duration of every day lunch. The system will guarantee to r
+eserve at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+ []\T1/lmtt/m/n/10.95 In case of outdoor trips, the user will be able to insert
+ the period
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+ \T1/lmtt/m/n/10.95 he will spend out of town and the system will suggest him t
+he most
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+ \T1/lmtt/m/n/10.95 convenient transport tickets available, keeping in mind the
+ information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+ []\T1/lmtt/m/n/10.95 The possibility of setting the anticipation time for reac
+hing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+ \T1/lmtt/m/n/10.95 various events. The system will warn the user when he needs
+ to leave
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/lmtt/m/it/10.95 Server : \T1/lmtt/m/n/10.95 a computer program or a devic
+e that provides functionalities for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\T1/lmtt/m/it/10.95 Interface : \T1/lmtt/m/n/10.95 is a shared boundary acros
+s which two or more separate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\T1/lmtt/m/it/10.95 Design Pattern : \T1/lmtt/m/n/10.95 it's a general reusab
+le solution to a common problem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/lmtt/m/it/10.95 Milestone : \T1/lmtt/m/n/10.95 a set of Sub-Milestones. T
+he various teams have to reach a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\T1/lmtt/m/it/10.95 Front-End : \T1/lmtt/m/n/10.95 it's a part of the system 
+with which the user interact
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\T1/lmtt/m/it/10.95 Back-end : \T1/lmtt/m/n/10.95 it's a part of the system t
+hat contains all the system logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\T1/lmtt/m/n/10.95 and interacts with the Data Bases and the external software 
+services, but
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+ []\T1/lmtt/m/n/10.95 The first chapter is composed by an introduction of the s
+ystem, its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+ \T1/lmtt/m/n/10.95 application domain, its goals and a glossary containing the
+ most common
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+ \T1/lmtt/m/n/10.95 expression used in order to give to the reader a basic know
+ledge of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ []\T1/lmtt/m/n/10.95 In the second chapter it is defined the system architectu
+re. Starting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ \T1/lmtt/m/n/10.95 from a High level elements description, it goes deeper step
+ by step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ \T1/lmtt/m/n/10.95 inside the various system components and their interactions
+. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ \T1/lmtt/m/n/10.95 architecture styles and the design patterns that we have us
+ed in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+ []\T1/lmtt/m/n/10.95 The third paragraph is focused on the algorithm we have d
+esigned to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+ \T1/lmtt/m/n/10.95 perform all the system check operations. The problem we fac
+ed and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+ \T1/lmtt/m/n/10.95 its solution are precisely described in this paragraph and 
+a Java code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+ []\T1/lmtt/m/n/10.95 In the fourth paragraph some mockups, explaining the user
+ interactions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+ []\T1/lmtt/m/n/10.95 In the fifth chapter is shown how the requirements we hav
+e defined
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+ \T1/lmtt/m/n/10.95 in the RASD map to the design elements that we have defined
+ in this
+ []
+
+
+Overfull \hbox (6.01486pt too wide) in paragraph at lines 83--84
+ []\T1/lmtt/m/n/10.95 In the sixth chapter a startegy to address the Travlendar
++ implementation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+ \T1/lmtt/m/n/10.95 is provided. Furthermore, we have defined a precise team st
+ructure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+ \T1/lmtt/m/n/10.95 describing the interactions between the various team parts.
+ Finally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+ \T1/lmtt/m/n/10.95 we have defined a table of the possible risks that may occu
+r during the
+ []
+
+) [6] (Files/2_Architectural_Design.tex
+Overfull \hbox (1.34381pt too wide) in paragraph at lines 5--5
+ []\T1/lmtt/m/n/10.95 In this chapter we will analyze the proposed architecture
+ and components
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+ []\T1/lmtt/m/it/10.95 Presentation Tier : \T1/lmtt/m/n/10.95 it's represented 
+by the Browser and the Mobile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+ []\T1/lmtt/m/it/10.95 Web and Business Tier : \T1/lmtt/m/n/10.95 it's represen
+ted by the Web Server, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+ \T1/lmtt/m/n/10.95 responds to the user's HTTP requests, and the Application S
+erver, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+ []\T1/lmtt/m/it/10.95 Database Tier : \T1/lmtt/m/n/10.95 it's represented by t
+he DB Server, that contains and
+ []
+
+
+<Images/Architecture/Proposed_Architecture.png, id=483, 722.7pt x 458.46281pt>
+File: Images/Architecture/Proposed_Architecture.png Graphic file (type png)
+
+<use Images/Architecture/Proposed_Architecture.png>
+Package pdftex.def Info: Images/Architecture/Proposed_Architecture.png used on 
+input line 15.
+(pdftex.def)             Requested size: 252.94878pt x 160.46439pt.
+
+<Images/Architecture/Components_High_Level.png, id=484, 964.60374pt x 262.9825p
+t>
+File: Images/Architecture/Components_High_Level.png Graphic file (type png)
+ <use Images/Architecture/Components_High_Level.png>
+Package pdftex.def Info: Images/Architecture/Components_High_Level.png used on 
+input line 22.
+(pdftex.def)             Requested size: 337.61636pt x 92.04524pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ []\T1/lmtt/m/n/10.95 The system is divided in three main layers: Presentation 
+Layer,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 Business Layer and Data Layer. The presentation layer is bo
+th a web-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 application and a mobile application. For the web applicati
+on we will have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 a very thin client with the only aim of performing requests
+, through a web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 server, to the Business layer and receiving the HTML pages 
+with the demanded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 information. On the other hand, the mobile application will
+ not require an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+ \T1/lmtt/m/n/10.95 interface with the web server because it will communicate d
+irectly with the
+ []
+
+[7 <./Images/Architecture/Proposed_Architecture.png> <./Images/Architecture/Com
+ponents_High_Level.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ []\T1/lmtt/m/n/10.95 The main server is composed by three parts : the Web Serv
+er, mentioned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 here above, the Application and the External Communication 
+Server. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 application part of the main server contains all the system
+'s logic: it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 receives requestes and input data from the client side and 
+performs all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 the necessary operations. The External Communication Server
+ part is in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 charge to handle all the comunication with the external ser
+vices to retrieve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 data of interests from other systems in order to achieve th
+e system goals.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 Our system, being a calendar based application, will have t
+he main issue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 of managing a richly structured body of information. In our
+ case, this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 information will be persistently stored in multiple Data Ba
+ses, each one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 containing a precise schema with a precise kind of data, an
+d they always
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 have to reflect the true state of affairs. For this reason,
+ every client
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 request, implicating a changing data operation is preceded 
+by a set of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+ \T1/lmtt/m/n/10.95 controls performed by the Business logic in order to mainta
+in the database's
+ []
+
+
+<Images/Architecture/Components_View.png, id=491, 2361.82375pt x 1133.23375pt>
+File: Images/Architecture/Components_View.png Graphic file (type png)
+
+<use Images/Architecture/Components_View.png>
+Package pdftex.def Info: Images/Architecture/Components_View.png used on input 
+line 37.
+(pdftex.def)             Requested size: 401.50473pt x 192.64719pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+ []\T1/lmtt/m/n/10.95 This is the component responsible for the communication b
+etween user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+ \T1/lmtt/m/n/10.95 devices, i.e. smartphone, and the rest of the system. It wi
+ll exchange
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+ \T1/lmtt/m/n/10.95 REST messages with the \T1/lmtt/m/it/10.95 userInterface \T
+1/lmtt/m/n/10.95 and rendering the UI based on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+ []\T1/lmtt/m/n/10.95 In order to communicate with the server the component wil
+l use
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+ \T1/lmtt/m/n/10.95 specific frameworks and libraries depending on the specific
+ device used by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+ []\T1/lmtt/m/n/10.95 This is the component responsible for the communication b
+etween the
+ []
+
+[8 <./Images/Architecture/Components_View.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+ []\T1/lmtt/m/n/10.95 It sends HTTP requests to the \T1/lmtt/m/it/10.95 webInte
+rface \T1/lmtt/m/n/10.95 in order to get back from
+ []
+
+
+Overfull \hbox (21.31892pt too wide) in paragraph at lines 50--50
+ []\T1/lmtt/m/n/10.95 This component is responsible for the HTTP responses of t
+he \T1/lmtt/m/it/10.95 webInterface\T1/lmtt/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+ \T1/lmtt/m/n/10.95 Its main function is to elaborate pages, generate contents 
+dynamically and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+ \T1/lmtt/m/n/10.95 send them back to the browser. These processes are performe
+d by the Web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+ \T1/lmtt/m/n/10.95 Server instead of the user Browser to manage efficiently th
+e user CPU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+ []\T1/lmtt/m/n/10.95 An example could be the Apache HTTP Server. It's a cross-
+platform
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+ \T1/lmtt/m/n/10.95 server, highly scalable, that using a \T1/lmtt/m/it/10.95 g
+zip \T1/lmtt/m/n/10.95 module reduces web pages size
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+ []\T1/lmtt/m/n/10.95 This is one of the most important server component that h
+andles the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+ \T1/lmtt/m/n/10.95 communication with the user and takes care of all possible 
+breakouts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+ \T1/lmtt/m/n/10.95 and errors that may occur at runtime. It also manages all u
+ser requests
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+ []\T1/lmtt/m/n/10.95 It allows the user to register and log into the system, m
+emorizing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+ []\T1/lmtt/m/n/10.95 It allows the user to set all his preferences, such as ca
+rbon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+ \T1/lmtt/m/n/10.95 footprint, TAGs, residence location, etc... with the purpos
+e to memorize
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+ \T1/lmtt/m/n/10.95 these data in the DB through the Repository Manager and ret
+rieve them
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ []\T1/lmtt/m/n/10.95 This component handles all user trips, allowing him to ad
+d, delete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ \T1/lmtt/m/n/10.95 or edit them. It also allows the user to buy tickets to rea
+ch the trip
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ \T1/lmtt/m/n/10.95 location (through the Outdoor Transport Tickets component) 
+and the ones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ \T1/lmtt/m/n/10.95 for local transport services in the destination city (throu
+gh the Local
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+ []\T1/lmtt/m/n/10.95 This component takes care of user calendar, managing the 
+events that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+ []\T1/lmtt/m/it/10.95 insert or edit an event : \T1/lmtt/m/n/10.95 the compone
+nt will check through the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+ \T1/lmtt/m/n/10.95 Repository Manager if in the DB there is an overlap and if 
+the event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+ \T1/lmtt/m/n/10.95 is reachable from the previous one (using also Transport Ma
+nager to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+ []\T1/lmtt/m/it/10.95 visualize an event : \T1/lmtt/m/n/10.95 the component wi
+ll check through the Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+ \T1/lmtt/m/n/10.95 Manager the available means of transport, the time needed a
+nd suggest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+ []\T1/lmtt/m/n/10.95 This component handles all the means of transport and tic
+kets.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+ []\T1/lmtt/m/n/10.95 the available means to reach the event (suggested by the 
+route
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+ []\T1/lmtt/m/n/10.95 This component will handle the communication with the rou
+te provider
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+ \T1/lmtt/m/n/10.95 in order to get maps, means and routes to reach a specific 
+destination.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+ \T1/lmtt/m/n/10.95 To get these information it will use API requests (i.e. Goo
+gle APIs). It
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+ \T1/lmtt/m/n/10.95 will also parse and elaborate the API responses in specific
+ structures,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+ []\T1/lmtt/m/n/10.95 This component will be used by our system to check and wa
+rn the user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+ \T1/lmtt/m/n/10.95 about the weather conditions and eventual transport strikes
+. It will use
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+ []\T1/lmtt/m/n/10.95 This component will allow our server to communicate with 
+the external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+ \T1/lmtt/m/n/10.95 sharing services and retrieve the nearest sharing mean of t
+ransport GPS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+ []\T1/lmtt/m/n/10.95 It will take care of the communication with the local tra
+nsport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+ \T1/lmtt/m/n/10.95 services, in order to get information about the available t
+ickets,
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+ []\T1/lmtt/m/n/10.95 It will take care of the communication with the outdoor t
+ransport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+ \T1/lmtt/m/n/10.95 services, in order to get information about the available t
+ickets and
+ []
+
+<Images/Architecture/Deployment_View.png, id=506, 627.34375pt x 810.02625pt>
+File: Images/Architecture/Deployment_View.png Graphic file (type png)
+
+<use Images/Architecture/Deployment_View.png>
+Package pdftex.def Info: Images/Architecture/Deployment_View.png used on input 
+line 110.
+(pdftex.def)             Requested size: 188.20457pt x 243.00975pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
+ []\T1/lmtt/m/n/10.95 Here's the Deployment Diagram of our system. We will use 
+the Apache
+ []
+
+[11 <./Images/Architecture/Deployment_View.png>]
+<Images/Architecture/DB_Structure.png, id=512, 815.045pt x 915.42pt>
+File: Images/Architecture/DB_Structure.png Graphic file (type png)
+
+<use Images/Architecture/DB_Structure.png>
+Package pdftex.def Info: Images/Architecture/DB_Structure.png used on input lin
+e 118.
+(pdftex.def)             Requested size: 366.76686pt x 411.9352pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+ []\T1/lmtt/m/n/10.95 In this section we will see some Runtime Views in order t
+o see how the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+ \T1/lmtt/m/n/10.95 components interact according to specific requests. For the
+ client-side we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+ \T1/lmtt/m/n/10.95 have taken into consideration the Web Browser only, in orde
+r to evaluate the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+ \T1/lmtt/m/n/10.95 interaction between the Browser and the Web Server, the Web
+ Server and the
+ []
+
+[12 <./Images/Architecture/DB_Structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+ []\T1/lmtt/m/n/10.95 First of all the Web Server sends to the user the registr
+ation_form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+ \T1/lmtt/m/n/10.95 to be fulfilled with his credentials. As soon as the inform
+ation are
+ []
+
+<Images/Runtime/Registration.png, id=519, 2169.10374pt x 1392.20125pt>
+File: Images/Runtime/Registration.png Graphic file (type png)
+
+<use Images/Runtime/Registration.png>
+Package pdftex.def Info: Images/Runtime/Registration.png used on input line 133
+.
+(pdftex.def)             Requested size: 433.81306pt x 278.43532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+ []\T1/lmtt/m/n/10.95 At this point, it's important to check if the email is al
+ready
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+ \T1/lmtt/m/n/10.95 associated to another account. In order to do that, the ser
+ver asks the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+ \T1/lmtt/m/n/10.95 DBMS to search for it. If the get_result it's equal \T1/lmt
+t/m/it/10.95 Null\T1/lmtt/m/n/10.95 , it means that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+ \T1/lmtt/m/n/10.95 the email it's not used and the server can complete the reg
+istration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+ \T1/lmtt/m/n/10.95 saving in the DB the user credentials. Otherwise, the serve
+r will notify
+ []
+
+[13 <./Images/Runtime/Registration.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+ []\T1/lmtt/m/n/10.95 As in the previous runtime, the Web Server sends to the u
+ser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+ \T1/lmtt/m/n/10.95 the login_form to be fulfilled with his credentials. As soo
+n as the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+ \T1/lmtt/m/n/10.95 information are inserted, the form is sent back to the Serv
+er to be
+ []
+
+<Images/Runtime/Login.png, id=525, 2570.60374pt x 2031.59pt>
+File: Images/Runtime/Login.png Graphic file (type png)
+
+<use Images/Runtime/Login.png>
+Package pdftex.def Info: Images/Runtime/Login.png used on input line 145.
+(pdftex.def)             Requested size: 436.99686pt x 345.36574pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ []\T1/lmtt/m/n/10.95 First of all it has to check if the user email is present
+ in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 DB and then if the user password is correct. In order to ac
+complish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 this task in an efficient way, the server asks the DBMS to 
+retrieve him
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 the password related to the inserted email. If the get_resu
+lt is equal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/it/10.95 Null \T1/lmtt/m/n/10.95 then there is no account registere
+d with that email. Otherwise,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 the server, more specifically the Registration & Login Mana
+ger, has to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 check if the get_result is equal to the inserted password. 
+If that check
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+ \T1/lmtt/m/n/10.95 succeeds, then the user is logged and the server gets from 
+the DB the
+ []
+
+[14 <./Images/Runtime/Login.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+ []\T1/lmtt/m/n/10.95 There is a Previous and a Next Event, before and after th
+e event that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+ \T1/lmtt/m/n/10.95 the user is adding. In this way we don't have to show runti
+me the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+ \T1/lmtt/m/n/10.95 check that verifies if the getPreviousEvent() or the getNex
+tEvent()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ []\T1/lmtt/m/n/10.95 The user hasn't already configured the lunch preference, 
+so there
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ \T1/lmtt/m/n/10.95 is no lunch event in the calendar. In this way we don't hav
+e to run
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ \T1/lmtt/m/n/10.95 the check for verifying that the inserted event overlaps wi
+th a lunch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ \T1/lmtt/m/n/10.95 event. In fact, if the overlapped event was a Lunch, the sy
+stem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ \T1/lmtt/m/n/10.95 would have to check if it could be moved or reduced respect
+ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+ []\T1/lmtt/m/n/10.95 Even in this runtime, firstly the user has to complete th
+e event_form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+ \T1/lmtt/m/n/10.95 and send it to the server. Once Events Manager receives the
+ data, it has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+ []\T1/lmtt/m/it/10.95 If the event Overlaps : \T1/lmtt/m/n/10.95 Events Manage
+r asks the Repository Manager
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+ \T1/lmtt/m/n/10.95 to search in the DB if there's a planned event at the same 
+time of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+ \T1/lmtt/m/n/10.95 the inserted one. If the get_result is equal to \T1/lmtt/m/
+it/10.95 Null \T1/lmtt/m/n/10.95 then there's no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+ []\T1/lmtt/m/it/10.95 If the event is reachable from the previous one : \T1/lm
+tt/m/n/10.95 Events Manager
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+ \T1/lmtt/m/n/10.95 asks the Repository Manager to get the information of the p
+revious
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+ \T1/lmtt/m/n/10.95 event, especially its location. Once received, it sends bot
+h the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+ \T1/lmtt/m/n/10.95 locations to the Directions Component in order to get the r
+oute time.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+ []\T1/lmtt/m/it/10.95 If the next event is reachable from the inserted one : \
+T1/lmtt/m/n/10.95 it's like the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+ \T1/lmtt/m/n/10.95 previous check but it gets from the DB the information of t
+he next
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+ \T1/lmtt/m/n/10.95 event, instead of the previous one. If all the checks succe
+ed, the
+ []
+
+<Images/Runtime/Add_Event.png, id=531, 2931.95375pt x 3119.655pt>
+File: Images/Runtime/Add_Event.png Graphic file (type png)
+
+<use Images/Runtime/Add_Event.png>
+Package pdftex.def Info: Images/Runtime/Add_Event.png used on input line 169.
+(pdftex.def)             Requested size: 439.7741pt x 467.92807pt.
+ [15] [16 <./Images/Runtime/Add_Event.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+ []\T1/lmtt/m/n/10.95 In order to reduce the diagram size we make a premise : t
+he system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+ \T1/lmtt/m/n/10.95 has already checked that there exists an event before the o
+ne that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ []\T1/lmtt/m/n/10.95 In this diagram the user asks the server to show him an e
+vent, so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ \T1/lmtt/m/n/10.95 this mean that the server has to get the event info and the
+ means of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ \T1/lmtt/m/n/10.95 transport available to reach it. In order to do that the Ev
+ents Manager,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ \T1/lmtt/m/n/10.95 first of all, gets from the DB the event info and the previ
+ous event info.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ \T1/lmtt/m/n/10.95 Next asks the Directions component to compute the route bet
+ween this two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ \T1/lmtt/m/n/10.95 locations and to send back for each mean of transport the t
+ime needed to
+ []
+
+<Images/Runtime/Visualize_Event.png, id=544, 3594.42876pt x 3005.2275pt>
+File: Images/Runtime/Visualize_Event.png Graphic file (type png)
+
+<use Images/Runtime/Visualize_Event.png>
+Package pdftex.def Info: Images/Runtime/Visualize_Event.png used on input line 
+182.
+(pdftex.def)             Requested size: 449.30249pt x 375.65251pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
+ []\T1/lmtt/m/n/10.95 Before sending back the result, Transport Manager filters
+ all the
+ []
+
+[17 <./Images/Runtime/Visualize_Event.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+ []\T1/lmtt/m/n/10.95 In order to reduce the diagram size we have made a premis
+e : the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+ \T1/lmtt/m/n/10.95 system has already checked that exists an event before the 
+one that the
+ []
+
+<Images/Runtime/Visualize_Directions.png, id=550, 2652.91125pt x 1393.205pt>
+File: Images/Runtime/Visualize_Directions.png Graphic file (type png)
+
+<use Images/Runtime/Visualize_Directions.png>
+Package pdftex.def Info: Images/Runtime/Visualize_Directions.png used on input 
+line 193.
+(pdftex.def)             Requested size: 424.47447pt x 222.91736pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+ []\T1/lmtt/m/n/10.95 The Server receives the user request to show him the dire
+ctions to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+ \T1/lmtt/m/n/10.95 reach a specific event. In order to do that, Events Manager
+, first of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+ \T1/lmtt/m/n/10.95 all, gets from the DB the information about the choosen eve
+nt and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+ \T1/lmtt/m/n/10.95 previous one. Once it receives them, asks the Directions co
+mponent to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+ \T1/lmtt/m/n/10.95 elaborate the route between the given locations and finally
+ it shows the
+ []
+
+[18 <./Images/Runtime/Visualize_Directions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+ []\T1/lmtt/m/n/10.95 In order to implement this in an efficient way we decide 
+to create
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+ \T1/lmtt/m/n/10.95 two server threads that wakes up every 24h and checks the w
+eather
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+ []\T1/lmtt/m/n/10.95 As seen in Add Event diagram, in the first part the user 
+adds an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+ \T1/lmtt/m/n/10.95 event for tomorrow, just to make sure that there's somethin
+g to check for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+ []\T1/lmtt/m/n/10.95 At midnight the Weather thread, in the Environment compon
+ent, wakes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+ \T1/lmtt/m/n/10.95 up and asks the DB for all the locations that it has to che
+ck. Once
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+ \T1/lmtt/m/n/10.95 it receives them, it checks if tomorrow will rain and in th
+at case will
+ []
+
+
+<Images/Runtime/Weather_Strike_Check.png, id=557, 2510.37875pt x 2287.54625pt>
+File: Images/Runtime/Weather_Strike_Check.png Graphic file (type png)
+
+<use Images/Runtime/Weather_Strike_Check.png>
+Package pdftex.def Info: Images/Runtime/Weather_Strike_Check.png used on input 
+line 206.
+(pdftex.def)             Requested size: 414.19463pt x 377.42885pt.
+ [19 <./Images/Runtime/Weather_Strike_Check.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+ []\T1/lmtt/m/n/10.95 The Overlap and Reachability checks aren't fully showed. 
+For more
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+ []\T1/lmtt/m/n/10.95 The user has inserted just a departure travel, so all the
+ checks for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+ []\T1/lmtt/m/n/10.95 In this diagram, the user receives a trip_form to fulfil 
+and to send
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+ \T1/lmtt/m/n/10.95 back to the Web Server. Once the server receives the form, 
+it sends that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+ \T1/lmtt/m/n/10.95 to the Trip Manager, which, first of all, checks if the tri
+p is already
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+ []\T1/lmtt/m/n/10.95 After that it has to check if the departure travel event 
+can be added
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+ \T1/lmtt/m/n/10.95 to the calendar. This mean that it has to ask the Events Ma
+nager to check
+ []
+
+<Images/Runtime/Add_Trip.png, id=563, 2570.60374pt x 2516.40125pt>
+File: Images/Runtime/Add_Trip.png Graphic file (type png)
+
+<use Images/Runtime/Add_Trip.png>
+Package pdftex.def Info: Images/Runtime/Add_Trip.png used on input line 225.
+(pdftex.def)             Requested size: 424.13132pt x 415.1883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--227
+ []\T1/lmtt/m/n/10.95 If all checks succeed Events Manager adds to the DB the t
+ravel event,
+ []
+
+[20] [21 <./Images/Runtime/Add_Trip.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+ []\T1/lmtt/m/n/10.95 Our system architecture proves to be a mix between three 
+well known
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+ []\T1/lmtt/m/n/10.95 Travlendar+ is both a web-based application and a mobile 
+application.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+ \T1/lmtt/m/n/10.95 For the web application we will have a very thin client wit
+h the only aim
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+ \T1/lmtt/m/n/10.95 of performing requests to the Business Logic through a web 
+server. On the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+ \T1/lmtt/m/n/10.95 other hand, the mobile application will not require an inte
+rface with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+ []\T1/lmtt/m/n/10.95 The main server will contain all the logic of the system.
+ The main
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+ \T1/lmtt/m/n/10.95 component of the logic will be the User manager. This compo
+nent will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+ \T1/lmtt/m/n/10.95 perform as the Main program in the \T1/lmtt/m/it/10.95 Main
+ program with subroutines style\T1/lmtt/m/n/10.95 : it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+ \T1/lmtt/m/n/10.95 will receive the requests from the clients and call the rig
+ht sub-components
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ []\T1/lmtt/m/n/10.95 An essential of our system business, as said in the RASD,
+ will be to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 provide directions related to the precise travel means, sha
+ring means'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 position and tickets information about local and outdoor pu
+blic transport.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 All this information will not be stored in our DBs, but the
+y will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 retrieved with API REST requests to an appropiate external 
+services. For
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 this goal we will use a \T1/lmtt/m/it/10.95 SOA style\T1/lm
+tt/m/n/10.95 . In our system we will have a component
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 called Transport manager that will be able to distinguish t
+he kind of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 request and it will delegate to another precise component, 
+devoted to a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 certain type of external services connection, the aim of su
+bmitting it to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 the right external service . Once that the information has 
+been received,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 its manipulation will be performed internally to the busine
+ss logic of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 system. In this way we will have the possibility of adding 
+new components
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ \T1/lmtt/m/n/10.95 for incoming kind of means of transport, also personalized,
+ in a very simple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+ []\T1/lmtt/m/n/10.95 The last architectural style exploited is the \T1/lmtt/m/
+it/10.95 Event based Architectural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+ \T1/lmtt/m/it/10.95 style\T1/lmtt/m/n/10.95 , and it is used for the notificat
+ion system that will be always
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+ \T1/lmtt/m/n/10.95 waiting for a particular event that, if happens, triggers a
+ notification
+ []
+
+<Images/Patterns/MVC_Pattern.jpg, id=573, 460.72125pt x 241.90375pt>
+File: Images/Patterns/MVC_Pattern.jpg Graphic file (type jpg)
+
+<use Images/Patterns/MVC_Pattern.jpg>
+Package pdftex.def Info: Images/Patterns/MVC_Pattern.jpg used on input line 256
+.
+(pdftex.def)             Requested size: 184.28523pt x 96.75978pt.
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+ []\T1/lmtt/m/n/10.95 The Database server contains all the software's data and 
+constitutes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+ \T1/lmtt/m/n/10.95 the model part. The presentation layer, composed by the web
+-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+ \T1/lmtt/m/n/10.95 application and the mobile application, represent the view 
+that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+ \T1/lmtt/m/n/10.95 released to the user. Finally the main server, that is the 
+business
+ []
+
+<Images/Patterns/Observer_Pattern.png, id=578, 501.875pt x 207.77625pt>
+File: Images/Patterns/Observer_Pattern.png Graphic file (type png)
+
+<use Images/Patterns/Observer_Pattern.png>
+Package pdftex.def Info: Images/Patterns/Observer_Pattern.png used on input lin
+e 264.
+(pdftex.def)             Requested size: 225.84166pt x 93.49843pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ []\T1/lmtt/m/n/10.95 Our software has to be able to advise the user that he ha
+s to take
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 a certain mean of transport for allowing him to arrive on t
+ime, that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 registered season ticket is going to expire or also if a st
+rike or bad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 meteorological conditions are forecasted. All these events 
+have to be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 supported by a notification system. These needs will be imp
+lemented with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 the \T1/lmtt/m/it/10.95 observe pattern\T1/lmtt/m/n/10.95 .
+ There will be a specific group of event listener,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 namely objects that extend a common abstract class. The sys
+tem will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 have as many event listeners as is necessary and they can b
+e added freely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 for future expansion. When during a process a state of inte
+rest for a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+ \T1/lmtt/m/n/10.95 listener is changed, some checks are performed and, under s
+ome particular
+ []
+
+<Images/Patterns/Strategy_Pattern.png, id=579, 353.82187pt x 176.15813pt>
+File: Images/Patterns/Strategy_Pattern.png Graphic file (type png)
+
+<use Images/Patterns/Strategy_Pattern.png>
+Package pdftex.def Info: Images/Patterns/Strategy_Pattern.png used on input lin
+e 272.
+(pdftex.def)             Requested size: 247.67361pt x 123.30983pt.
+ [23 <./Images/Patterns/MVC_Pattern.jpg> <./Images/Patterns/Observer_Pattern.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ []\T1/lmtt/m/n/10.95 The filters applied on the data to show particular result
+s, based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 the user's choices, for example to advise the best means of
+ transport for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 a destination, will be implemented with a strategy pattern.
+ The class
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 that will order the results will have an instance of an abs
+tract class
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 that will be implemented by some concrete classes, represen
+ting different
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 ordering strategy. In this way the system will be able to a
+dapt its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 strategy runtime and it will be very simple to add new stra
+tegies creating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ \T1/lmtt/m/n/10.95 new classes that will implement the abstract strategy class
+ previous
+ []
+
+<Images/Patterns/Composite_Pattern.png, id=585, 602.25pt x 389.455pt>
+File: Images/Patterns/Composite_Pattern.png Graphic file (type png)
+
+<use Images/Patterns/Composite_Pattern.png>
+Package pdftex.def Info: Images/Patterns/Composite_Pattern.png used on input li
+ne 280.
+(pdftex.def)             Requested size: 210.79065pt x 136.31128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ []\T1/lmtt/m/n/10.95 We will use this pattern in our system to perform, in a c
+leaned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 and elegant way, the various checks that will have to be ap
+plied on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 user input. There will be a abstract class called Checker t
+hat will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 be extended by Composite checkers and Checkers. Each compos
+ite checker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 will contain one or more checkers and both implement a comm
+on interface
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 using the \T1/lmtt/m/it/10.95 check \T1/lmtt/m/n/10.95 meth
+od. The class that will have to manage a specific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 user input will have one or more composite checkers. When a
+ method
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 that have to process the user input data, addresing them to
+ an external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 service or to another component that will insert such a dat
+a in a DB, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 check method of all the composite checker in such a class w
+ill be called
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 and each composite checkers will recursively call his check
+er's check
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 method. In this way all the checks will be applied and if s
+omething is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 wrong, the subsequent operation will not be executed and al
+l the possible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 problems linked with that will be avoided. Thanks to this p
+attern is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 possible to create new checkers/composite checkers very eas
+ily and to deal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+ \T1/lmtt/m/n/10.95 with complex and composite check that will be needed in fut
+ure software
+ []
+
+[24 <./Images/Patterns/Strategy_Pattern.png> <./Images/Patterns/Composite_Patte
+rn.png>]
+<Images/Patterns/Facade_Pattern.jpg, id=593, 658.93236pt x 419.44942pt>
+File: Images/Patterns/Facade_Pattern.jpg Graphic file (type jpg)
+
+<use Images/Patterns/Facade_Pattern.jpg>
+Package pdftex.def Info: Images/Patterns/Facade_Pattern.jpg used on input line 
+290.
+(pdftex.def)             Requested size: 197.68123pt x 125.83578pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 293--43
+ []\T1/lmtt/m/n/10.95 As guideline of our implementation, for all the complex o
+perations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--43
+ \T1/lmtt/m/n/10.95 that will require multiple methods calls from different cla
+sses we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--43
+ \T1/lmtt/m/n/10.95 will use a façade pattern. In this way we will able to hide
+ a complex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--43
+ \T1/lmtt/m/n/10.95 logic operation within a single method call and to simplify
+ the software
+ []
+
+[25 <./Images/Patterns/Facade_Pattern.jpg>] (Files/3_Algorithm_Design.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ []\T1/lmtt/m/n/10.95 A very delicate phase of our system is when the user inpu
+t is checked.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ \T1/lmtt/m/n/10.95 This is very important because the most user's operations i
+n Travlendar+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ \T1/lmtt/m/n/10.95 terminates writing data on the Data Bases and if the system
+ letted wrong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ \T1/lmtt/m/n/10.95 input to be written in the persistent memory, big problems 
+of inconsistency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ []\T1/lmtt/m/n/10.95 The operations that the user is allowed to do work all wi
+th similar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ \T1/lmtt/m/n/10.95 data but the checks that have to be performed are different
+, sometimes very
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ []\T1/lmtt/m/n/10.95 Moreover, giving a quick look on the rapid world evolutio
+n, it sounds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ \T1/lmtt/m/n/10.95 quite possible that new kinds of events and operations coul
+d be implemented
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ \T1/lmtt/m/n/10.95 in the next future. Thus, the problem of finding a modular 
+and scalable way
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+ []\T1/lmtt/m/n/10.95 We will face this problem using the composite pattern, th
+at has been
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+ \T1/lmtt/m/n/10.95 described item by item in the design pattern paragraph. We 
+give downward an
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(Algorithm/mainServer/EventsManager.java) [26]
+(Algorithm/checkers/CheckerInterface.java)
+(Algorithm/checkers/AddEventChecker.java) [27]
+(Algorithm/checkers/subCheckers/CheckOverlapping.java)
+(Algorithm/checkers/subCheckers/CheckLunchGuaranteed.java) [28]
+(Algorithm/checkers/subCheckers/CheckReachability.java)) [29]
+(Files/4_User_Interface_Design.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\T1/lmtt/m/n/10.95 In this section we will some mockups in order to describe 
+Travlendar+ user
+ []
+
+<Images/Interface/Login/1_login_form.png, id=722, 376.40625pt x 669.50125pt>
+File: Images/Interface/Login/1_login_form.png Graphic file (type png)
+
+<use Images/Interface/Login/1_login_form.png>
+Package pdftex.def Info: Images/Interface/Login/1_login_form.png used on input 
+line 8.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Login/2_login_form_filled.png, id=723, 376.40625pt x 669.5012
+5pt>
+File: Images/Interface/Login/2_login_form_filled.png Graphic file (type png)
+ <use Images/Interface/Login/2_login_form_filled.png>
+Package pdftex.def Info: Images/Interface/Login/2_login_form_filled.png used on
+ input line 10.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Login/3_calendar+lunch.png, id=724, 376.40625pt x 669.50125pt
+>
+File: Images/Interface/Login/3_calendar+lunch.png Graphic file (type png)
+ <use Images/Interface/Login/3_calendar+lunch.png>
+Package pdftex.def Info: Images/Interface/Login/3_calendar+lunch.png used on in
+put line 12.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Login/4_profile_no_trips.png, id=725, 376.40625pt x 669.50125
+pt>
+File: Images/Interface/Login/4_profile_no_trips.png Graphic file (type png)
+ <use Images/Interface/Login/4_profile_no_trips.png>
+Package pdftex.def Info: Images/Interface/Login/4_profile_no_trips.png used on 
+input line 14.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+ []\T1/lmtt/m/n/10.95 The login interface is composed by email and password fie
+lds. After
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+ \T1/lmtt/m/n/10.95 the insertion of the credentials the user will be able to a
+ccess to his
+ []
+
+
+<Images/Interface/Calendar/1_calendar+lunch.png, id=726, 376.40625pt x 669.5012
+5pt>
+File: Images/Interface/Calendar/1_calendar+lunch.png Graphic file (type png)
+ <use Images/Interface/Calendar/1_calendar+lunch.png>
+Package pdftex.def Info: Images/Interface/Calendar/1_calendar+lunch.png used on
+ input line 22.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Calendar/2_add_menu.png, id=727, 376.40625pt x 669.50125pt>
+File: Images/Interface/Calendar/2_add_menu.png Graphic file (type png)
+
+<use Images/Interface/Calendar/2_add_menu.png>
+Package pdftex.def Info: Images/Interface/Calendar/2_add_menu.png used on input
+ line 24.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Calendar/3_single_event_view.png, id=728, 376.40625pt x 669.5
+0125pt>
+File: Images/Interface/Calendar/3_single_event_view.png Graphic file (type png)
+
+ <use Images/Interface/Calendar/3_single_event_view.png>
+Package pdftex.def Info: Images/Interface/Calendar/3_single_event_view.png used
+ on input line 26.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Calendar/4_calendar+meeting.png, id=729, 376.40625pt x 669.50
+125pt>
+File: Images/Interface/Calendar/4_calendar+meeting.png Graphic file (type png)
+ <use Images/Interface/Calendar/4_calendar+meeting.png>
+Package pdftex.def Info: Images/Interface/Calendar/4_calendar+meeting.png used 
+on input line 28.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--30
+ []\T1/lmtt/m/n/10.95 By tapping on the add button on the bottom-right side of 
+the screen
+ []
+
+[30 <./Images/Interface/Login/1_login_form.png> <./Images/Interface/Login/2_log
+in_form_filled.png> <./Images/Interface/Login/3_calendar+lunch.png> <./Images/I
+nterface/Login/4_profile_no_trips.png> <./Images/Interface/Calendar/1_calendar+
+lunch.png> <./Images/Interface/Calendar/2_add_menu.png> <./Images/Interface/Cal
+endar/3_single_event_view.png> <./Images/Interface/Calendar/4_calendar+meeting.
+png>]
+<Images/Interface/Lunch/1_calendar+lunch.png, id=743, 376.40625pt x 669.50125pt
+>
+File: Images/Interface/Lunch/1_calendar+lunch.png Graphic file (type png)
+ <use Images/Interface/Lunch/1_calendar+lunch.png>
+Package pdftex.def Info: Images/Interface/Lunch/1_calendar+lunch.png used on in
+put line 37.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Lunch/2_single_event_view.png, id=744, 376.40625pt x 669.5012
+5pt>
+File: Images/Interface/Lunch/2_single_event_view.png Graphic file (type png)
+ <use Images/Interface/Lunch/2_single_event_view.png>
+Package pdftex.def Info: Images/Interface/Lunch/2_single_event_view.png used on
+ input line 39.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Lunch/3_lunch_warning.png, id=745, 376.40625pt x 669.50125pt>
+File: Images/Interface/Lunch/3_lunch_warning.png Graphic file (type png)
+<use Images/Interface/Lunch/3_lunch_warning.png>
+Package pdftex.def Info: Images/Interface/Lunch/3_lunch_warning.png used on inp
+ut line 41.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Lunch/4_calendar+meeting+lunch.png, id=746, 376.40625pt x 669
+.50125pt>
+File: Images/Interface/Lunch/4_calendar+meeting+lunch.png Graphic file (type pn
+g)
+ <use Images/Interface/Lunch/4_calendar+meeting+lunch.png>
+Package pdftex.def Info: Images/Interface/Lunch/4_calendar+meeting+lunch.png us
+ed on input line 43.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--45
+ []\T1/lmtt/m/n/10.95 An everyday lunch event is created by default at the begi
+nning of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--45
+ \T1/lmtt/m/n/10.95 time window indicated by the user. During the creation of a
+n event, the
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 47.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 47.
+
+<Images/Interface/CO2/1_C02_disabled.png, id=747, 376.40625pt x 669.50125pt>
+File: Images/Interface/CO2/1_C02_disabled.png Graphic file (type png)
+
+<use Images/Interface/CO2/1_C02_disabled.png>
+Package pdftex.def Info: Images/Interface/CO2/1_C02_disabled.png used on input 
+line 51.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/CO2/2_CO2_enabled.png, id=748, 376.40625pt x 669.50125pt>
+File: Images/Interface/CO2/2_CO2_enabled.png Graphic file (type png)
+
+<use Images/Interface/CO2/2_CO2_enabled.png>
+Package pdftex.def Info: Images/Interface/CO2/2_CO2_enabled.png used on input l
+ine 53.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+ [31 <./Images/Interface/Lunch/1_calendar+lunch.png> <./Images/Interface/Lunch/
+2_single_event_view.png> <./Images/Interface/Lunch/3_lunch_warning.png> <./Imag
+es/Interface/Lunch/4_calendar+meeting+lunch.png> <./Images/Interface/CO2/1_C02_
+disabled.png> <./Images/Interface/CO2/2_CO2_enabled.png>]
+<Images/Interface/Weather_Forecast/1_optimal.png, id=759, 376.40625pt x 669.501
+25pt>
+File: Images/Interface/Weather_Forecast/1_optimal.png Graphic file (type png)
+ <use Images/Interface/Weather_Forecast/1_optimal.png>
+Package pdftex.def Info: Images/Interface/Weather_Forecast/1_optimal.png used o
+n input line 62.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Weather_Forecast/2_rain.png, id=760, 376.40625pt x 669.50125p
+t>
+File: Images/Interface/Weather_Forecast/2_rain.png Graphic file (type png)
+ <use Images/Interface/Weather_Forecast/2_rain.png>
+Package pdftex.def Info: Images/Interface/Weather_Forecast/2_rain.png used on i
+nput line 64.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+ []\T1/lmtt/m/n/10.95 A blue arrow will connect two reachable events. If the ar
+row is
+ []
+
+
+<Images/Interface/Directions/1_calendar+meeting.png, id=761, 376.40625pt x 669.
+50125pt>
+File: Images/Interface/Directions/1_calendar+meeting.png Graphic file (type png
+)
+ <use Images/Interface/Directions/1_calendar+meeting.png>
+Package pdftex.def Info: Images/Interface/Directions/1_calendar+meeting.png use
+d on input line 73.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Directions/2_single_event_view.png, id=762, 376.40625pt x 669
+.50125pt>
+File: Images/Interface/Directions/2_single_event_view.png Graphic file (type pn
+g)
+ <use Images/Interface/Directions/2_single_event_view.png>
+Package pdftex.def Info: Images/Interface/Directions/2_single_event_view.png us
+ed on input line 75.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Directions/3_directions.png, id=763, 376.40625pt x 669.50125p
+t>
+File: Images/Interface/Directions/3_directions.png Graphic file (type png)
+ <use Images/Interface/Directions/3_directions.png>
+Package pdftex.def Info: Images/Interface/Directions/3_directions.png used on i
+nput line 77.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--79
+ []\T1/lmtt/m/n/10.95 By tapping on the event its details will be shown. By tap
+ping on one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--79
+ \T1/lmtt/m/n/10.95 item of the means list (the bottom side of picture 2) repor
+ted below, the
+ []
+
+[32 <./Images/Interface/Weather_Forecast/1_optimal.png> <./Images/Interface/Wea
+ther_Forecast/2_rain.png> <./Images/Interface/Directions/1_calendar+meeting.png
+> <./Images/Interface/Directions/2_single_event_view.png> <./Images/Interface/D
+irections/3_directions.png>]
+<Images/Interface/Tags/1_tags+work_add.png, id=773, 376.40625pt x 669.50125pt>
+File: Images/Interface/Tags/1_tags+work_add.png Graphic file (type png)
+
+<use Images/Interface/Tags/1_tags+work_add.png>
+Package pdftex.def Info: Images/Interface/Tags/1_tags+work_add.png used on inpu
+t line 87.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/2_tags_color.png, id=774, 376.40625pt x 669.50125pt>
+File: Images/Interface/Tags/2_tags_color.png Graphic file (type png)
+
+<use Images/Interface/Tags/2_tags_color.png>
+Package pdftex.def Info: Images/Interface/Tags/2_tags_color.png used on input l
+ine 89.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/3_tag_name.png, id=775, 376.40625pt x 669.50125pt>
+File: Images/Interface/Tags/3_tag_name.png Graphic file (type png)
+
+<use Images/Interface/Tags/3_tag_name.png>
+Package pdftex.def Info: Images/Interface/Tags/3_tag_name.png used on input lin
+e 91.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/4_tags+work+personal.png, id=776, 376.40625pt x 669.5012
+5pt>
+File: Images/Interface/Tags/4_tags+work+personal.png Graphic file (type png)
+ <use Images/Interface/Tags/4_tags+work+personal.png>
+Package pdftex.def Info: Images/Interface/Tags/4_tags+work+personal.png used on
+ input line 93.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--95
+ []\T1/lmtt/m/n/10.95 In this section the user can create tags by tapping on th
+e add button
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--95
+ \T1/lmtt/m/n/10.95 set in the centre-bottom side of the UI. The user is asked 
+to assign a
+ []
+
+
+<Images/Interface/Tags/5_tags+work+personal-edit.png, id=777, 376.40625pt x 669
+.50125pt>
+File: Images/Interface/Tags/5_tags+work+personal-edit.png Graphic file (type pn
+g)
+ <use Images/Interface/Tags/5_tags+work+personal-edit.png>
+Package pdftex.def Info: Images/Interface/Tags/5_tags+work+personal-edit.png us
+ed on input line 99.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/6_tags_deletion.png, id=778, 376.40625pt x 669.50125pt>
+File: Images/Interface/Tags/6_tags_deletion.png Graphic file (type png)
+
+<use Images/Interface/Tags/6_tags_deletion.png>
+Package pdftex.def Info: Images/Interface/Tags/6_tags_deletion.png used on inpu
+t line 101.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/7_tags_deletion_2.png, id=779, 376.40625pt x 669.50125pt
+>
+File: Images/Interface/Tags/7_tags_deletion_2.png Graphic file (type png)
+ <use Images/Interface/Tags/7_tags_deletion_2.png>
+Package pdftex.def Info: Images/Interface/Tags/7_tags_deletion_2.png used on in
+put line 103.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Tags/8_tags+work.png, id=780, 376.40625pt x 669.50125pt>
+File: Images/Interface/Tags/8_tags+work.png Graphic file (type png)
+
+<use Images/Interface/Tags/8_tags+work.png>
+Package pdftex.def Info: Images/Interface/Tags/8_tags+work.png used on input li
+ne 105.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--107
+ []\T1/lmtt/m/n/10.95 The user can delete one or more tag pressing on the edit
+ and select
+ []
+
+[33 <./Images/Interface/Tags/1_tags+work_add.png> <./Images/Interface/Tags/2_ta
+gs_color.png> <./Images/Interface/Tags/3_tag_name.png> <./Images/Interface/Tags
+/4_tags+work+personal.png> <./Images/Interface/Tags/5_tags+work+personal-edit.p
+ng> <./Images/Interface/Tags/6_tags_deletion.png> <./Images/Interface/Tags/7_ta
+gs_deletion_2.png> <./Images/Interface/Tags/8_tags+work.png>]
+<Images/Interface/Trips/1_event_in_rome.png, id=793, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/1_event_in_rome.png Graphic file (type png)
+<use Images/Interface/Trips/1_event_in_rome.png>
+Package pdftex.def Info: Images/Interface/Trips/1_event_in_rome.png used on inp
+ut line 114.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/2_trip_warning.png, id=794, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/2_trip_warning.png Graphic file (type png)
+
+<use Images/Interface/Trips/2_trip_warning.png>
+Package pdftex.def Info: Images/Interface/Trips/2_trip_warning.png used on inpu
+t line 116.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/3_trip_not_defined.png, id=795, 376.40625pt x 669.50125
+pt>
+File: Images/Interface/Trips/3_trip_not_defined.png Graphic file (type png)
+ <use Images/Interface/Trips/3_trip_not_defined.png>
+Package pdftex.def Info: Images/Interface/Trips/3_trip_not_defined.png used on 
+input line 118.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/4_trips_list.png, id=796, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/4_trips_list.png Graphic file (type png)
+
+<use Images/Interface/Trips/4_trips_list.png>
+Package pdftex.def Info: Images/Interface/Trips/4_trips_list.png used on input 
+line 120.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/5_profile+trips.png, id=797, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/5_profile+trips.png Graphic file (type png)
+<use Images/Interface/Trips/5_profile+trips.png>
+Package pdftex.def Info: Images/Interface/Trips/5_profile+trips.png used on inp
+ut line 126.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/6_trip_list.png, id=798, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/6_trip_list.png Graphic file (type png)
+
+<use Images/Interface/Trips/6_trip_list.png>
+Package pdftex.def Info: Images/Interface/Trips/6_trip_list.png used on input l
+ine 128.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--130
+ []\T1/lmtt/m/n/10.95 After the creation of a trip, it will be shown also in th
+e profile
+ []
+
+
+<Images/Interface/Trips/7_trip_definition.png, id=799, 376.40625pt x 669.50125p
+t>
+File: Images/Interface/Trips/7_trip_definition.png Graphic file (type png)
+ <use Images/Interface/Trips/7_trip_definition.png>
+Package pdftex.def Info: Images/Interface/Trips/7_trip_definition.png used on i
+nput line 134.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/8_trip_add_button.png, id=800, 376.40625pt x 669.50125p
+t>
+File: Images/Interface/Trips/8_trip_add_button.png Graphic file (type png)
+ <use Images/Interface/Trips/8_trip_add_button.png>
+Package pdftex.def Info: Images/Interface/Trips/8_trip_add_button.png used on i
+nput line 136.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/9_form.png, id=801, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/9_form.png Graphic file (type png)
+
+<use Images/Interface/Trips/9_form.png>
+Package pdftex.def Info: Images/Interface/Trips/9_form.png used on input line 1
+38.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/10_trip_review.png, id=802, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/10_trip_review.png Graphic file (type png)
+
+<use Images/Interface/Trips/10_trip_review.png>
+Package pdftex.def Info: Images/Interface/Trips/10_trip_review.png used on inpu
+t line 140.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--142
+ []\T1/lmtt/m/n/10.95 The user can insert ticket info by tapping one of the mea
+ns suggested.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--142
+ \T1/lmtt/m/n/10.95 By inserting the data, the system will provide some tickets
+ available for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--142
+ \T1/lmtt/m/n/10.95 the journey. The user will be able to add an existing ticke
+t if he has
+ []
+
+[34 <./Images/Interface/Trips/1_event_in_rome.png> <./Images/Interface/Trips/2_
+trip_warning.png> <./Images/Interface/Trips/3_trip_not_defined.png> <./Images/I
+nterface/Trips/4_trips_list.png> <./Images/Interface/Trips/5_profile+trips.png>
+ <./Images/Interface/Trips/6_trip_list.png>]
+<Images/Interface/Trips/11_departure.png, id=813, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/11_departure.png Graphic file (type png)
+
+<use Images/Interface/Trips/11_departure.png>
+Package pdftex.def Info: Images/Interface/Trips/11_departure.png used on input 
+line 146.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/12_return.png, id=814, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/12_return.png Graphic file (type png)
+
+<use Images/Interface/Trips/12_return.png>
+Package pdftex.def Info: Images/Interface/Trips/12_return.png used on input lin
+e 148.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/13_pnr_to_define.png, id=815, 376.40625pt x 669.50125pt
+>
+File: Images/Interface/Trips/13_pnr_to_define.png Graphic file (type png)
+ <use Images/Interface/Trips/13_pnr_to_define.png>
+Package pdftex.def Info: Images/Interface/Trips/13_pnr_to_define.png used on in
+put line 150.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+ []\T1/lmtt/m/n/10.95 It will be also possible to buy a suggested ticket after 
+being
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+ \T1/lmtt/m/n/10.95 redirected to the service website. If the service does not 
+provide API
+ []
+
+<Images/Interface/Trips/14_form.png, id=816, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/14_form.png Graphic file (type png)
+
+<use Images/Interface/Trips/14_form.png>
+Package pdftex.def Info: Images/Interface/Trips/14_form.png used on input line 
+154.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+
+<Images/Interface/Trips/15_trip_review.png, id=817, 376.40625pt x 669.50125pt>
+File: Images/Interface/Trips/15_trip_review.png Graphic file (type png)
+
+<use Images/Interface/Trips/15_trip_review.png>
+Package pdftex.def Info: Images/Interface/Trips/15_trip_review.png used on inpu
+t line 156.
+(pdftex.def)             Requested size: 86.57161pt x 153.98204pt.
+) [35 <./Images/Interface/Trips/7_trip_definition.png> <./Images/Interface/Trip
+s/8_trip_add_button.png> <./Images/Interface/Trips/9_form.png> <./Images/Interf
+ace/Trips/10_trip_review.png> <./Images/Interface/Trips/11_departure.png> <./Im
+ages/Interface/Trips/12_return.png> <./Images/Interface/Trips/13_pnr_to_define.
+png> <./Images/Interface/Trips/14_form.png> <./Images/Interface/Trips/15_trip_r
+eview.png>]
+(Files/5_Requirement_Traceability.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+[]\T1/lmtt/m/n/10.95 Tis Section explain how the requirements we have defined i
+n the RASD map
+ []
+
+
+LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 4.
+
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The System
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/lmtt/m/n/10.95 has to check the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/lmtt/m/n/10.95 - Registration &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]|\T1/lmtt/m/n/10.95 .checkEmail()
+ []
+
+
+Overfull \vbox (13.60002pt too high) detected at line 11
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmtt/m/n/10.95 - Registration &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The System has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\T1/lmtt/m/n/10.95 to handle the connection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]|\T1/lmtt/m/n/10.95 (all user manager
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/lmtt/m/n/10.95 mustn't allow events
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T1/lmtt/m/n/10.95 to guarantee the minimum
+ []
+
+
+Overfull \hbox (24.15858pt too wide) in paragraph at lines 25--26
+[]|\T1/lmtt/m/n/10.95 .checkMinLunchDuration()| 
+ []
+
+
+Overfull \vbox (27.20004pt too high) detected at line 27
+ []
+
+
+Overfull \hbox (1.16365pt too wide) in paragraph at lines 29--30
+[]|\T1/lmtt/m/n/10.95 .checkReachability()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/lmtt/m/n/10.95 has to be able to add
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/lmtt/m/n/10.95 the new event to the
+ []
+
+[36]
+Overfull \vbox (13.60002pt too high) detected at line 42
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmtt/m/n/10.95 able to communicate with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\T1/lmtt/m/n/10.95 (all Directions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system sends
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\T1/lmtt/m/n/10.95 data about the starting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\T1/lmtt/m/n/10.95 and ending location to
+ []
+
+
+Overfull \hbox (29.90732pt too wide) in paragraph at lines 47--48
+[]|\T1/lmtt/m/n/10.95 .getDirections(locations)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/lmtt/m/n/10.95 receives the path and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/lmtt/m/n/10.95 the available transports
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/lmtt/m/n/10.95 from the external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]|\T1/lmtt/m/n/10.95 .getMeans()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+\T1/lmtt/m/n/10.95 to use the information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+\T1/lmtt/m/n/10.95 given in the event's TAG
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+\T1/lmtt/m/n/10.95 to filter the possible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\T1/lmtt/m/n/10.95 to check the travel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\T1/lmtt/m/n/10.95 means enabled by the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Overfull \hbox (1.16365pt too wide) in paragraph at lines 53--54
+[]|\T1/lmtt/m/n/10.95 .getAvailableMeans()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/lmtt/m/n/10.95 to obey the constraints
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/lmtt/m/n/10.95 set by the user about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Overfull \hbox (6.91238pt too wide) in paragraph at lines 55--56
+[]|\T1/lmtt/m/n/10.95 .getMeansConstraint()| 
+ []
+
+
+Overfull \vbox (13.60004pt too high) detected at line 57
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\T1/lmtt/m/n/10.95 to retrieve the user's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\T1/lmtt/m/n/10.95 to check the weather
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\T1/lmtt/m/n/10.95 has to retrieve the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Overfull \vbox (13.60002pt too high) detected at line 71
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--75
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--75
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/lmtt/m/n/10.95 to retrieve the user's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\T1/lmtt/m/n/10.95 to know how to send
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/lmtt/m/n/10.95 to check the destination
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Overfull \vbox (40.80006pt too high) detected at line 87
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--95
+
+ []
+
+
+Overfull \vbox (13.60004pt too high) detected at line 101
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/lmtt/m/n/10.95 know how to filter the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/lmtt/m/n/10.95 means of transport to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/lmtt/m/n/10.95 minimize their carbon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--107
+[]\T1/lmtt/b/sl/10.95 [G$[]$] : Allow the user to have advices about the means 
+of transport that
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/lmtt/m/n/10.95 be able to check the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Overfull \vbox (27.20003pt too high) detected at line 116
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Overfull \vbox (54.40004pt too high) detected at line 120
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]|\T1/lmtt/m/n/10.95 .checkOverlap()
+ []
+
+
+Overfull \hbox (24.15858pt too wide) in paragraph at lines 120--121
+\T1/lmtt/m/n/10.95 .checkMinLunchDuration()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmtt/m/n/10.95 to check that all the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmtt/m/n/10.95 necessary travel info
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmtt/m/n/10.95 has been inserted by the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/lmtt/m/n/10.95 to address the user to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/lmtt/m/n/10.95 the web site/application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/lmtt/m/n/10.95 to complete the ticket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\T1/lmtt/m/n/10.95 - Local Transport
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\T1/lmtt/m/n/10.95 to know how long the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\T1/lmtt/m/n/10.95 has to be able to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\T1/lmtt/m/n/10.95 get information about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\T1/lmtt/m/n/10.95 tickets from the public
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\T1/lmtt/m/n/10.95 - Local Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\T1/lmtt/m/n/10.95 to be able to interpret
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\T1/lmtt/m/n/10.95 and elaborate the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T1/lmtt/m/n/10.95 - Local Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T1/lmtt/m/n/10.95 has to find the most
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\T1/lmtt/m/n/10.95 - Local Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T1/lmtt/m/n/10.95 to be able to show the
+ []
+
+
+Overfull \hbox (24.15858pt too wide) in paragraph at lines 152--153
+[]|\T1/lmtt/m/n/10.95 .visualizeLocalTickets()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\T1/lmtt/m/n/10.95 to check the season
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[]|\T1/lmtt/m/n/10.95 .getSeasonTicket()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/lmtt/m/n/10.95 to be able to notify
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/lmtt/m/n/10.95 the user that his season
+ []
+
+
+Overfull \hbox (18.40985pt too wide) in paragraph at lines 163--164
+[]|\T1/lmtt/m/n/10.95 .visualizePreferences()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--165
+[]\T1/lmtt/b/sl/10.95 [G$[]$] : Remind the user about the expiry date of his se
+ason ticket, if he
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\T1/lmtt/m/n/10.95 check the data inserted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\T1/lmtt/m/n/10.95 by the user to buy the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+\T1/lmtt/m/n/10.95 be able to send the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+\T1/lmtt/m/n/10.95 data to the external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\T1/lmtt/m/n/10.95 - Outdoor Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+\T1/lmtt/m/n/10.95 to be able to interpret
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+\T1/lmtt/m/n/10.95 and elaborate the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/lmtt/m/n/10.95 - Outdoor Transport
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/lmtt/m/n/10.95 to retrieve the sharing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/lmtt/m/n/10.95 - Sharing Service
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+\T1/lmtt/m/n/10.95 to check the user's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/lmtt/m/n/10.95 to be able to show the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/lmtt/m/n/10.95 sharing mean position to
+ []
+
+
+Overfull \hbox (18.40985pt too wide) in paragraph at lines 189--190
+[]|\T1/lmtt/m/n/10.95 .visualizeSharingMean()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\T1/lmtt/m/n/10.95 to be able to redirect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\T1/lmtt/m/n/10.95 the user to the external
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\T1/lmtt/m/n/10.95 sharing service system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\T1/lmtt/m/n/10.95 - Sharing Service
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T1/lmtt/m/n/10.95 must be able to show
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T1/lmtt/m/n/10.95 the user the possible
+ []
+
+
+Overfull \hbox (18.40985pt too wide) in paragraph at lines 200--201
+[]|\T1/lmtt/m/n/10.95 .visualizePreferences()| 
+ []
+
+
+Overfull \vbox (27.20003pt too high) detected at line 202
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Overfull \hbox (12.66112pt too wide) in paragraph at lines 202--203
+[]|\T1/lmtt/m/n/10.95 .registerPreferences()| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Overfull \hbox (12.66112pt too wide) in paragraph at lines 203--204
+[]|\T1/lmtt/m/n/10.95 .registerPreferences()| 
+ []
+
+
+Overfull \vbox (27.20003pt too high) detected at line 205
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\T1/lmtt/m/n/10.95 - Preference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/lmtt/m/n/10.95 to be able to create
+ []
+
+
+Overfull \vbox (13.60002pt too high) detected at line 217
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[]|[]\T1/lmtt/m/n/10.95 [R$[]$] : The system has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+\T1/lmtt/m/n/10.95 to be able to let the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+\T1/lmtt/m/n/10.95 user modify the trips
+ []
+
+
+Overfull \vbox (13.60002pt too high) detected at line 222
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]|\T1/lmtt/m/n/10.95 - Repository
+ []
+
+) [42] (Files/6_Implementation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+[]\T1/lmtt/m/n/10.95 In this section we will show the plan we have projected fo
+r implementing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/lmtt/m/n/10.95 Travlendar+. Firstly we will describe the strategy for the p
+rocesses chosen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/lmtt/m/n/10.95 for taking the project and the structure of our team, how it
+ is divided and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/lmtt/m/n/10.95 the tasks that each part has to accomplish. After we will st
+ate how each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/lmtt/m/n/10.95 team's part has to interact with the others and the span of 
+time of these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/lmtt/m/n/10.95 interactions. Finally we will supply a list of possible risk
+s, the probability
+ []
+
+<Images/Implementation/Agile_Planning.png, id=863, 593.21625pt x 373.395pt>
+File: Images/Implementation/Agile_Planning.png Graphic file (type png)
+
+<use Images/Implementation/Agile_Planning.png>
+Package pdftex.def Info: Images/Implementation/Agile_Planning.png used on input
+ line 11.
+(pdftex.def)             Requested size: 207.6288pt x 130.6902pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ []\T1/lmtt/m/n/10.95 To give a quality assurance of the project and to be sure
+ that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 final product will be as our stakeholders expect, we will f
+ollow an Agile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 planning process. It consists in a first initiating part in
+ which it's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 given an overall plan of the system process. We have starte
+d to build the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 plan with the information given in the RASD and we will ter
+minate it in this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 document: in fact in the previous sections we have describe
+d the software
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+ \T1/lmtt/m/n/10.95 architecture and the design patterns that will be used and 
+in this section
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ []\T1/lmtt/m/n/10.95 After this part, there will be a cycle of phases called r
+espectively:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 Executing, monitoring&Controlling, Closing and Planning. Ev
+ery cycle round
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 has as input a specific process to accomplish, that is divi
+ded between the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 various team's parts. After the execution of all the tasks 
+in a precise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 given timeframe, the work is checked by all the parts, cust
+omers included.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 When an agreemnt is reached, it will follow another plannin
+g phase that will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 contain also the corrections that will result after the agr
+eement. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+ \T1/lmtt/m/n/10.95 cycle is repeated until the end of the project, when all th
+e functionalities
+ []
+
+[43 <./Images/Implementation/Agile_Planning.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]\T1/lmtt/m/it/10.95 Front-End Team : \T1/lmtt/m/n/10.95 developers appointed 
+to implement the system's front
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/lmtt/m/it/10.95 Back-End Team : \T1/lmtt/m/n/10.95 developers appointed t
+o implement the system application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\T1/lmtt/m/it/10.95 Supervisors : \T1/lmtt/m/n/10.95 developers that belongs 
+to the Back-End Team or to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\T1/lmtt/m/n/10.95 Front-End Team and that have the main task of having any tim
+e the picture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ []\T1/lmtt/m/n/10.95 The work will be divided in sub-milestone from a minimum 
+of one to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 a maximum of two weeks, and main-milestone every three or m
+aximum four
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 weeks. In these span of time all the teams have to complete
+ the tasks that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 have been established in the previous planning phase. Every
+ two days the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 different team supervisors and a Tester's team delegate wil
+l organize a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 meeting to discuss about their team progress and they will 
+give directives
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 to proced on basically at the same speed. In the meanwhile,
+ the Tester
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 team will work on the \T1/lmtt/m/it/10.95 white-box \T1/lmt
+t/m/n/10.95 units test for the functionalities that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 developer's teams are implementing. When the sub-milestone 
+day come, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 Tester team will have from a minimum of one day to a maximu
+m of three days
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+ \T1/lmtt/m/n/10.95 for testing the functionalities and give the results to the
+ development team
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ []\T1/lmtt/m/n/10.95 During the week before the the milestone day, the Tester 
+team has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 to perform an \T1/lmtt/m/it/10.95 integration test \T1/lmtt
+/m/n/10.95 of the components and give the result to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 the development teams which have to release a beta version 
+to restrict
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 group of selected people for the milestone day. In this way
+, it will be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 performed also an incremental \T1/lmtt/m/it/10.95 User acce
+ptance test \T1/lmtt/m/n/10.95 on the work that has been
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 performed. Furthemore, it will take place a meeting with th
+e customers in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+ \T1/lmtt/m/n/10.95 which their needs and doubts will be discussed and taken in
+to account in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+ []\T1/lmtt/m/n/10.95 The precise duration of the timeframe will be established
+ dynamically
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+ \T1/lmtt/m/n/10.95 taking into account the minimum and maximum span on time me
+ntioned above
+ []
+
+
+<Images/Implementation/Implementation_Flow.png, id=869, 1837.86626pt x 1455.437
+5pt>
+File: Images/Implementation/Implementation_Flow.png Graphic file (type png)
+ <use Images/Implementation/Implementation_Flow.png>
+Package pdftex.def Info: Images/Implementation/Implementation_Flow.png used on 
+input line 45.
+(pdftex.def)             Requested size: 404.33183pt x 320.19724pt.
+ [44]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|[] \T1/lmtt/m/n/10.95 Time for Implementing a Function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|[] \T1/lmtt/m/n/10.95 Team's Members not Available in a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[] \T1/lmtt/m/n/10.95 Impossibility to Recruit Staff
+ []
+
+[45 <./Images/Implementation/Implementation_Flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\T1/lmtt/m/it/10.95 Budget problems :\T1/lmtt/m/n/10.95 specify before the be
+ginning all the functionalities,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/lmtt/m/n/10.95 realize prevision of the costs and agree with the customers 
+a margin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/lmtt/m/n/10.95 of budget that could increase due to unpredicted situation d
+uring the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\T1/lmtt/m/it/10.95 Time for implementing a function exceed :\T1/lmtt/m/n/10.
+95 agree with the stakeholder a span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\T1/lmtt/m/it/10.95 Team's member not available in critic moment : \T1/lmtt/m
+/n/10.95 being sure that at least
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+[]\T1/lmtt/m/it/10.95 Impossibility to recruit staff with required skills : \T1
+/lmtt/m/n/10.95 advices the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\T1/lmtt/m/n/10.95 customers about possible delays and to be ready with a table
+ of COTS
+ []
+
+) [46] (Files/7_Final_Part.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+ [47] [48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+ ("Travlendar+ DD.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package rerunfilecheck Info: File `"Travlendar+ DD".out' has not changed.
+(rerunfilecheck)             Checksum: 37A579989246838353BD62D5BC4B29D9;5145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+ ) 
+Here is how much of TeX's memory you used:
+ 11919 strings out of 493323
+ 176176 string characters out of 3139053
+ 448417 words of memory out of 3000000
+ 14850 multiletter control sequences out of 15000+200000
+ 64722 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,13n,43p,860b,1230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
+c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmtti10.pfb>
+Output written on "Travlendar+ DD.pdf" (49 pages, 3675461 bytes).
+PDF statistics:
+ 997 PDF objects out of 1000 (max. 8388607)
+ 271 named destinations out of 1000 (max. 500000)
+ 903 words of extra memory for PDF output out of 10000 (max. 10000000)
+

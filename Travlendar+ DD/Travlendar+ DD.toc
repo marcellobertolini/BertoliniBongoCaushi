@@ -1,0 +1,75 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scope}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Definitions}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Acronyms}{5}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Abbreviations}{5}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Reference Documents}{6}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Document Structure}{6}{subsection.1.7}
+\contentsline {section}{\numberline {2}Architectural Design}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}High Level Components and Their Interactions}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Component View}{8}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Travlendar+ Mobile App}{8}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Travlendar+ Web Browser}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Web Server}{9}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}User Manager}{9}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Registration \& Login}{9}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}Preference Manager}{9}{subsubsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.7}Trip Manager}{9}{subsubsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.8}Events Manager}{10}{subsubsection.2.3.8}
+\contentsline {subsubsection}{\numberline {2.3.9}Transport Manager}{10}{subsubsection.2.3.9}
+\contentsline {subsubsection}{\numberline {2.3.10}Directions}{10}{subsubsection.2.3.10}
+\contentsline {subsubsection}{\numberline {2.3.11}Environment Manager}{10}{subsubsection.2.3.11}
+\contentsline {subsubsection}{\numberline {2.3.12}Sharing Service Manager}{10}{subsubsection.2.3.12}
+\contentsline {subsubsection}{\numberline {2.3.13}Local Transport Tickets}{11}{subsubsection.2.3.13}
+\contentsline {subsubsection}{\numberline {2.3.14}Outdoor Transport Tickets}{11}{subsubsection.2.3.14}
+\contentsline {subsection}{\numberline {2.4}Deployment View}{11}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}DB Structure}{12}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Runtime View}{12}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Registration}{13}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Login}{14}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Add Event}{15}{subsubsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.4}Visualize Event}{17}{subsubsection.2.6.4}
+\contentsline {subsubsection}{\numberline {2.6.5}Visualize Directions}{18}{subsubsection.2.6.5}
+\contentsline {subsubsection}{\numberline {2.6.6}Weather \& Strike Check}{19}{subsubsection.2.6.6}
+\contentsline {subsubsection}{\numberline {2.6.7}Add Trip}{20}{subsubsection.2.6.7}
+\contentsline {subsection}{\numberline {2.7}Selected Architectural Styles and Patterns}{22}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Design patterns}{23}{subsection.2.8}
+\contentsline {subsubsection}{\numberline {2.8.1}MVC}{23}{subsubsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.2}Observer}{23}{subsubsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.3}Strategy}{24}{subsubsection.2.8.3}
+\contentsline {subsubsection}{\numberline {2.8.4}Composite}{24}{subsubsection.2.8.4}
+\contentsline {subsubsection}{\numberline {2.8.5}Fa\IeC {\c c}ade}{25}{subsubsection.2.8.5}
+\contentsline {section}{\numberline {3}Algorithm Design}{26}{section.3}
+\contentsline {subsection}{\numberline {3.1}Problem faced}{26}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Solution found}{26}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Algorithm sample}{26}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}EventsManager}{26}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Checker Interface}{27}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}AddEvent Checker}{27}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}Check Overlapping}{28}{subsubsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.5}Check Lunch Guaranteed}{28}{subsubsection.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.6}Check Reachability}{29}{subsubsection.3.3.6}
+\contentsline {section}{\numberline {4}User Interface Design}{30}{section.4}
+\contentsline {subsection}{\numberline {4.1}Login \& User Profile}{30}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Calendar}{30}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Lunch}{31}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}CO$_2$ free}{31}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Weather Forecast}{32}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Directions}{32}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Tags}{33}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Trips}{34}{subsection.4.8}
+\contentsline {section}{\numberline {5}Requirement Traceability}{36}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{43}{section.6}
+\contentsline {subsection}{\numberline {6.1}Strategy adopted}{43}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Team structure}{44}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Implementation and testing plan}{44}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Possible risks}{45}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Possible solutions}{46}{subsection.6.5}
+\contentsline {section}{\numberline {7}Effort Spent}{47}{section.7}
+\contentsline {subsection}{\numberline {7.1}Revision History}{47}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Kostandin Caushi}{47}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Marcello Bertolini}{47}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Raffaele Bongo}{48}{subsection.7.4}
