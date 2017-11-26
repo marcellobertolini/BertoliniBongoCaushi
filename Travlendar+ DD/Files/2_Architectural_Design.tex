@@ -121,7 +121,7 @@ For the client-side we have taken into consideration the Web Browser only, in or
 \mysubsubsection{Registration}
 This Runtime View shows a user Registration process.\par
 First of all the Web Server sends to the user the registration\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server.\par
-At this point, it’s important to check if the email has already been registered under another account. In order to do that, the server asks the DBMS to search for it. If the get\_result it’s equal \emph{Null} it means that the email it’s not used, so the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
+At this point, it’s important to check if the email is already associated to another account. In order to do that, the server calls method on the DBMS to retrive this information. If the get\_result it’s equal \emph{Null} the email it’s not used and the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.2]{Images/Runtime/Registration}
@@ -131,8 +131,8 @@ At this point, it’s important to check if the email has already been registere
 \mysubsubsection{Login}
 This Runtime View shows a user Login process.\par
 As in the previous runtime, the Web Server sends to the user the login\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server to be checked.\par
-First of all it has to check if the user email is present in the DB, then if the user password is correct. In order to accomplish this task, in an efficient way, the server asks the DBMS to retrieve him the password related to the inserted email. This means that if the get\_result is equal \emph{Null} then there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
-If that check succeeds, then the user is logged and the server gets from the DB the events related to the current month and shows them to the client.
+First of all it has to check if the user email is present in the DB and then if the user password is correct. In order to accomplish this task in an efficient way, the server asks the DBMS to retrieve him the password related to the inserted email. If the get\_result is equal \emph{Null} there is no account registered with that email. Otherwise, the server, more specifically the Registration \& Login Manager, has to check if the get\_result is equal to the inserted password.
+If that check succeeds, then the user is logged and the server gets and shows to the user the events related to the current month retrieved from the DB.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.17]{Images/Runtime/Login}
@@ -141,20 +141,20 @@ If that check succeeds, then the user is logged and the server gets from the DB 
 
 \mysubsubsection{Add Event}
 This Runtime View shows the Add Event process.\par
-In order to reduce the diagram size we make some premises :
+In order to reduce the diagram size we have made some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to put at runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
-	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check that, in the case that the inserted event overlaps with another one, verifies if the existing event is a Lunch. If it’s a Lunch the system has to check if it can be moved or reduced.
+	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to show runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
+	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check for verifying that the inserted event overlaps with a lunch event. In fact, if the overlapped event was a Lunch, the system would have to check if it could be moved or reduced respecting the lunch contraints.
 \end{itemize}\par
-Even in this runtime, first of all, the user has to complete the event\_form and send it to the server.
+Even in this runtime, firstly the user has to complete the event\_form and send it to the server.
 Once Events Manager receives the data, it has to check :
 \begin{enumerate}
 	\setlength{\leftskip}{1cm}
-	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result is equal to \emph{Null} it means that there’s no overlapping.
+	\item \emph{If the event Overlaps :} Events Manager asks the Repository Manager to search in the DB if there’s a planned event at the same time of the inserted one. If the get\_result is equal to \emph{Null} there’s no overlap.
 	\item \emph{If the event is reachable from the previous one :} Events Manager asks the Repository Manager to get the information of the previous event, especially its location. Once received, it sends both the locations to the Directions Component in order to get the route time. Finally, it checks if the event is reachable or not.
-	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but instead of getting the information from the DB of the previous event, it gets the one of the next event.
-	If all the checks succeed, the server will add the event in the DB and show it to the user.
+	\item \emph{If the next event is reachable from the inserted one :} it’s like the previous check but it gets from the DB the information of the next event instead of the previous one.
+	If all the checks succeed, the server will add the event in the DB and shows it to the user.
 \end{enumerate}
 \begin{figure}[H]
 	\centering
@@ -165,8 +165,7 @@ Once Events Manager receives the data, it has to check :
 \mysubsubsection{Visualize Event}
 This Runtime View shows a user's Visualize Event process.\par
 In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to visualize.\par
-In this diagram the user asks the server to show him an event, so this mean that the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager, first of all, gets from the DB the event info and the previous event info, and next asks the Directions component to compute the route between this two locations and to send back for each mean of transport the time needed to cover the travel.
-But before sending the result back, Transport Manager filters all the means based on preferences, weather and strikes.
+In this diagram the user asks the server to show him an event. For achieving this result, the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager gets from the DB the choosen and the previous event info and after asks the Directions component to compute the route between this two locations. Before sending back the results, before sending the result back, the Transport Manager component filters all the means based on preferences, weather and strikes.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.125]{Images/Runtime/Visualize_Event}
@@ -174,9 +173,9 @@ But before sending the result back, Transport Manager filters all the means base
 \end{figure}
 
 \mysubsubsection{Visualize Directions}
-This Runtime View shows a user's Visualize Directions process.\par
-In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to get directions.\par
-Server receives the user request to show him the directions to reach a specific event. In order to do that, Events Manager, first of all, gets from the DB the information about that event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
+This Runtime View shows a user's Visualization Directions process.\par
+In order to reduce the diagram size we make a premise : the system has already checked that exists an event before the one that the user wants to get directions.\par
+The Server receives the user request to show him the directions to reach a specific event. In order to do that, the Events Manager gets from the DB the information about the choosen event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.16]{Images/Runtime/Visualize_Directions}
@@ -185,9 +184,9 @@ Server receives the user request to show him the directions to reach a specific 
 
 \mysubsubsection{Weather \& Strike Check}
 This Runtime View shows the Weather and Strike Check process.\par
-In order to implement this in an efficient way we decide to create two server threads that wakes up every 24h and checks the weather conditions and the presence of strikes for the next day.\par
+In order to implement this in an efficient way we decide to create two server threads that wakes up every 24h and checks the weather conditions and the presence of strikes for the next days.\par
 As seen in Add Event diagram, in the first part the user adds an event for tomorrow, just to make sure that there’s something to check for the next day.\par
-At midnight the Weather thread, in the Environment component, wakes up and asks the DB for all the locations that it has to check. Once it receives them, it checks it tomorrow will rain and in that case will notify it to the user.\par
+At midnight the Weather thread, in the Environment component, wakes up and asks the DB for all the locations that it has to check. Once it receives them, it checks if tomorrow will rain and in that case will notify it to the user.\par
 The same happens with the Strike thread.
 \begin{figure}[H]
 	\centering
@@ -200,13 +199,13 @@ This Runtime View shows a user's Add Trip process.\par
 In order to reduce the diagram size we make some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item The Overlap and Reachability checks aren’t fully showed. To see them watch the Add Event Runtime View.
+	\item The Overlap and Reachability checks aren’t fully showed. For more details watch the Add Event Runtime View above.
 	\item The user has inserted just a departure travel, so all the checks for the travel event are executed just one time, instead of two.
 \end{itemize}\par
-In this diagram, as in others before, the user receives a form to fulfil and to send back to the Web Server.
-Once the server receives the trip\_form, it sends that to the Trip Manager, which, first of all, checks if the trip is already present in the DB (get\_result!=\emph{Null}).\par
-After that it has to check if the departure travel event can be added to the calendar, this mean that it has to ask the Events Manager to check the Overlap and the Reachability.\par
-If all checks succeed Events Manager adds to the DB the travel event, while Trip Manager adds the Trip.
+In this diagram, the user receives a form to fulfil and to send back to the Web Server.
+Once the server receives the trip\_form, it sends that to the Trip Manager, which checks if the trip is already present in the DB (get\_result!=\emph{Null}).\par
+After that it has to check if the departure travel event can be added to the calendar. For performing this control, it has to ask the Events Manager to check the Overlap and the Reachability.\par
+If all checks succeed Events Manager adds to the DB the travel event and Trip Manager adds the Trip.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.165]{Images/Runtime/Add_Trip}
@@ -227,12 +226,12 @@ Our system architecture proves to be a mix between three well known architectura
 Travlendar+ is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests to the Business Logic through a web server.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
 \\\par
-The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the \emph{Main program with subroutines style}: it will receive the requests from the clients and call the right sub-components for accomplishing the goals related to the request.
+The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the \emph{Main program with subroutines style}: it will receive the requests from the clients and call the right sub-components for accomplishing the goals related to them.
 \\\par
-An essential our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and give tickets information about local and outdoor public transport. All these information will not be stored in our DBs, but they will be retrieved with API REST requests to appropiate external services. For this goal we will use a \emph{SOA style}. 
-In our system we will have a component called Transport manager that will be able to distinguish the kind of the request and demand the aim of submitting it to the right external service to another precise component devoted to a certain type of external services connections. Once received the information, their manipulation will be performed internally to the business logic of the system. In these way we will have the possibility of adding new components for incoming kind of transportation, also personalized, in a very simple and scalable way.
+An essential of our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and tickets information about local and outdoor public transport. All this information will not be stored in our DBs, but they will be retrieved with API REST requests to an appropiate external services. For this goal we will use a \emph{SOA style}. 
+In our system we will have a component called Transport manager that will be able to distinguish the kind of the request and it will delegate to another precise component, devoted to a certain type of external services connection, the aim of submitting it to the right external service . Once that the information has been received, its manipulation will be performed internally to the business logic of the system. In this way we will have the possibility of adding new components for incoming kind of means of transport, also personalized, in a very simple and scalable way.
 \\\par
-The last style exploited is the \emph{Event based Architectural style}, and it is used for the notification system that will be always attending particular events that, if happens, triggers a notification that is immediately sent to the right clients subscribed to the topic. 
+The last architectural style exploited is the \emph{Event based Architectural style}, and it is used for the notification system that will be always waiting for a particular event that, if happens, triggers a notification that is immediately sent to the right clients subscribed to the topic. 
 
 \mysubsection{Design patterns}
 
@@ -242,7 +241,7 @@ The last style exploited is the \emph{Event based Architectural style}, and it i
 	\includegraphics[scale=0.4]{Images/Patterns/MVC_Pattern}
 	\caption{MVC Pattern}
 \end{figure}
-The Database server contains all the software’s data and constitutes the model part. The presentation layer with the web-based application and the mobile application is the view that is released to the user. Finally the main server,  that is the business logic layer, it’s the control part.
+The Database server contains all the software’s data and constitutes the model part. The presentation layer, composed by the web-based application and the mobile application, represent the view that is released to the user. Finally the main server,  that is the business logic layer, is the control part.
 
 \mysubsubsection{Observer}
 \begin{figure}[H]
@@ -250,7 +249,7 @@ The Database server contains all the software’s data and constitutes the model
 	\includegraphics[scale=0.45]{Images/Patterns/Observer_Pattern}
 	\caption{Observer Pattern}
 \end{figure}
-Our software has to be able to advise the user that he has to take a certain mean of transport in a specific time for arriving on time, or that the registered season ticket is expiring or also the possibility of a strike or a bad meteorological condition. All these events have to be supported by a notification system.These needs will be implemented with this pattern.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as much kind of event listener as is necessary and they could be added freely for future expansion. When during a process a state of interest for a listener is changed some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
+Our software has to be able to advise the user that he has to take a certain mean of transport for allowing him to arrive on time, that the registered season ticket is going to expire or also if a strike or bad meteorological conditions are forecasted. All these events have to be supported by a notification system. These needs will be implemented with the \emph{observe pattern}.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as many event listeners as is necessary and they can be added freely for future expansion. When during a process a state of interest for a listener is changed, some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
 
 \mysubsubsection{Strategy}
 \begin{figure}[H]
@@ -258,7 +257,7 @@ Our software has to be able to advise the user that he has to take a certain mea
 	\includegraphics[scale=0.7]{Images/Patterns/Strategy_Pattern}
 	\caption{Strategy Pattern}
 \end{figure}
-The filters applied on the data for showing particular results based on the user’s choices, for example for advising the best means of transport for a destination, will be implemented with a strategy pattern. The class that will put in order the results will have an instance of an abstract class that will be implemented by some concrete classes representing different ordering strategy. In this way the system will be able to adapt his strategy runtime and it will be very simple to add new strategy creating new classes that will implement the abstract strategy class previous mentioned.
+The filters applied on the data to show particular results, based on the user’s choices, for example to advise the best means of transport for a destination, will be implemented with a strategy pattern. The class that will order the results will have an instance of an abstract class that will be implemented by some concrete classes, representing different ordering strategy. In this way the system will be able to adapt its strategy runtime and it will be very simple to add new strategies creating new classes that will implement the abstract strategy class previous mentioned.
 
 \mysubsubsection{Composite}
 \begin{figure}[H]
@@ -266,9 +265,9 @@ The filters applied on the data for showing particular results based on the user
 	\includegraphics[scale=0.35]{Images/Patterns/Composite_Pattern}
 	\caption{Composite Pattern}
 \end{figure}
-We will use this pattern in our system for performing in a cleaned and elegant way the various check that will have to be apply on the user input. There will be a abstract class Checker that will be extended by Composite checkers and Checkers. Each composite checker contains one or more checkers and both implements a common interface with the method \emph{check}. The class that will have to manage a specific user input will have one or more composite checkers.
-When a method that have to process the user input data for passing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the check will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
-Thanks to this pattern is possible to create new checkers/composite checkers very easily and deal with complex and composite check that will be needed in future software expansions.
+We will use this pattern in our system to perform, in a cleaned and elegant way, the various checks that will have to be applied on the user input. There will be a abstract class called Checker that will be extended by Composite checkers and Checkers. Each composite checker will contain one or more checkers and both implement a common interface using the \emph{check} method. The class that will have to manage a specific user input will have one or more composite checkers.
+When a method that have to process the user input data, addresing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the checks will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
+Thanks to this pattern is possible to create new checkers/composite checkers very easily and to deal with complex and composite check that will be needed in future software expansions.
 
 \mysubsubsection{Façade}
 \begin{figure}[H]
@@ -276,4 +275,4 @@ Thanks to this pattern is possible to create new checkers/composite checkers ver
 	\includegraphics[scale=0.3]{Images/Patterns/Facade_Pattern}
 	\caption{Facade Pattern}
 \end{figure}
-As guideline of our implementation, for all the complex operations that will require multiple method’s calls from different classes we will use a façade pattern. In this way we will able to hide a complex logic operation within a single method’s call. In this way we will simplify the software maintenance for future changing needs.
+As guideline of our implementation, for all the complex operations that will require multiple methods calls from different classes we will use a façade pattern. In this way we will able to hide a complex logic operation within a single method call and to simplify the software maintenance for future changing needs.
