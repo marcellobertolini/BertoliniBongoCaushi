@@ -68,8 +68,8 @@
 \contentsline {subsection}{\numberline {6.3}Implementation and testing plan}{44}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Possible risks}{45}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Possible solutions}{46}{subsection.6.5}
-\contentsline {section}{\numberline {7}Effort Spent}{47}{section.7}
-\contentsline {subsection}{\numberline {7.1}Revision History}{47}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Kostandin Caushi}{47}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Marcello Bertolini}{47}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Raffaele Bongo}{48}{subsection.7.4}
+\contentsline {section}{\numberline {7}Revision History}{47}{section.7}
+\contentsline {section}{\numberline {8}Effort Spent}{47}{section.8}
+\contentsline {subsection}{\numberline {8.1}Kostandin Caushi}{47}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Marcello Bertolini}{47}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Raffaele Bongo}{48}{subsection.8.3}

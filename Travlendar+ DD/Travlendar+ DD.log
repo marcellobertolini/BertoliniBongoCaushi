@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  26 NOV 2017 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  30 NOV 2017 08:51
 entering extended mode
 **"./Travlendar+ DD.tex"
 ("Travlendar+ DD.tex"
@@ -4569,7 +4569,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
  of COTS
  []
 
-) [46] (Files/7_Final_Part.tex)
+) [46] (Files/7_Final_Part.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
  [47] [48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
@@ -4577,12 +4582,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `"Travlendar+ DD".out' has not changed.
-(rerunfilecheck)             Checksum: 37A579989246838353BD62D5BC4B29D9;5145.
+(rerunfilecheck)             Checksum: 272E64E543FA8C6591644A5510C19742;5131.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
  11919 strings out of 493323
- 176176 string characters out of 3139053
+ 176166 string characters out of 3139053
  448417 words of memory out of 3000000
  14850 multiletter control sequences out of 15000+200000
  64722 words of font info for 57 fonts, out of 3000000 for 9000
@@ -4601,7 +4606,7 @@ blic/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtti10.pfb>
-Output written on "Travlendar+ DD.pdf" (49 pages, 3675461 bytes).
+Output written on "Travlendar+ DD.pdf" (49 pages, 3675600 bytes).
 PDF statistics:
  997 PDF objects out of 1000 (max. 8388607)
  271 named destinations out of 1000 (max. 500000)
