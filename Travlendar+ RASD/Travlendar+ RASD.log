@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  30 NOV 2017 09:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  18 DEC 2017 13:55
 entering extended mode
 **"./Travlendar+ RASD.tex"
 ("Travlendar+ RASD.tex"
@@ -2713,20 +2713,20 @@ Rome tomorrow.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
- \T1/lmtt/m/n/10.95 He has already got the ticket to reach Rome, because his co
-mpany took care
+ \T1/lmtt/m/n/10.95 He already has the ticket to reach Rome, because his compan
+y took care
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
  \T1/lmtt/m/n/10.95 of it. Thus, he wants to add the travel event in Travlendar
-+. Nothing more
++. Nothing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
- \T1/lmtt/m/n/10.95 simple! Sean has only to tap for about one second on the sc
-reen and the
+ \T1/lmtt/m/n/10.95 simpler! Sean has only to tap for about one second on the s
+creen and the
  []
 
 
@@ -2828,7 +2828,7 @@ for everyday
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--26
  \T1/lmtt/m/n/10.95 lunch to each user, so it asks Gianluca if he wants to redu
-ce his lunch time
+ce his lunchtime
  []
 
 
@@ -2875,26 +2875,26 @@ ng to expire.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
- \T1/lmtt/m/n/10.95 But during almost all these warnings Gabriele was sleeping 
-and he did
+ \T1/lmtt/m/n/10.95 However, during almost all these warnings Gabriele was slee
+ping and he
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
- \T1/lmtt/m/n/10.95 not read them. He just gets the last one, which advices him
- to use the
+ \T1/lmtt/m/n/10.95 did not read them. He just gets the last one, which advices
+ him to use
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
- \T1/lmtt/m/n/10.95 car. Unfortunately, Gabriele doesn't have a car in Milan bu
-t he has the
+ \T1/lmtt/m/n/10.95 the car. Unfortunately, Gabriele doesn't have a car in Mila
+n but he has
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
- \T1/lmtt/m/n/10.95 driving licence and he can take a car sharing. Travlendar+ 
-is perfect
+ \T1/lmtt/m/n/10.95 the driving licence and he can take a car sharing. Travlend
+ar+ is perfect
  []
 
 
@@ -3057,7 +3057,7 @@ Here is how much of TeX's memory you used:
  14793 multiletter control sequences out of 15000+200000
  62350 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,43p,1186b,1989s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,43p,1191b,1989s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
@@ -3072,7 +3072,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtti10.pfb>
-Output written on "Travlendar+ RASD.pdf" (44 pages, 5586070 bytes).
+Output written on "Travlendar+ RASD.pdf" (44 pages, 5586065 bytes).
 PDF statistics:
  1229 PDF objects out of 1440 (max. 8388607)
  599 named destinations out of 1000 (max. 500000)
