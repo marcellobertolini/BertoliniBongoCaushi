@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.16)  18 DEC 2017 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 14:36
 entering extended mode
 **"./Travlendar+ RASD.tex"
 ("Travlendar+ RASD.tex"
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 (Files/Packages.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
@@ -347,8 +347,11 @@ File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2017/11/03 3.15 The Babel package
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -357,10 +360,14 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2017/01/24 v3.3q English support from the babel system
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -703,10 +710,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box36
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -717,15 +724,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count105
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
@@ -743,7 +742,7 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks25
 \minrowclearance=\skip59
 )
-\rownum=\count106
+\rownum=\count105
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -769,7 +768,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen133
 \enit@toks=\toks26
 \enit@inbox=\box37
-\enitdp@description=\count107
+\enitdp@description=\count106
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -792,8 +791,8 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -835,15 +834,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen134
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count109
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -856,7 +855,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count110
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
@@ -864,7 +863,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen135
-\Fld@menulength=\count112
+\Fld@menulength=\count111
 \Field@Width=\dimen136
 \Fld@charsize=\dimen137
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -876,17 +875,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count116
-\c@bookmark@seq@number=\count117
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -898,23 +897,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count118
+\lst@mode=\count117
 \lst@gtempboxa=\box38
 \lst@token=\toks28
-\lst@length=\count119
+\lst@length=\count118
 \lst@currlwidth=\dimen138
-\lst@column=\count120
-\lst@pos=\count121
+\lst@column=\count119
+\lst@pos=\count120
 \lst@lostspace=\dimen139
 \lst@width=\dimen140
-\lst@newlines=\count122
-\lst@lineno=\count123
+\lst@newlines=\count121
+\lst@lineno=\count122
 \lst@maxwidth=\dimen141
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count124
-\lst@skipnumbers=\count125
+\c@lstnumber=\count123
+\lst@skipnumbers=\count124
 \lst@framebox=\box39
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -987,16 +986,16 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count125
 \scratchdimen=\dimen142
 \scratchbox=\box40
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count129
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen143
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1007,7 +1006,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -1020,7 +1019,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count131
 )
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -1030,21 +1029,21 @@ LaTeX Info: Redefining \nameref on input line 3.
 \@outlinefile=\write3
 \openout3 = `"Travlendar+ RASD.out"'.
 
-\c@lstlisting=\count133
-
+\c@lstlisting=\count132
 <Images/Polimi_Logo.png, id=219, 405.515pt x 125.46875pt>
 File: Images/Polimi_Logo.png Graphic file (type png)
-
 <use Images/Polimi_Logo.png>
-Package pdftex.def Info: Images/Polimi_Logo.png used on input line 10.
-(pdftex.def)             Requested size: 283.85855pt x 87.82751pt.
+Package pdftex.def Info: Images/Polimi_Logo.png  used on input line 10. on inpu
+t line 10.
+Package pdftex.def Info: Requested size: 283.85855pt x 87.82751pt on input line
+ 10.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/Polimi_Logo.png>
-] ("Travlendar+ RASD.toc"
+{C:/Users/Eda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/Poli
+mi_Logo.png>]
+("Travlendar+ RASD.toc"
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
@@ -1304,14 +1303,14 @@ em to warn the user about
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
- []\T1/lmtt/b/sl/10.95 Best means of transport options : \T1/lmtt/m/n/10.95 the
- best transport found by the
+ []\T1/lmtt/b/sl/10.95 Best means of transport : \T1/lmtt/m/n/10.95 the best tr
+ansport found by the system
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
- []\T1/lmtt/b/sl/10.95 Preferences : \T1/lmtt/m/n/10.95 a set of options which 
-modify the behaviour of the
+ []\T1/lmtt/b/sl/10.95 Preferences : \T1/lmtt/m/n/10.95 a set of options, chose
+n by the user, which modify the
  []
 
 
@@ -1454,506 +1453,515 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
- []\T1/lmtt/m/n/10.95 The fifth and final part is composed entirely by Alloy co
-de and some
+ []\T1/lmtt/m/n/10.95 The fifth is composed entirely by Alloy code and some sna
+pshots of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+ []\T1/lmtt/m/n/10.95 The sixth and final part contains the list of programs us
+ed, the
  []
 
 ) [7] (Files/2_Overall_Description.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
- []\T1/lmtt/m/n/10.95 The system, for achieving its goals, it will be related w
-ith three kind
+ []\T1/lmtt/m/n/10.95 The system, for achieving its goals, will be related with
+ five kind of
  []
 
 
-Overfull \hbox (7.38347pt too wide) in paragraph at lines 12--12
+Overfull \hbox (7.38347pt too wide) in paragraph at lines 14--14
  \T1/lmtt/m/n/10.95 To localize the means and the user's positions and to retri
 eve the directions,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \T1/lmtt/m/n/10.95 we will use in our system Google maps API. The system will 
 format the data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \T1/lmtt/m/n/10.95 received in a standardized manner and show them to the user
  according to his
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []\T1/lmtt/m/n/10.95 Our system will contain all the references to the local a
 nd outdoor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
  \T1/lmtt/m/n/10.95 transport services, which APIs will be known in order to re
 trieve the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
  \T1/lmtt/m/n/10.95 requested information about the tickets' prices. Once the u
 ser has chosen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
  \T1/lmtt/m/n/10.95 the ticket, he will be addressed to the service's website t
 o complete the
  []
 
-<Images/Class_Diagram.jpg, id=375, 1550.79375pt x 906.38625pt>
+<Images/Class_Diagram.jpg, id=376, 1550.79375pt x 906.38625pt>
 File: Images/Class_Diagram.jpg Graphic file (type jpg)
-
 <use Images/Class_Diagram.jpg>
-Package pdftex.def Info: Images/Class_Diagram.jpg used on input line 19.
-(pdftex.def)             Requested size: 387.6975pt x 226.59601pt.
+Package pdftex.def Info: Images/Class_Diagram.jpg  used on input line 21. on in
+put line 21.
+Package pdftex.def Info: Requested size: 387.6975pt x 226.59601pt on input line
+ 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
  []\T1/lmtt/m/n/10.95 At first the system will advise about the best local tran
 sport tickets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
  \T1/lmtt/m/n/10.95 only in the towns of Milano, Torino and Rome; for the other
  towns, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
  \T1/lmtt/m/n/10.95 system will give the user the possibility to access to the 
 local transport
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
  \T1/lmtt/m/n/10.95 websites. Regarding the outdoor travels, it will be possibl
 e to buy tickets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
  \T1/lmtt/m/n/10.95 only with a restricted group of transport services such as 
 Trenitalia and
  []
 
-<Images/Use_Case/General_Use_Case.png, id=376, 1119.18124pt x 1787.67876pt>
+<Images/Use_Case/General_Use_Case.png, id=377, 1119.18124pt x 1787.67876pt>
 File: Images/Use_Case/General_Use_Case.png Graphic file (type png)
-
 <use Images/Use_Case/General_Use_Case.png>
-Package pdftex.def Info: Images/Use_Case/General_Use_Case.png used on input lin
-e 27.
-(pdftex.def)             Requested size: 279.79462pt x 446.9186pt.
+Package pdftex.def Info: Images/Use_Case/General_Use_Case.png  used on input li
+ne 29. on input line 29.
+Package pdftex.def Info: Requested size: 279.79462pt x 446.9186pt on input line
+ 29.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
  []\T1/lmtt/m/n/10.95 In order to provide a clear vision of the system's aims t
 hat will be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
  \T1/lmtt/m/n/10.95 implemented, we are going to show some use cases diagram re
 presenting the
  []
 
 [8 <./Images/Class_Diagram.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []\T1/lmtt/m/n/10.95 The system will let the user to sign up, inserting the e-
 mail and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
  \T1/lmtt/m/n/10.95 password for creating his personal profile and he will be a
 ble to sign-in
  []
 
-<Images/Use_Case/Set_Preferences.png, id=382, 1107.13625pt x 674.52pt>
+<Images/Use_Case/Set_Preferences.png, id=383, 1107.13625pt x 674.52pt>
 File: Images/Use_Case/Set_Preferences.png Graphic file (type png)
-
 <use Images/Use_Case/Set_Preferences.png>
-Package pdftex.def Info: Images/Use_Case/Set_Preferences.png used on input line
- 37.
-(pdftex.def)             Requested size: 276.78339pt x 168.62958pt.
- [9 <./Images/Use_Case/General_Use_Case.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
+Package pdftex.def Info: Images/Use_Case/Set_Preferences.png  used on input lin
+e 39. on input line 39.
+Package pdftex.def Info: Requested size: 276.78339pt x 168.62958pt on input lin
+e 39.
+[9 <./Images/Use_Case/General_Use_Case.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
  []\T1/lmtt/m/n/10.95 The user will be able to set many preferences to customiz
 e his
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []\T1/lmtt/m/n/10.95 insert his season ticket and receive warnings to remind h
 im the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []\T1/lmtt/m/n/10.95 set his home address that will allow the system to comput
 e the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
  \T1/lmtt/m/n/10.95 routes for reaching the first event of the day using it as 
 the route
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
  []\T1/lmtt/m/n/10.95 set the constrains about the maximum distance that the us
 er wants to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
  []\T1/lmtt/m/n/10.95 set the default lunch time window and duration. The durat
 ion must be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
  []\T1/lmtt/m/n/10.95 define a break time window and its duration, as in the lu
 nch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
  \T1/lmtt/m/n/10.95 preference, but with the possibility of setting also a mini
 mum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
  []\T1/lmtt/m/n/10.95 A TAG will be used to define the type of the event. It wi
 ll contain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
  \T1/lmtt/m/n/10.95 the list of means of transports and the anticipation time f
 or reaching the
  []
 
 [10 <./Images/Use_Case/Set_Preferences.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []\T1/lmtt/m/n/10.95 Each lunch event is created automatically considering the
  time window
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  []\T1/lmtt/m/n/10.95 The system will guarantee at least 30 minutes of lunch pe
 r day. In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  \T1/lmtt/m/n/10.95 fact, every time that the user will try to create an event,
  that overlaps
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  \T1/lmtt/m/n/10.95 the lunch event, the system will check if it is possible to
  move the lunch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  \T1/lmtt/m/n/10.95 event, keeping the same duration, in the time window define
 d. If not, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  \T1/lmtt/m/n/10.95 system will check if it's possible to reduce the default lu
 nch duration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
  \T1/lmtt/m/n/10.95 guaranteeing the 30 minutes' constraint. In this case, the 
 system will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
- \T1/lmtt/m/n/10.95 ask the user if he wants to confirm the changes proposed, i
-f not, it will
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+ \T1/lmtt/m/n/10.95 ask the user if he wants to confirm the changes proposed, o
+therwise it
  []
 
-<Images/Use_Case/Add_Event.png, id=393, 942.52126pt x 383.4325pt>
+<Images/Use_Case/Add_Event.png, id=394, 942.52126pt x 383.4325pt>
 File: Images/Use_Case/Add_Event.png Graphic file (type png)
-
 <use Images/Use_Case/Add_Event.png>
-Package pdftex.def Info: Images/Use_Case/Add_Event.png used on input line 63.
-(pdftex.def)             Requested size: 235.62973pt x 95.85788pt.
+Package pdftex.def Info: Images/Use_Case/Add_Event.png  used on input line 65. 
+on input line 65.
+Package pdftex.def Info: Requested size: 235.62973pt x 95.85788pt on input line
+ 65.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
  []\T1/lmtt/m/n/10.95 The system will let the user add a new event to the calen
 dar.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
  \T1/lmtt/m/n/10.95 The user will have to set the title, date and time, carbon 
 footprint
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
  \T1/lmtt/m/n/10.95 preference and must associate the event with a TAG. Once do
 ne, the system
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
- \T1/lmtt/m/n/10.95 will check if the event is reachable by the previous one an
-d if there's
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+ \T1/lmtt/m/n/10.95 will check if the event is reachable by the previous one, i
+f the next
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
- \T1/lmtt/m/n/10.95 not overlapping. If the two previous conditions are confirm
-ed, the new
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+ \T1/lmtt/m/n/10.95 event is reachable from this one and if there's not overlap
+ping. If the
  []
 
-<Images/Use_Case/Advice_Mean.png, id=394, 1181.41376pt x 323.2075pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+ \T1/lmtt/m/n/10.95 three previous conditions are confirmed, the new event will
+ appear in the
+ []
+
+<Images/Use_Case/Advice_Mean.png, id=395, 1181.41376pt x 323.2075pt>
 File: Images/Use_Case/Advice_Mean.png Graphic file (type png)
-
 <use Images/Use_Case/Advice_Mean.png>
-Package pdftex.def Info: Images/Use_Case/Advice_Mean.png used on input line 73.
+Package pdftex.def Info: Images/Use_Case/Advice_Mean.png  used on input line 75
+. on input line 75.
+Package pdftex.def Info: Requested size: 295.3527pt x 80.80167pt on input line 
+75.
 
-(pdftex.def)             Requested size: 295.3527pt x 80.80167pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
  []\T1/lmtt/m/n/10.95 The system will show the user the advices about the best 
 means of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
- \T1/lmtt/m/n/10.95 transport for reaching every event that the he has to atten
-d. The routes
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+ \T1/lmtt/m/n/10.95 transport for reaching every event that he has to attend. T
+he routes will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []\T1/lmtt/m/n/10.95 the home address/outdoor accommodation if the event to re
 ach is the
  []
 
 [11 <./Images/Use_Case/Add_Event.png> <./Images/Use_Case/Advice_Mean.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
  []\T1/lmtt/m/n/10.95 In any case, it will be possible to show the directions o
 f every
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
  \T1/lmtt/m/n/10.95 event using as starting point his position, just tapping on
  a specific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
  []\T1/lmtt/m/n/10.95 The advices will follow the user's preferences described 
 in the TAG
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
  \T1/lmtt/m/n/10.95 related to the event, keeping into account also the weather
  conditions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
  \T1/lmtt/m/n/10.95 and giving him warnings in the presence of strikes. Moreove
 r, it will be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
  \T1/lmtt/m/n/10.95 given a warning when the user needs to leave in order to re
 ach the event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
  []\T1/lmtt/m/n/10.95 The system will also localize and show the position of th
 e nearest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
  []\T1/lmtt/m/n/10.95 The system will recommend and allow to buy the best trans
 port ticket.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
  \T1/lmtt/m/n/10.95 This feature is available just in the towns reported in the
  previous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []\T1/lmtt/m/n/10.95 Furthermore, during the trip management, after having ins
 erted the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
  \T1/lmtt/m/n/10.95 accommodation address and the duration, the system will giv
-e back the
+e back to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
  \T1/lmtt/m/n/10.95 user the tickets available, their prices and the best optio
 n that covers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
  \T1/lmtt/m/n/10.95 the entire period. The user will be able to purchase them a
 fter being
  []
 
-<Images/Use_Case/Trip.png, id=401, 1119.18124pt x 836.12375pt>
+<Images/Use_Case/Trip.png, id=402, 1119.18124pt x 836.12375pt>
 File: Images/Use_Case/Trip.png Graphic file (type png)
-
 <use Images/Use_Case/Trip.png>
-Package pdftex.def Info: Images/Use_Case/Trip.png used on input line 94.
-(pdftex.def)             Requested size: 279.79462pt x 209.03043pt.
+Package pdftex.def Info: Images/Use_Case/Trip.png  used on input line 96. on in
+put line 96.
+Package pdftex.def Info: Requested size: 279.79462pt x 209.03043pt on input lin
+e 96.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
  []\T1/lmtt/m/n/10.95 The system will allow the user to manage trips and, by de
 fining the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
  \T1/lmtt/m/n/10.95 accommodation and the duration, it will suggest the tickets
  available
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
  \T1/lmtt/m/n/10.95 for reaching the desired town. It will be possible to arran
 ge a trip
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
  \T1/lmtt/m/n/10.95 directly from the calendar section. Furthermore, when an ev
-ent is crated
+ent is created
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
  \T1/lmtt/m/n/10.95 and it's located in a town different from the user's positi
 on, the trip's
  []
 
 [12 <./Images/Use_Case/Trip.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
  []\T1/lmtt/m/n/10.95 The travel will be represented as a special event in the 
 calendar's
  []
 
 
-Overfull \hbox (10.11238pt too wide) in paragraph at lines 98--100
+Overfull \hbox (10.11238pt too wide) in paragraph at lines 100--102
  \T1/lmtt/m/n/10.95 section that covers the entire travel time and contains all
  the information.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
  \T1/lmtt/m/n/10.95 The user will be able to edit the trip information any time
  he wants,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []\T1/lmtt/m/n/10.95 The system is suitable for any kind of user. In fact, the
  Travlendar+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
  \T1/lmtt/m/n/10.95 goals are appropriate for any person who needs help for tak
 ing on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []\T1/lmtt/b/sl/10.95 User : \T1/lmtt/m/n/10.95 is a person who has done the s
 ubscription in the system.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
  \T1/lmtt/m/n/10.95 Every user, after the login process, is able to use all the
  system's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
  []\T1/lmtt/b/sl/10.95 System Manager Team : \T1/lmtt/m/n/10.95 it's a group of
  engineers and programmers to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
  \T1/lmtt/m/n/10.95 whom the founders have entrusted the maintenance of the sys
 tem and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []\T1/lmtt/b/sl/10.95 Client Service : \T1/lmtt/m/n/10.95 it is a small team t
 hat has the aim of receiving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []\T1/lmtt/m/n/10.95 The duration of the event in the world corresponds to the
  duration of
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
  []\T1/lmtt/m/n/10.95 External services answer to the system request in no more
  than 5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
  []\T1/lmtt/m/n/10.95 The user who asks to purchase a ticket on the system, wil
 l actually
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
- []\T1/lmtt/m/n/10.95 The user has to follow at least one of the warnings sent 
-from the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []\T1/lmtt/m/n/10.95 Means of transport are composed by: buses, subways, trams
  and
  []
@@ -1961,10 +1969,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 ) [14] (Files/3_Specific_Requirements.tex
 <Images/Proposed_System.png, id=437, 722.7pt x 458.46281pt>
 File: Images/Proposed_System.png Graphic file (type png)
-
 <use Images/Proposed_System.png>
-Package pdftex.def Info: Images/Proposed_System.png used on input line 7.
-(pdftex.def)             Requested size: 180.67455pt x 114.61542pt.
+Package pdftex.def Info: Images/Proposed_System.png  used on input line 7. on i
+nput line 7.
+Package pdftex.def Info: Requested size: 180.67455pt x 114.61542pt on input lin
+e 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []\T1/lmtt/m/n/10.95 The following mockups represent an idea of the interfaces
@@ -1975,17 +1984,19 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 17.
 <Images/Sketch/Login.png, id=438, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Login.png Graphic file (type png)
-
 <use Images/Sketch/Login.png>
-Package pdftex.def Info: Images/Sketch/Login.png used on input line 20.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
- [15 <./Images/Proposed_System.png> <./Images/Sketch/Login.png>]
+Package pdftex.def Info: Images/Sketch/Login.png  used on input line 20. on inp
+ut line 20.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 20.
+[15 <./Images/Proposed_System.png> <./Images/Sketch/Login.png>]
 <Images/Sketch/User_Profile.png, id=446, 376.2858pt x 669.2202pt>
 File: Images/Sketch/User_Profile.png Graphic file (type png)
-
 <use Images/Sketch/User_Profile.png>
-Package pdftex.def Info: Images/Sketch/User_Profile.png used on input line 30.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/User_Profile.png  used on input line 30.
+ on input line 30.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 30.
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--32
  \T1/lmtt/m/n/10.95 The user will have a personal page in which he will be able
@@ -2000,51 +2011,49 @@ ds. He
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--32
- \T1/lmtt/m/n/10.95 will be able to add tags (see tag creation), to edit the 
-lunch
+ \T1/lmtt/m/n/10.95 will be able to add tags, to edit the lunch section, to sel
+ect
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--32
- \T1/lmtt/m/n/10.95 section, to select the means of transport, he would like th
-e system
+ \T1/lmtt/m/n/10.95 the means of transport he would like the system to use in i
+ts
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--32
- \T1/lmtt/m/n/10.95 to use in its computations, and he will also be able to ins
-ert his
+ \T1/lmtt/m/n/10.95 computations, and he will also be able to insert his person
+al season
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--32
- \T1/lmtt/m/n/10.95 personal season ticket in the homonym field. The system wil
-l warn
+ \T1/lmtt/m/n/10.95 ticket in the homonym field. The system will warn the user 
+with a
  []
 
 <Images/Sketch/Event_Creation_1.png, id=447, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_1.png Graphic file (type png)
-
 <use Images/Sketch/Event_Creation_1.png>
-Package pdftex.def Info: Images/Sketch/Event_Creation_1.png used on input line 
-38.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Event_Creation_1.png  used on input line
+ 38. on input line 38.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 38.
 <Images/Sketch/Event_Creation_2.png, id=448, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_2.png Graphic file (type png)
-
 <use Images/Sketch/Event_Creation_2.png>
-Package pdftex.def Info: Images/Sketch/Event_Creation_2.png used on input line 
-40.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Event_Creation_2.png  used on input line
+ 40. on input line 40.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 40.
 <Images/Sketch/Event_Creation_3.png, id=449, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_Creation_3.png Graphic file (type png)
-
 <use Images/Sketch/Event_Creation_3.png>
-Package pdftex.def Info: Images/Sketch/Event_Creation_3.png used on input line 
-42.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Event_Creation_3.png  used on input line
+ 42. on input line 42.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 42.
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--44
  \T1/lmtt/m/n/10.95 The user will be able to add an event characterized by a ta
@@ -2059,24 +2068,25 @@ eans
 
 <Images/Sketch/Trip_1.png, id=450, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_1.png Graphic file (type png)
-
 <use Images/Sketch/Trip_1.png>
-Package pdftex.def Info: Images/Sketch/Trip_1.png used on input line 49.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Trip_1.png  used on input line 49. on in
+put line 49.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 49.
 <Images/Sketch/Trip_2.png, id=451, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_2.png Graphic file (type png)
-
 <use Images/Sketch/Trip_2.png>
-Package pdftex.def Info: Images/Sketch/Trip_2.png used on input line 51.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Trip_2.png  used on input line 51. on in
+put line 51.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 51.
 <Images/Sketch/Trip_3.png, id=452, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Trip_3.png Graphic file (type png)
-
 <use Images/Sketch/Trip_3.png>
-Package pdftex.def Info: Images/Sketch/Trip_3.png used on input line 53.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Trip_3.png  used on input line 53. on in
+put line 53.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 53.
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--55
  []\T1/lmtt/m/n/10.95 As shown above the system will suggest the best options t
@@ -2099,17 +2109,18 @@ k the
 ./Images/Sketch/Event_Creation_2.png> <./Images/Sketch/Event_Creation_3.png>]
 <Images/Sketch/Plan_Trip_1.png, id=463, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Plan_Trip_1.png Graphic file (type png)
-
 <use Images/Sketch/Plan_Trip_1.png>
-Package pdftex.def Info: Images/Sketch/Plan_Trip_1.png used on input line 59.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Plan_Trip_1.png  used on input line 59. 
+on input line 59.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 59.
 <Images/Sketch/Plan_Trip_2.png, id=464, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Plan_Trip_2.png Graphic file (type png)
-
 <use Images/Sketch/Plan_Trip_2.png>
-Package pdftex.def Info: Images/Sketch/Plan_Trip_2.png used on input line 61.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Plan_Trip_2.png  used on input line 61. 
+on input line 61.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 61.
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--63
  []\T1/lmtt/m/n/10.95 If the user wants to plan a trip in advance or in the cas
@@ -2118,18 +2129,20 @@ e he has
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--63
- \T1/lmtt/m/n/10.95 already planned one, he will be able to add it in the same 
-way he
+ \T1/lmtt/m/n/10.95 already planned one, he will be able to add it directly in 
+the
  []
 
 [17 <./Images/Sketch/Trip_1.png> <./Images/Sketch/Trip_2.png> <./Images/Sketch/
 Trip_3.png> <./Images/Sketch/Plan_Trip_1.png> <./Images/Sketch/Plan_Trip_2.png>
-] <Images/Sketch/Tag.png, id=474, 376.2858pt x 669.2202pt>
+]
+<Images/Sketch/Tag.png, id=474, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Tag.png Graphic file (type png)
-
 <use Images/Sketch/Tag.png>
-Package pdftex.def Info: Images/Sketch/Tag.png used on input line 70.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Tag.png  used on input line 70. on input
+ line 70.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 70.
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--72
  \T1/lmtt/m/n/10.95 In this section the user will be able to create a tag conta
@@ -2150,17 +2163,18 @@ by the
 
 <Images/Sketch/Event_View_1.png, id=475, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_View_1.png Graphic file (type png)
-
 <use Images/Sketch/Event_View_1.png>
-Package pdftex.def Info: Images/Sketch/Event_View_1.png used on input line 78.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
-
+Package pdftex.def Info: Images/Sketch/Event_View_1.png  used on input line 78.
+ on input line 78.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 78.
 <Images/Sketch/Event_View_2.png, id=476, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Event_View_2.png Graphic file (type png)
-
 <use Images/Sketch/Event_View_2.png>
-Package pdftex.def Info: Images/Sketch/Event_View_2.png used on input line 80.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Event_View_2.png  used on input line 80.
+ on input line 80.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 80.
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--82
  \T1/lmtt/m/n/10.95 The user will be able to review his appointments in the cal
@@ -2189,10 +2203,11 @@ eck the
 ch/Event_View_2.png>]
 <Images/Sketch/Directions.png, id=487, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Directions.png Graphic file (type png)
-
 <use Images/Sketch/Directions.png>
-Package pdftex.def Info: Images/Sketch/Directions.png used on input line 89.
-(pdftex.def)             Requested size: 94.07121pt x 167.30464pt.
+Package pdftex.def Info: Images/Sketch/Directions.png  used on input line 89. o
+n input line 89.
+Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
+ 89.
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--91
  
@@ -2933,48 +2948,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 fastest route to
  []
 
-[26] <Images/Sequence/Event_Creation.png, id=524, 954.56625pt x 1382.16376pt>
+[26]
+<Images/Sequence/Event_Creation.png, id=524, 894.34125pt x 1382.16376pt>
 File: Images/Sequence/Event_Creation.png Graphic file (type png)
-
 <use Images/Sequence/Event_Creation.png>
-Package pdftex.def Info: Images/Sequence/Event_Creation.png used on input line 
-36.
-(pdftex.def)             Requested size: 286.37209pt x 414.65233pt.
-
+Package pdftex.def Info: Images/Sequence/Event_Creation.png  used on input line
+ 36. on input line 36.
+Package pdftex.def Info: Requested size: 268.30444pt x 414.65233pt on input lin
+e 36.
 <Images/Sequence/Trip_Transport_Ticket_Purchasing.png, id=525, 1516.66624pt x 2
 441.12pt>
 File: Images/Sequence/Trip_Transport_Ticket_Purchasing.png Graphic file (type p
 ng)
- <use Images/Sequence/Trip_Transport_Ticket_Purchasing.png>
-Package pdftex.def Info: Images/Sequence/Trip_Transport_Ticket_Purchasing.png u
-sed on input line 43.
-(pdftex.def)             Requested size: 348.8259pt x 561.4458pt.
+<use Images/Sequence/Trip_Transport_Ticket_Purchasing.png>
+Package pdftex.def Info: Images/Sequence/Trip_Transport_Ticket_Purchasing.png  
+used on input line 43. on input line 43.
+Package pdftex.def Info: Requested size: 348.8259pt x 561.4458pt on input line 
+43.
  [27 <./Images/Sequence/Event_Creation.png>]
 <Images/Sequence/Local_Transport_Ticket_Purchasing.png, id=531, 1202.4925pt x 1
 246.6575pt>
 File: Images/Sequence/Local_Transport_Ticket_Purchasing.png Graphic file (type 
 png)
- <use Images/Sequence/Local_Transport_Ticket_Purchasing.png>
+<use Images/Sequence/Local_Transport_Ticket_Purchasing.png>
 Package pdftex.def Info: Images/Sequence/Local_Transport_Ticket_Purchasing.png 
-used on input line 50.
-(pdftex.def)             Requested size: 360.75053pt x 374.00014pt.
-
-[28 <./Images/Sequence/Trip_Transport_Ticket_Purchasing.png>] [29 <./Images/Seq
-uence/Local_Transport_Ticket_Purchasing.png>]
+ used on input line 50. on input line 50.
+Package pdftex.def Info: Requested size: 360.75053pt x 374.00014pt on input lin
+e 50.
+ [28 <./Images/Sequence/Trip_Transport_Ticket_Purchasing.png>] [29 <./Images/Se
+quence/Local_Transport_Ticket_Purchasing.png>]
 <Images/Activity/Event_Route_Computation.png, id=542, 611.28375pt x 768.8725pt>
+
 File: Images/Activity/Event_Route_Computation.png Graphic file (type png)
 <use Images/Activity/Event_Route_Computation.png>
-Package pdftex.def Info: Images/Activity/Event_Route_Computation.png used on in
-put line 59.
-(pdftex.def)             Requested size: 244.50917pt x 307.54355pt.
-
+Package pdftex.def Info: Images/Activity/Event_Route_Computation.png  used on i
+nput line 59. on input line 59.
+Package pdftex.def Info: Requested size: 244.50917pt x 307.54355pt on input lin
+e 59.
 <Images/Activity/Trip_Creation.png, id=543, 705.63625pt x 1529.715pt>
 File: Images/Activity/Trip_Creation.png Graphic file (type png)
-
 <use Images/Activity/Trip_Creation.png>
-Package pdftex.def Info: Images/Activity/Trip_Creation.png used on input line 6
-6.
-(pdftex.def)             Requested size: 246.97638pt x 535.40828pt.
+Package pdftex.def Info: Images/Activity/Trip_Creation.png  used on input line 
+66. on input line 66.
+Package pdftex.def Info: Requested size: 246.97638pt x 535.40828pt on input lin
+e 66.
 ) [30 <./Images/Activity/Event_Route_Computation.png>] [31 <./Images/Activity/T
 rip_Creation.png>] (Files/5_Alloy.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2988,24 +3005,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [32] [33] [34] [35] [36] [37]) [38]
 <Images/Alloy/Run.png, id=1028, 1058.95625pt x 730.73pt>
 File: Images/Alloy/Run.png Graphic file (type png)
-
 <use Images/Alloy/Run.png>
-Package pdftex.def Info: Images/Alloy/Run.png used on input line 9.
-(pdftex.def)             Requested size: 370.64024pt x 255.75932pt.
-
+Package pdftex.def Info: Images/Alloy/Run.png  used on input line 9. on input l
+ine 9.
+Package pdftex.def Info: Requested size: 370.64024pt x 255.75932pt on input lin
+e 9.
 <Images/Alloy/Check.png, id=1029, 1112.155pt x 461.725pt>
 File: Images/Alloy/Check.png Graphic file (type png)
-
 <use Images/Alloy/Check.png>
-Package pdftex.def Info: Images/Alloy/Check.png used on input line 14.
-(pdftex.def)             Requested size: 389.26009pt x 161.60617pt.
- [39 <./Images/Alloy/Run.png> <./Images/Alloy/Check.png>] <Images/Alloy/Show.pn
-g, id=1036, 1344.02126pt x 632.3625pt>
+Package pdftex.def Info: Images/Alloy/Check.png  used on input line 14. on inpu
+t line 14.
+Package pdftex.def Info: Requested size: 389.26009pt x 161.60617pt on input lin
+e 14.
+ [39 <./Images/Alloy/Run.png> <./Images/Alloy/Check.png>]
+<Images/Alloy/Show.png, id=1036, 1344.02126pt x 632.3625pt>
 File: Images/Alloy/Show.png Graphic file (type png)
-
 <use Images/Alloy/Show.png>
-Package pdftex.def Info: Images/Alloy/Show.png used on input line 22.
-(pdftex.def)             Requested size: 470.41449pt x 221.33018pt.
+Package pdftex.def Info: Images/Alloy/Show.png  used on input line 22. on input
+ line 22.
+Package pdftex.def Info: Requested size: 470.41449pt x 221.33018pt on input lin
+e 22.
 
 Overfull \hbox (15.17038pt too wide) in paragraph at lines 22--23
  [][] 
@@ -3013,10 +3032,11 @@ Overfull \hbox (15.17038pt too wide) in paragraph at lines 22--23
 
 <Images/Alloy/Add_Event.png, id=1037, 1315.91624pt x 614.295pt>
 File: Images/Alloy/Add_Event.png Graphic file (type png)
-
 <use Images/Alloy/Add_Event.png>
-Package pdftex.def Info: Images/Alloy/Add_Event.png used on input line 29.
-(pdftex.def)             Requested size: 460.57759pt x 215.00647pt.
+Package pdftex.def Info: Images/Alloy/Add_Event.png  used on input line 29. on 
+input line 29.
+Package pdftex.def Info: Requested size: 460.57759pt x 215.00647pt on input lin
+e 29.
 
 Overfull \hbox (5.33348pt too wide) in paragraph at lines 29--30
  [][] 
@@ -3025,10 +3045,11 @@ Overfull \hbox (5.33348pt too wide) in paragraph at lines 29--30
 [40 <./Images/Alloy/Show.png> <./Images/Alloy/Add_Event.png>]
 <Images/Alloy/Add_Trip.png, id=1044, 1307.88625pt x 624.3325pt>
 File: Images/Alloy/Add_Trip.png Graphic file (type png)
-
 <use Images/Alloy/Add_Trip.png>
-Package pdftex.def Info: Images/Alloy/Add_Trip.png used on input line 37.
-(pdftex.def)             Requested size: 457.76704pt x 218.51964pt.
+Package pdftex.def Info: Images/Alloy/Add_Trip.png  used on input line 37. on i
+nput line 37.
+Package pdftex.def Info: Requested size: 457.76704pt x 218.51964pt on input lin
+e 37.
 
 Overfull \hbox (2.52293pt too wide) in paragraph at lines 37--38
  [][] 
@@ -3051,10 +3072,10 @@ Package rerunfilecheck Info: File `"Travlendar+ RASD".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 12129 strings out of 493323
- 173263 string characters out of 3139053
- 463332 words of memory out of 3000000
- 14793 multiletter control sequences out of 15000+200000
+ 12116 strings out of 493312
+ 174308 string characters out of 3138906
+ 462647 words of memory out of 3000000
+ 14789 multiletter control sequences out of 15000+200000
  62350 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,43p,1191b,1989s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3072,7 +3093,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtti10.pfb>
-Output written on "Travlendar+ RASD.pdf" (44 pages, 5586065 bytes).
+Output written on "Travlendar+ RASD.pdf" (44 pages, 5589846 bytes).
 PDF statistics:
  1229 PDF objects out of 1440 (max. 8388607)
  599 named destinations out of 1000 (max. 500000)
