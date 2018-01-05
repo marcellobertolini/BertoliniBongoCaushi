@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 15:12
 entering extended mode
 **"./Travlendar+ RASD.tex"
 ("Travlendar+ RASD.tex"
@@ -2394,21 +2394,21 @@ ers when needed.
  []
 
 
-Overfull \hbox (1.34381pt too wide) in paragraph at lines 265--266
- []\T1/lmtt/m/n/10.95 The system has to be able to respond to a great number of
- simultaneously
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+ []\T1/lmtt/m/n/10.95 The system must be able to respond to a large number of u
+ser requests
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
- \T1/lmtt/m/n/10.95 user requests in order to give the best route in the shorte
-st time possible.
+ \T1/lmtt/m/n/10.95 simultaneously. The best routes, vehicles and other informa
+tion, on the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
- \T1/lmtt/m/n/10.95 In order to obtain the best performances, the computation w
-ill be provided
+ \T1/lmtt/m/n/10.95 application environment, must be provided and calculated as
+ soon as possible
  []
 
 [22]
@@ -2430,14 +2430,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--272
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 275--277
- []\T1/lmtt/m/n/10.95 Due to the continuous enlargement of the sharing companie
-s and the new
+ []\T1/lmtt/m/n/10.95 Due to the continuous expansion of sharing services and t
+he new way
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 275--277
- \T1/lmtt/m/n/10.95 way of traveling, the system has to guarantee a high level 
-of scalability in
+ \T1/lmtt/m/n/10.95 of traveling, the system must ensure a high level of scalab
+ility. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
+ \T1/lmtt/m/n/10.95 skill will also allow Travlendar + to expand by covering mo
+re countries and
  []
 
 
@@ -3056,7 +3062,7 @@ Overfull \hbox (2.52293pt too wide) in paragraph at lines 37--38
  []
 
 ) [41 <./Images/Alloy/Add_Trip.png>] (Files/6_Final_Part.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
+Underfull \hbox (badness 10000) in paragraph at lines 13--21
 
  []
 
@@ -3093,7 +3099,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtti10.pfb>
-Output written on "Travlendar+ RASD.pdf" (44 pages, 5587416 bytes).
+Output written on "Travlendar+ RASD.pdf" (44 pages, 5587548 bytes).
 PDF statistics:
  1185 PDF objects out of 1200 (max. 8388607)
  562 named destinations out of 1000 (max. 500000)
