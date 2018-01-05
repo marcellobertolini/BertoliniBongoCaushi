@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{\numberline {2.3.9}Transport Manager}{10}{subsubsection.2.3.9}
 \contentsline {subsubsection}{\numberline {2.3.10}Directions}{10}{subsubsection.2.3.10}
 \contentsline {subsubsection}{\numberline {2.3.11}Environment Manager}{10}{subsubsection.2.3.11}
-\contentsline {subsubsection}{\numberline {2.3.12}Sharing Service Manager}{10}{subsubsection.2.3.12}
+\contentsline {subsubsection}{\numberline {2.3.12}Sharing Service Manager}{11}{subsubsection.2.3.12}
 \contentsline {subsubsection}{\numberline {2.3.13}Local Transport Tickets}{11}{subsubsection.2.3.13}
 \contentsline {subsubsection}{\numberline {2.3.14}Outdoor Transport Tickets}{11}{subsubsection.2.3.14}
 \contentsline {subsection}{\numberline {2.4}Deployment View}{11}{subsection.2.4}
@@ -54,7 +54,7 @@
 \contentsline {subsubsection}{\numberline {3.3.6}Check Reachability}{29}{subsubsection.3.3.6}
 \contentsline {section}{\numberline {4}User Interface Design}{30}{section.4}
 \contentsline {subsection}{\numberline {4.1}Login \& User Profile}{30}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Calendar}{30}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Add Event}{30}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Lunch}{31}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}CO$_2$ free}{31}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Weather Forecast}{32}{subsection.4.5}
@@ -68,8 +68,9 @@
 \contentsline {subsection}{\numberline {6.3}Implementation and testing plan}{44}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Possible risks}{45}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Possible solutions}{46}{subsection.6.5}
-\contentsline {section}{\numberline {7}Revision History}{47}{section.7}
-\contentsline {section}{\numberline {8}Effort Spent}{47}{section.8}
-\contentsline {subsection}{\numberline {8.1}Kostandin Caushi}{47}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Marcello Bertolini}{47}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Raffaele Bongo}{48}{subsection.8.3}
+\contentsline {section}{\numberline {7}Programs Used}{47}{section.7}
+\contentsline {section}{\numberline {8}Revision History}{47}{section.8}
+\contentsline {section}{\numberline {9}Effort Spent}{47}{section.9}
+\contentsline {subsection}{\numberline {9.1}Kostandin Caushi}{47}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Marcello Bertolini}{48}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Raffaele Bongo}{48}{subsection.9.3}

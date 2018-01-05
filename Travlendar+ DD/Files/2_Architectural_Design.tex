@@ -6,7 +6,7 @@ In this chapter we will analyze the proposed architecture and components of Trav
 The proposed architecture is composed by three tiers :
 \begin{itemize}
 	\setlength{\leftskip}{0.5cm}
-	\item \emph{Presentation Tier : }it's represented by the Browser and the Mobile App, the View part of our system.
+	\item \emph{Presentation Tier : }it's represented by the Browser and the Mobile App; the View part of our system.
 	\item \emph{Web and Business Tier : }it's represented by the Web Server, which responds to the user's HTTP requests, and the Application Server, which contains all the Business Logic.
 	\item \emph{Database Tier : }it's represented by the DB Server, that contains and manages persistent data in an efficient way.
 \end{itemize}
@@ -24,12 +24,14 @@ The proposed architecture is composed by three tiers :
 \end{figure}
 
 The system is divided in three main layers: Presentation Layer, Business Layer and Data Layer.
-The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages with the demanded information.
+The presentation layer is both a web-based application and a mobile application. For the web application we will have a very thin client with the only aim of performing requests, through a web server, to the Business layer and receiving the HTML pages and constant resources, like CSS and JS, with the demanded information.
 On the other hand, the mobile application will not require an interface with the web server because it will communicate directly with the server.
 
-The main server is composed by three parts : the Web Server, mentioned here above, the Application and the External Communication Server. The application part of the main server contains all the system's logic: it receives requestes and input data from the client side and performs all the necessary operations.
-The External Communication Server part is in charge to handle all the comunication with the external services to retrieve data of interests from other systems in order to achieve the system goals.
-Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case, this information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason, every client request, implicating a changing data operation is preceded by a set of controls performed by the Business logic in order to maintain the database’s consistency.
+The main server is composed by three parts : the Web Server, mentioned here above, the Application and the External Communication Server. The application part of the main server contains all the system's logic: it receives requests and input data from the client side and performs all the necessary operations.
+The External Communication Server part is in charge to handle all the communication with the external services retrieving data of interests from other systems in order to achieve the system goals.
+Our system, being a calendar based application, will have the main issue of managing a richly structured body of information. In our case, this information will be persistently stored in multiple Data Bases, each one containing a precise schema with a precise kind of data, and they always have to reflect the true state of affairs. For this reason, every client request, implicating a changing data operation is preceded by a set of controls performed by the Business logic in order to maintain the database’s consistency.\par
+The databases, containing the most sensible and important data, are replicated in order to guarantee a resistance to the failure. 
+The replication will be symmetrical, in which the modifications can be carried out on any copy with a ‘peer to peer’ situation among the copies.
 
 \mysubsection{Component View}
 \begin{figure}[H]
@@ -65,19 +67,19 @@ This component handles all user trips, allowing him to add, delete or edit them.
 \newpage
 \mysubsubsection{Events Manager}
 This component takes care of user calendar, managing the events that he wants to add, delete, edit or visualize.\par
-Thus, anytime he can :
+Thus, anytime the user is able to :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
 	\item \emph{insert or edit an event :} the component will check through the Repository Manager if in the DB there is an overlap and if the event is reachable from the previous one (using also Transport Manager to verify route time).
 	\item \emph{delete an event :} the component will simply delete it in the DB.
-	\item \emph{visualize an event :} the component will check through the Transport Manager the available means of transport, the time needed and suggest the route to reach the event.
+	\item \emph{visualize an event :} the component will check through the Transport Manager the available means of transport, the time needed and the best route to reach the event.
 \end{itemize}
 
 \mysubsubsection{Transport Manager}
-This component handles all the means of transport and tickets. Concerning transport, it will filter the means according to :
+This component handles all the means of transport and tickets. About the transport, the means will be filtered according to the following criteria :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
-	\item the means selected in the event’s TAG;
+	\item the means selected in the event TAG;
 	\item the $CO_2$ preference;
 	\item the means selected in the “Available Means” in Preferences;
 	\item the available means to reach the event (suggested by the route provider);
@@ -127,7 +129,7 @@ For the client-side we have taken into consideration the Web Browser only, in or
 \mysubsubsection{Registration}
 This Runtime View shows a user Registration process.\par
 First of all the Web Server sends to the user the registration\_form to be fulfilled with his credentials. As soon as the information are inserted, the form is sent back to the Server.\par
-At this point, it’s important to check if the email is already associated to another account. In order to do that, the server asks the DBMS to search for it. If the get\_result it’s equal \emph{Null}, it means that the email it’s not used and the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
+At this point, it’s important to check if the email is already associated to another account. In order to do that, the server asks the DBMS to search for it. If the get\_result it’s equal \emph{Null}, it means that the email is not used and the server can complete the registration saving in the DB the user credentials. Otherwise, the server will notify the user that the inserted email cannot be used.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.2]{Images/Runtime/Registration}
@@ -153,7 +155,7 @@ In order to reduce the diagram size we have made some premises :
 \begin{itemize}
 	\setlength{\leftskip}{1cm}
 	\item There is a Previous and a Next Event, before and after the event that the user is adding. In this way we don’t have to show runtime the check that verifies if the getPreviousEvent() or the getNextEvent() is equal to \emph{Null}.
-	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check for verifying that the inserted event overlaps with a lunch event. In fact, if the overlapped event was a Lunch, the system would have to check if it could be moved or reduced respecting the lunch contraints.
+	\item The user hasn’t already configured the lunch preference, so there is no lunch event in the calendar. In this way we don’t have to run the check for verifying that the inserted event overlaps with a lunch event. In fact, if the overlapped event was a Lunch, the system would have to check if it could be moved or reduced respecting the lunch constraints.
 \end{itemize}\par
 Even in this runtime, firstly the user has to complete the event\_form and send it to the server.
 Once Events Manager receives the data, it has to check :
@@ -174,7 +176,8 @@ Once Events Manager receives the data, it has to check :
 \mysubsubsection{Visualize Event}
 This Runtime View shows a user's Visualize Event process.\par
 In order to reduce the diagram size we make a premise : the system has already checked that there exists an event before the one that the user wants to visualize.\par
-In this diagram the user asks the server to show him an event, so this mean that the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager, first of all, gets from the DB the event info and the previous event info. Next asks the Directions component to compute the route between this two locations and to send back for each mean of transport the time needed to cover the travel. 
+In this diagram the user asks the server to show him an event, so this mean that the server has to get the event info and the means of transport available to reach it. In order to do that the Events Manager, first of all, gets from the DB the event info and the previous event info. Next asks the Directions component to compute the route between this two locations and to send back for each mean of transport the time needed to cover the travel.
+ 
 Before sending back the result, Transport Manager filters all the means based on preferences, weather and strikes.
 \begin{figure}[H]
 	\centering
@@ -186,7 +189,7 @@ Before sending back the result, Transport Manager filters all the means based on
 \mysubsubsection{Visualize Directions}
 This Runtime View shows a user's Visualize Directions process.\par
 In order to reduce the diagram size we have made a premise : the system has already checked that exists an event before the one that the user wants to get directions.\par
-The Server receives the user request to show him the directions to reach a specific event. In order to do that, Events Manager, first of all, gets from the DB the information about the choosen event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
+The Server receives the user request to show him the directions to reach a specific event. In order to do that, Events Manager, first of all, gets from the DB the information about the chosen event and the previous one. Once it receives them, asks the Directions component to elaborate the route between the given locations and finally it shows the result to the user.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.16]{Images/Runtime/Visualize_Directions}
@@ -242,7 +245,7 @@ On the other hand, the mobile application will not require an interface with the
 \\\par
 The main server will contain all the logic of the system. The main component of the logic will be the User manager. This component will perform as the Main program in the \emph{Main program with subroutines style}: it will receive the requests from the clients and call the right sub-components for accomplishing the goals related to them.
 \\\par
-An essential of our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and tickets information about local and outdoor public transport. All this information will not be stored in our DBs, but they will be retrieved with API REST requests to an appropiate external services. For this goal we will use a \emph{SOA style}. 
+An essential of our system business, as said in the RASD, will be to provide directions related to the precise travel means, sharing means’ position and tickets information about local and outdoor public transport. All this information will not be stored in our DBs, but they will be retrieved with API REST requests to an appropriate external services. For this goal we will use a \emph{SOA style}. 
 In our system we will have a component called Transport manager that will be able to distinguish the kind of the request and it will delegate to another precise component, devoted to a certain type of external services connection, the aim of submitting it to the right external service . Once that the information has been received, its manipulation will be performed internally to the business logic of the system. In this way we will have the possibility of adding new components for incoming kind of means of transport, also personalized, in a very simple and scalable way.
 \\\par
 The last architectural style exploited is the \emph{Event based Architectural style}, and it is used for the notification system that will be always waiting for a particular event that, if happens, triggers a notification that is immediately sent to the right clients subscribed to the topic. 
@@ -263,7 +266,7 @@ The Database server contains all the software’s data and constitutes the model
 	\includegraphics[scale=0.45]{Images/Patterns/Observer_Pattern}
 	\caption{Observer Pattern}
 \end{figure}
-Our software has to be able to advise the user that he has to take a certain mean of transport for allowing him to arrive on time, that the registered season ticket is going to expire or also if a strike or bad meteorological conditions are forecasted. All these events have to be supported by a notification system. These needs will be implemented with the \emph{observe pattern}.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as many event listeners as is necessary and they can be added freely for future expansion. When during a process a state of interest for a listener is changed, some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
+Our software has to be able to advise the user that he has to take a certain mean of transport for allowing him to arrive on time, that the registered season ticket is going to expire or also if a strike or bad meteorological conditions are forecasted. All these events have to be supported by a notification system. These needs will be implemented with the \emph{observer pattern}.  There will be a specific group of event listener, namely objects that extend a common abstract class. The system will have as many event listeners as is necessary and they can be added freely for future expansion. When during a process a state of interest for a listener is changed, some checks are performed and, under some particular conditions, a notification is created and sent to the user. 
 
 \mysubsubsection{Strategy}
 \begin{figure}[H]
@@ -280,7 +283,7 @@ The filters applied on the data to show particular results, based on the user’
 	\caption{Composite Pattern}
 \end{figure}
 We will use this pattern in our system to perform, in a cleaned and elegant way, the various checks that will have to be applied on the user input. There will be a abstract class called Checker that will be extended by Composite checkers and Checkers. Each composite checker will contain one or more checkers and both implement a common interface using the \emph{check} method. The class that will have to manage a specific user input will have one or more composite checkers.
-When a method that have to process the user input data, addresing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the checks will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
+When a method that have to process the user input data, addressing them to an external service or to another component that will insert such a data in a DB, the check method of all the composite checker in such a class will be called and each composite checkers will recursively call his checker’s check method. In this way all the checks will be applied and if something is wrong, the subsequent operation will not be executed and all the possible problems linked with that will be avoided. 
 Thanks to this pattern is possible to create new checkers/composite checkers very easily and to deal with complex and composite check that will be needed in future software expansions.
 
 \mysubsubsection{Façade}

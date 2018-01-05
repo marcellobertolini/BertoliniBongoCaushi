@@ -1,10 +1,10 @@
 \mysection{Requirement Traceability}
-Tis Section explain how the requirements we have defined in the RASD map to the design elements that we have defined in this document.
+This Section explain how the requirements we have defined in the RASD map to the design elements that we have defined in this document.
 \begin{itemize}
 	\item \emph{\textbf{[G$_{1}$] : Allow the user to register and log into the system}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The System has to check the credentials. & - Registration \& Login Manager & .checkEmail() .checkPassword()\\
 		\hline
@@ -18,7 +18,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{2}$] : Allow the user to add events in the calendar}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system mustn’t allow events overlapping. & - Events Manager & .checkOverlap()\\
 		\hline
@@ -37,7 +37,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{3}$] : Allow the user to receive the mobility options}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{1}$] : The system has to check that the event has been created.} & - Repository Manager & .getEvent()\\
 		& - EventsManager & .checkEvent()\\
@@ -60,11 +60,13 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{9}$] : The system has to retrieve the user's position. & - User Manager & .getUserLocation()\\
 		\hline
-		\rule{0pt}{4ex}\lbrack R$_{10}$] : The system has to check the weather forecast. & - Environment & .checkWeather()\\
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{10}$] : The system has to check the weather forecast and strikes.} & - Environment & .checkWeather()\\
+		& - Environment & .checkStrikes()\\
+		& & \\
 		\hline
 	\end{tabular}
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{11}$] : The system has to retrieve the appointment location. & - Repository Manager & .getEventInfo()\\
 		\hline
@@ -76,7 +78,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{4}$] : Support the user to avoid getting late on appointment}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to retrieve the user's GPS position. &	- User Manager & .getUserLocation()\\
 		\hline
@@ -96,7 +98,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{5}$] : Allow the user to have advices about the means of transport that can minimize his carbon footprint}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\multirow{3}{5cm}{\lbrack R$_{1}$] : The system must be able to check the carbon footprint preference.} & - Repository Manager & .getEventInfo()\\
 		& - Events Manager & .getCO2()\\
@@ -109,7 +111,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{6}$] : Support the user to have at least 30 minutes of lunch every day}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must be able to check the lunch preferences. & - Preference Manager & .getLunchPref()\\
 		\hline
@@ -128,18 +130,19 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{7}$] : Allow the user to buy local transport ticket}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to check that all the necessary travel info has been inserted by the user. & - Events Manager & .checkEventInfo\\
 		\hline
-		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to address the user to the web site/application to complete the ticket purchase. & - Local Transport Tickets & .showWebSite()
+		\rule{0pt}{4ex}\multirow{2}{5cm}{\lbrack R$_{2}$] : The system has to address the user to the web site/application to complete the ticket purchase.} & - Repository Manager & .getTransportURL()\\
+		& - Local Transport Tickets & .showWebSite()
 	\end{tabular}
 	
 	\newpage
 	\item \emph{\textbf{[G$_{8}$] : Give advices about the best transportation ticket to buy}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to know how long the user will stay in town. & - Repository Manager & .getTripInfo()\\
 		\hline
@@ -156,18 +159,18 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{9}$] : Remind the user about the expiry date of his season ticket, if he has inserted one}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to check the season ticket expiry date. & - Preference Manager & .getSeasonTicket() .checkExpiryDate\\
 		\hline
-		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to be able to notify the user that his season ticket is expiring. & - User Manager & .visualizePreferences()
+		\rule{0pt}{4ex}\lbrack R$_{2}$] : The system has to be able to notify the user that his season ticket is expiring. & - User Manager & .warnExpSeasTicket()
 	\end{tabular}
 	
 	\newpage
 	\item \emph{\textbf{[G$_{10}$] : Allow the user to buy ticket for outdoor travels}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must check the data inserted by the user to buy the ticket. & - Trip Manager & .checkTrip()\\
 		\hline
@@ -180,7 +183,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{11}$] : Allow the user to use local sharing services}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to retrieve the sharing means location. & - Sharing Service Manager & .getMeansLocation()\\
 		\hline
@@ -195,7 +198,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{12}$] : Allow the user to set some preferences in the settings section}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system must be able to show the user the possible preferences. & - User Manager & .visualizePreferences()\\
 		\hline
@@ -210,7 +213,7 @@ Tis Section explain how the requirements we have defined in the RASD map to the 
 	\item \emph{\textbf{[G$_{13}$] : Allow the user to handle his trips}}
 	\vspace{0.4cm}\\
 	\begin{tabular}[H]{p{5cm}|p{4cm}|p{4cm}}
-		\textbf{Requirement} & \textbf{Componets} & \textbf{Methods}\\
+		\textbf{Requirement} & \textbf{Components} & \textbf{Methods}\\
 		\hline
 		\rule{0pt}{4ex}\lbrack R$_{1}$] : The system has to be able to create travel events. & - Events Manager & .addTravelEvent()\\
 		\hline
