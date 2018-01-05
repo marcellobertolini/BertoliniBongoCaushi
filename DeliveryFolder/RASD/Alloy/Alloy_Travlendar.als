@@ -4,6 +4,14 @@ open util/ordering[Trip]
 open util/ordering[Event]
 open util/ordering[EventPath]
 
+//SIGNATURES
+abstract sig Event {
+	startTime : one Time, 
+	endTime : one Time
+}
+
+abstract sig Mean {}
+
 sig User {
 	userPreferences : one Preference, 
 	userCalendar :  one Calendar, 
@@ -11,34 +19,15 @@ sig User {
 	trips : set Trip 
 }
 
-fact OnePreferenceForEachUser {
-	all p: Preference | some u: User | p in u.userPreferences
-	all u: User | no u':User | u.userPreferences = u'.userPreferences and u != u'
-}
-
-fact tripsAreUniqueForEachUser {
-	all u: User | u.trips.departureTravel != u.trips.departureTravel.next and
-		 u.trips.returnTravel != u.trips.returnTravel.next
-
-	all t: Trip | some u: User | t in u.trips
-}
-
-sig Calendar {
-	days : some Day 
-}
-
-fact daysUniqueInForCalendar {
-	all c, c': Calendar | c != c' 
-		implies c.days & c'.days = none
-}
-
-fact calendarUnique {
-	all u, u': User | u != u' 
-		implies u.userCalendar != u'.userCalendar
-}
-
-fact allCalendarAreInTheUser {
-	all c: Calendar | one u: User | c in u.userCalendar  
+sig EventPath {
+	startingPosition : one Position, 
+	endingPosition : one Position, 
+	timeNeeded : one Int, 
+	mean : one Mean 
+}{
+	timeNeeded > 0
+	startingPosition != endingPosition
+	mean in ( Bus +  Metro + Tram + CarSharing + BikeSharing + Car )
 }
 
 sig Day {
@@ -46,47 +35,19 @@ sig Day {
 	date : one Date 
 }
 
-fact allEventsAreInAday {
-	all e: Event | some d: Day | e in d.events
+sig Calendar {
+	days : some Day 
 }
 
-fact allDaysAreInAllCalendars {
-	all d: Day| some c: Calendar | d in c.days
-}
-		
 sig Date {}
 
-fact dateOnlyWithLink {
-	all d: Date | some g: Day, s: SeasonTicket, t: Travel |
-		d in ( g.date + s.validThru + t.date )
-}
-
 sig Time {}
-
-fact timeHasToHaveAlink {
-	all t: Time | some b: BreakInfo, l: LunchInfo, e: Event |
-		t in ( b.startBreakTime + b.endBreakTime + l.startTime + l.endTime +
-			e.startTime + e.endTime	)
-}
-				
-abstract sig Event {
-	startTime : one Time, 
-	endTime : one Time
-}
 
 sig Appointment extends Event {
 	location : one Position, 
 	eventTag : one Tag, 
 	eventSolution : set EventSolution, 
 	carbonFootprint : one Bool 
-}
-
-fact eventSolutionOnlyInAppointment {
-	all s: EventSolution | some a: Appointment | s in a.eventSolution
-}
-
-fact startTimeBeforeEndTime {
-	all e: Event | e.endTime = e.startTime.next
 }
 
 sig Lunch extends Event {} 
@@ -116,48 +77,6 @@ sig EventSolution {
 	all x: endPath, y: intermediatePath | x.endingPosition not in (y.startingPosition + y.endingPosition) 
 }
 
- fact startPathDifferentFromEndPath {
-	all s: EventSolution | #s.intermediatePath > 0
-		implies s.startPath != s.endPath
-}
- 
-sig EventPath {
-	startingPosition : one Position, 
-	endingPosition : one Position, 
-	timeNeeded : one Int, 
-	mean : one Mean 
-}{
-	timeNeeded > 0
-	startingPosition != endingPosition
-	mean in ( Bus +  Metro + Tram + CarSharing + BikeSharing + Car )
-}
-
-fact NoEventPathWithoutEventSolution {
-	all p: EventPath | some s: EventSolution | p in s.startPath + s.intermediatePath + s.endPath
-}
-
-abstract sig Mean {}
-
-one sig Train extends Mean {}
-
-one sig Airplane extends Mean {}
-
-one sig Bus extends Mean {}
-
-one sig Metro extends Mean {}
-
-one sig Tram extends Mean {}
-
-one sig Bike extends Mean {}
-
-one sig BikeSharing extends Mean {}
-
-one sig Car extends Mean {}
-
-one sig CarSharing extends Mean {}
-
-one sig Walking extends Mean {}
-
 //Only travel between towns
 sig Travel extends Event {
 	startingLocation : one Position, 
@@ -180,15 +99,40 @@ sig Trip {
 	returnTravel.date != departureTravel.date.next
 }
 
-fact everyTravelHasATrip {
-	all t: Travel | some tr: Trip |
-		t in ( tr.departureTravel + tr.returnTravel )
+sig Position {}
+
+sig SeasonTicket {
+	isValid : one Bool,
+	validThru : one Date
 }
 
-fact accomodationDifferentFromTravelsLocations {
-	all tr: Trip | no t: Travel |
-		t.startingLocation in tr.accomodation or t.endingLocation in tr.accomodation 
+sig Tag {
+	means : some Mean, 
+	anticipationTime : one Int 
+}{	
+	anticipationTime > 0
+	means in ( Bus +  Metro + Tram + CarSharing + BikeSharing + Car )
 }
+
+one sig Train extends Mean {}
+
+one sig Airplane extends Mean {}
+
+one sig Bus extends Mean {}
+
+one sig Metro extends Mean {}
+
+one sig Tram extends Mean {}
+
+one sig Bike extends Mean {}
+
+one sig BikeSharing extends Mean {}
+
+one sig Car extends Mean {}
+
+one sig CarSharing extends Mean {}
+
+one sig Walking extends Mean {}
 
 sig Preference {	
 	lunchInfo : lone LunchInfo,
@@ -217,6 +161,80 @@ sig BreakInfo {
 	minimumDuration : one Int
 }{
 	duration > 0 
+}
+
+//FACTS
+fact OnePreferenceForEachUser {
+	all p: Preference | some u: User | p in u.userPreferences
+	all u: User | no u':User | u.userPreferences = u'.userPreferences and u != u'
+}
+
+fact tripsAreUniqueForEachUser {
+	all u: User | u.trips.departureTravel != u.trips.departureTravel.next and
+		 u.trips.returnTravel != u.trips.returnTravel.next
+
+	all t: Trip | some u: User | t in u.trips
+}
+
+fact daysUniqueInForCalendar {
+	all c, c': Calendar | c != c' 
+		implies c.days & c'.days = none
+}
+
+fact calendarUnique {
+	all u, u': User | u != u' 
+		implies u.userCalendar != u'.userCalendar
+}
+
+fact allCalendarAreInTheUser {
+	all c: Calendar | one u: User | c in u.userCalendar  
+}
+
+fact allEventsAreInAday {
+	all e: Event | some d: Day | e in d.events
+}
+
+fact allDaysAreInAllCalendars {
+	all d: Day| some c: Calendar | d in c.days
+}
+		
+fact dateOnlyWithLink {
+	all d: Date | some g: Day, s: SeasonTicket, t: Travel |
+		d in ( g.date + s.validThru + t.date )
+}
+
+fact timeHasToHaveAlink {
+	all t: Time | some b: BreakInfo, l: LunchInfo, e: Event |
+		t in ( b.startBreakTime + b.endBreakTime + l.startTime + l.endTime +
+			e.startTime + e.endTime	)
+}
+				
+fact eventSolutionOnlyInAppointment {
+	all s: EventSolution | some a: Appointment | s in a.eventSolution
+}
+
+fact startTimeBeforeEndTime {
+	all e: Event | e.endTime = e.startTime.next
+}
+
+
+fact startPathDifferentFromEndPath {
+	all s: EventSolution | #s.intermediatePath > 0
+		implies s.startPath != s.endPath
+}
+
+fact NoEventPathWithoutEventSolution {
+	all p: EventPath | some s: EventSolution | p in s.startPath + s.intermediatePath + s.endPath
+}
+
+fact everyTravelHasATrip {
+	all t: Travel | some tr: Trip |
+		t in ( tr.departureTravel + tr.returnTravel )
+}
+
+fact accomodationDifferentFromTravelsLocations {
+	all tr: Trip | no t: Travel |
+		t.startingLocation in tr.accomodation or t.endingLocation in tr.accomodation 
 }
 
 fact noLunchInfoWithoutPreference {
@@ -304,6 +322,8 @@ fact numberOfBreakConstraint {
 	 #userPreferences.breakInfo.startBreakTime = #Break 
 }
 
+
+
 fact meanOnlyWithLink {
 		all m: Mean | some p: Preference, t: Tag, e: EventPath, t' : Travel | m in ( p.availableMeans + t.means + e.mean + t'.meanOfTransport )
 }
@@ -328,35 +348,12 @@ fact lunchTimeDefinition {
 	 all p:Preference | p.lunchInfo.endTime = p.lunchInfo.startTime.next
  }
 
-sig Tag {
-	means : some Mean, 
-	anticipationTime : one Int 
-}{	
-	anticipationTime > 0
-	means in ( Bus +  Metro + Tram + CarSharing + BikeSharing + Car )
-}
-
 fact noTagsWithoutLink {
 	all t: Tag | some a: Appointment |
 		t in a.eventTag
 }
 
-sig Position {}
-
-sig SeasonTicket {
-	isValid : one Bool,
-	validThru : one Date
-}
-
-
-
-
-
-
-
-
-
-
+//ASSERTS
 assert numCalendarEqualNumberUser {
 	#User = #Calendar
 }
@@ -364,12 +361,6 @@ assert numCalendarEqualNumberUser {
 assert meansConstraint {
 	all m: Mean | some p: Preference, t: Tag, e: EventPath, t': Travel | m in ( p.availableMeans + t.means + e.mean + t'.meanOfTransport )
 }
-
-pred oneCalendarForUser {
-	all u: User | #u.userCalendar = 1
-}
-
-pred show {}
 
 assert sameLunchInDifferentCalendars {
 	all c, c': Calendar | some l: Lunch |
@@ -383,6 +374,13 @@ assert addEventConsistency {
 			implies d''.events = d.events + e + e'
 }
 
+//PREDICATES
+pred show {}
+
+pred oneCalendarForUser {
+	all u: User | #u.userCalendar = 1
+}
+
 pred addEvent [ d, d': Day, e: Event ] {
 	d'.events = d.events + e
 }
@@ -392,10 +390,14 @@ pred addTrip [ u, u': User, t: Trip, a: Position, t1: Travel, t2: Travel ] {
 	u'.trips = u.trips + t
 }
 
+
+//CHECKS
 check numCalendarEqualNumberUser
 check meansConstraint
 check addEventConsistency
 check sameLunchInDifferentCalendars
+
+//RUNS
 run addTrip for 8 but 2 Trip, 5 Position, 2 Day, 2 Travel, 5 Event 
 run show  for 6 but 2 Trip, 4 Position, 2 Day, 2 Travel, 4 EventPath, 4 Time, 2 EventSolution, 4 Time
 run addEvent for 5 but 1 Trip, 1 EventSolution, 2 Day, 5 Event, 2 EventPath

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 14:50
 entering extended mode
 **"./Travlendar+ RASD.tex"
 ("Travlendar+ RASD.tex"
@@ -3003,22 +3003,22 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 1.
  [32] [33] [34] [35] [36] [37]) [38]
-<Images/Alloy/Run.png, id=1028, 1058.95625pt x 730.73pt>
+<Images/Alloy/Run.png, id=991, 1094.0875pt x 623.32875pt>
 File: Images/Alloy/Run.png Graphic file (type png)
 <use Images/Alloy/Run.png>
 Package pdftex.def Info: Images/Alloy/Run.png  used on input line 9. on input l
 ine 9.
-Package pdftex.def Info: Requested size: 370.64024pt x 255.75932pt on input lin
+Package pdftex.def Info: Requested size: 404.80603pt x 230.62802pt on input lin
 e 9.
-<Images/Alloy/Check.png, id=1029, 1112.155pt x 461.725pt>
+<Images/Alloy/Check.png, id=992, 816.80156pt x 462.97969pt>
 File: Images/Alloy/Check.png Graphic file (type png)
 <use Images/Alloy/Check.png>
 Package pdftex.def Info: Images/Alloy/Check.png  used on input line 14. on inpu
 t line 14.
-Package pdftex.def Info: Requested size: 389.26009pt x 161.60617pt on input lin
+Package pdftex.def Info: Requested size: 408.39978pt x 231.48927pt on input lin
 e 14.
  [39 <./Images/Alloy/Run.png> <./Images/Alloy/Check.png>]
-<Images/Alloy/Show.png, id=1036, 1344.02126pt x 632.3625pt>
+<Images/Alloy/Show.png, id=999, 1344.02126pt x 632.3625pt>
 File: Images/Alloy/Show.png Graphic file (type png)
 <use Images/Alloy/Show.png>
 Package pdftex.def Info: Images/Alloy/Show.png  used on input line 22. on input
@@ -3030,7 +3030,7 @@ Overfull \hbox (15.17038pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-<Images/Alloy/Add_Event.png, id=1037, 1315.91624pt x 614.295pt>
+<Images/Alloy/Add_Event.png, id=1000, 1315.91624pt x 614.295pt>
 File: Images/Alloy/Add_Event.png Graphic file (type png)
 <use Images/Alloy/Add_Event.png>
 Package pdftex.def Info: Images/Alloy/Add_Event.png  used on input line 29. on 
@@ -3043,7 +3043,7 @@ Overfull \hbox (5.33348pt too wide) in paragraph at lines 29--30
  []
 
 [40 <./Images/Alloy/Show.png> <./Images/Alloy/Add_Event.png>]
-<Images/Alloy/Add_Trip.png, id=1044, 1307.88625pt x 624.3325pt>
+<Images/Alloy/Add_Trip.png, id=1007, 1307.88625pt x 624.3325pt>
 File: Images/Alloy/Add_Trip.png Graphic file (type png)
 <use Images/Alloy/Add_Trip.png>
 Package pdftex.def Info: Images/Alloy/Add_Trip.png  used on input line 37. on i
@@ -3072,9 +3072,9 @@ Package rerunfilecheck Info: File `"Travlendar+ RASD".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 12116 strings out of 493312
- 174308 string characters out of 3138906
- 462647 words of memory out of 3000000
+ 12079 strings out of 493312
+ 173716 string characters out of 3138906
+ 486614 words of memory out of 3000000
  14789 multiletter control sequences out of 15000+200000
  62350 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3093,9 +3093,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtko10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtti10.pfb>
-Output written on "Travlendar+ RASD.pdf" (44 pages, 5589846 bytes).
+Output written on "Travlendar+ RASD.pdf" (44 pages, 5587416 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 599 named destinations out of 1000 (max. 500000)
+ 1185 PDF objects out of 1200 (max. 8388607)
+ 562 named destinations out of 1000 (max. 500000)
  593 words of extra memory for PDF output out of 10000 (max. 10000000)
 
