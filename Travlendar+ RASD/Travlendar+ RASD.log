@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.5)  5 JAN 2018 16:07
 entering extended mode
 **"./Travlendar+ RASD.tex"
 ("Travlendar+ RASD.tex"
@@ -2066,24 +2066,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--44
 eans
  []
 
-<Images/Sketch/Trip_1.png, id=450, 376.2858pt x 669.2202pt>
-File: Images/Sketch/Trip_1.png Graphic file (type png)
-<use Images/Sketch/Trip_1.png>
-Package pdftex.def Info: Images/Sketch/Trip_1.png  used on input line 49. on in
+<Images/Sketch/Trip_3.png, id=450, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_3.png Graphic file (type png)
+<use Images/Sketch/Trip_3.png>
+Package pdftex.def Info: Images/Sketch/Trip_3.png  used on input line 49. on in
 put line 49.
 Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
  49.
-<Images/Sketch/Trip_2.png, id=451, 376.2858pt x 669.2202pt>
-File: Images/Sketch/Trip_2.png Graphic file (type png)
-<use Images/Sketch/Trip_2.png>
-Package pdftex.def Info: Images/Sketch/Trip_2.png  used on input line 51. on in
+<Images/Sketch/Trip_1.png, id=451, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_1.png Graphic file (type png)
+<use Images/Sketch/Trip_1.png>
+Package pdftex.def Info: Images/Sketch/Trip_1.png  used on input line 51. on in
 put line 51.
 Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
  51.
-<Images/Sketch/Trip_3.png, id=452, 376.2858pt x 669.2202pt>
-File: Images/Sketch/Trip_3.png Graphic file (type png)
-<use Images/Sketch/Trip_3.png>
-Package pdftex.def Info: Images/Sketch/Trip_3.png  used on input line 53. on in
+<Images/Sketch/Trip_2.png, id=452, 376.2858pt x 669.2202pt>
+File: Images/Sketch/Trip_2.png Graphic file (type png)
+<use Images/Sketch/Trip_2.png>
+Package pdftex.def Info: Images/Sketch/Trip_2.png  used on input line 53. on in
 put line 53.
 Package pdftex.def Info: Requested size: 94.07121pt x 167.30464pt on input line
  53.
@@ -2133,8 +2133,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--63
 the
  []
 
-[17 <./Images/Sketch/Trip_1.png> <./Images/Sketch/Trip_2.png> <./Images/Sketch/
-Trip_3.png> <./Images/Sketch/Plan_Trip_1.png> <./Images/Sketch/Plan_Trip_2.png>
+[17 <./Images/Sketch/Trip_3.png> <./Images/Sketch/Trip_1.png> <./Images/Sketch/
+Trip_2.png> <./Images/Sketch/Plan_Trip_1.png> <./Images/Sketch/Plan_Trip_2.png>
 ]
 <Images/Sketch/Tag.png, id=474, 376.2858pt x 669.2202pt>
 File: Images/Sketch/Tag.png Graphic file (type png)
